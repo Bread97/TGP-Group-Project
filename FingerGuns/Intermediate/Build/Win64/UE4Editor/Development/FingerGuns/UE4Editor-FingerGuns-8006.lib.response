@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FingerGuns-8006.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\FingerGunsEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\FingerGuns.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\FingerGunsGameModeBase.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\PlayerClass.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\FingerGuns.init.gen.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\FingerGunsGameModeBase.gen.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\PlayerClass.gen.cpp.obj"
+"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\PCLaunch.rc.res"
+/OUT:"C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Intermediate\Build\Win64\UE4Editor\Development\FingerGuns\UE4Editor-FingerGuns-8006.lib"

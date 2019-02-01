@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeFingerGuns_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FingerGuns",
 				PKG_CompiledIn | 0x00000000,
-				0xFADDCDD3,
-				0x2C17A641,
+				0x7625A200,
+				0x6C9EC6A9,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

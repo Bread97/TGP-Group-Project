@@ -1,46 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FingerGuns.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{80BF3EB8-4451-42B7-9C96-B5A703F71B5F}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FingerGuns.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FingerGunsEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{5D2F4095-ABF6-41C3-98BC-657BC29DE404}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FingerGuns">
-			<UniqueIdentifier>{2B6489EF-36B3-4CBE-8D16-416FCB4CD6CB}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FingerGuns\FingerGuns.Build.cs">
-			<Filter>Source\FingerGuns</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FingerGuns\FingerGuns.cpp">
-			<Filter>Source\FingerGuns</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FingerGuns\FingerGuns.h">
-			<Filter>Source\FingerGuns</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FingerGuns\FingerGunsGameModeBase.cpp">
-			<Filter>Source\FingerGuns</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FingerGuns\FingerGunsGameModeBase.h">
-			<Filter>Source\FingerGuns</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FingerGuns.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7B46810D-89E7-4CD3-92FE-C0CEE0D9EE60}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FingerGuns.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FingerGunsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{48775897-907C-4CB4-A8C0-8693B143FA80}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FingerGuns">
+      <UniqueIdentifier>{229D5ACC-C99B-45A0-A1D3-372E9DA13395}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FingerGuns\FingerGuns.Build.cs">
+      <Filter>Source\FingerGuns</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FingerGuns\FingerGuns.cpp">
+      <Filter>Source\FingerGuns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FingerGuns\FingerGuns.h">
+      <Filter>Source\FingerGuns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FingerGuns\FingerGunsGameModeBase.cpp">
+      <Filter>Source\FingerGuns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FingerGuns\FingerGunsGameModeBase.h">
+      <Filter>Source\FingerGuns</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FingerGuns\PlayerClass.h">
+      <Filter>Source\FingerGuns</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FingerGuns\PlayerClass.cpp">
+      <Filter>Source\FingerGuns</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
