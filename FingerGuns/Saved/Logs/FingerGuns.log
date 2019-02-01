@@ -263,3 +263,72 @@ LogInit: Object subsystem initialized
 [2019.02.01-12.42.49:656][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
 [2019.02.01-12.42.49:657][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
 [2019.02.01-12.42.49:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.01-12.43.16:672][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.01-12.43.16:692][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.01-12.43.17:871][  0]SourceControl: Source control is disabled
+[2019.02.01-12.43.17:871][  0]SourceControl: Source control is disabled
+[2019.02.01-12.43.17:876][  0]SourceControl: Source control is disabled
+[2019.02.01-12.43.17:880][  0]SourceControl: Source control is disabled
+[2019.02.01-12.43.18:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.01-12.43.18:469][  0]LogOcInput: OculusInput pre-init called
+[2019.02.01-12.43.18:576][  0]LogEngine: Initializing Engine...
+[2019.02.01-12.43.18:577][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.01-12.43.18:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-12.43.18:580][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-12.43.18:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.01-12.43.18:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-12.43.19:454][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.01-12.43.19:484][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.01-12.43.19:500][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.43.19:552][  0]LogInit: FAudioDevice initialized.
+[2019.02.01-12.43.19:552][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.01-12.43.20:172][  0]LogDerivedDataCache: Saved boot cache 0.62s 71MB C:/Users/a016430f.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.01-12.43.20:222][  0]LogInit: Texture streaming: Enabled
+[2019.02.01-12.43.20:283][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.01-12.43.20:309][  0]LogInit: Transaction tracking system initialized
+[2019.02.01-12.43.20:380][  0]BlueprintLog: New page: Editor Load
+[2019.02.01-12.43.20:649][  0]LocalizationService: Localization service is disabled
+[2019.02.01-12.43.22:368][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.01-12.43.22:368][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.01-12.43.22:368][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.01-12.43.22:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-12.43.22:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-12.43.22:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.02.01-12.43.22:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-12.43.22:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT/Documents/GitHub/TGP-Group-Project/FingerGuns/Content/' took 0.03s
+[2019.02.01-12.43.23:060][  0]SourceControl: Source control is disabled
+[2019.02.01-12.43.23:061][  0]Cmd: MAP LOAD FILE="../../../../../../Users/a016430f.STUDENT/Documents/GitHub/TGP-Group-Project/FingerGuns/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.01-12.43.23:111][  0]LightingResults: New page: Lighting Build
+[2019.02.01-12.43.23:118][  0]MapCheck: New page: Map Check
+[2019.02.01-12.43.23:118][  0]LightingResults: New page: Lighting Build
+[2019.02.01-12.43.23:740][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.01-12.43.23:796][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.01-12.43.23:821][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.01-12.43.24:090][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 269.066ms to complete.
+[2019.02.01-12.43.24:090][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.030
+[2019.02.01-12.43.24:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.43.24:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.43.24:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.43.24:411][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.43.24:438][  0]LogCollectionManager: Loaded 0 collections in 0.009829 seconds
+[2019.02.01-12.43.24:514][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT/Documents/GitHub/TGP-Group-Project/FingerGuns/Saved/Collections/' took 0.02s
+[2019.02.01-12.43.24:514][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT/Documents/GitHub/TGP-Group-Project/FingerGuns/Content/Developers/a016430f/Collections/' took 0.01s
+[2019.02.01-12.43.24:514][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT/Documents/GitHub/TGP-Group-Project/FingerGuns/Content/Collections/' took 0.01s
+[2019.02.01-12.43.24:514][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.01-12.43.24:545][  0]LogContentBrowser: Native class hierarchy populated in 0.0296 seconds. Added 2574 classes and 605 folders.
+[2019.02.01-12.43.24:570][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.43.25:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.43.25:682][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.02.01-12.43.25:835][  0]LogSlate: Took 0.025273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.01-12.43.25:868][  0]LogSlate: Took 0.026751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.01-12.43.25:885][  0]LogSlate: Took 0.010760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.01-12.43.26:104][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.01-12.43.26:310][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.43.26:310][  0]LogLoad: (Engine Initialization) Total time: 59.73 seconds
+[2019.02.01-12.43.26:310][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.01-12.43.26:404][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.01-12.43.26:503][  0]LogSlate: Took 0.000703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.01-12.43.26:748][  2]LogAssetRegistry: Asset discovery search completed in 39.0019 seconds
+[2019.02.01-12.43.26:751][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.01-12.43.26:751][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000212 seconds (updated 0 objects)
+[2019.02.01-12.43.31:347][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
