@@ -1,3 +1,0 @@
-C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Source\FingerGuns\FingerGuns.Build.cs
-C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Source\FingerGuns.Target.cs
-C:\Users\a016430f.STUDENT\Documents\GitHub\TGP-Group-Project\FingerGuns\Source\FingerGunsEditor.Target.cs
