@@ -1,0 +1,3 @@
+C:\Users\a016430f\Documents\Unreal Projects\FingerGunz\Source\FingerGunz\FingerGunz.Build.cs
+C:\Users\a016430f\Documents\Unreal Projects\FingerGunz\Source\FingerGunz.Target.cs
+C:\Users\a016430f\Documents\Unreal Projects\FingerGunz\Source\FingerGunzEditor.Target.cs
