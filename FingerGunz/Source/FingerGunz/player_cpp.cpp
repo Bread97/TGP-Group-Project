@@ -11,7 +11,7 @@ Aplayer_cpp::Aplayer_cpp()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	BaseTurnRate = 45.f;
+	BaseTurnRate = 60.f;
 	BaseLookUpRate = 45.f;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
