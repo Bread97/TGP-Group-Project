@@ -23,6 +23,11 @@ Aplayer_cpp::Aplayer_cpp()
 void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	//action events
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &Aplayer_cpp::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &Aplayer_cpp::StopJumping);
+
+	//axis events
 	PlayerInputComponent->BindAxis("MoveForward", this, &Aplayer_cpp::moveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &Aplayer_cpp::moveRight);
 	PlayerInputComponent->BindAxis("TurnRate", this, &Aplayer_cpp::turnAtRate);
