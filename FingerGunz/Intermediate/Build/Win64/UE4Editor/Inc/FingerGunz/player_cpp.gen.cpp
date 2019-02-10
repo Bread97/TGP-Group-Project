@@ -81,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		{ "ModuleRelativePath", "player_cpp.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "FirstPersonCameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "FirstPersonCameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aplayer_cpp_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate,
@@ -110,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aplayer_cpp, 3944262852);
+	IMPLEMENT_CLASS(Aplayer_cpp, 778432763);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aplayer_cpp(Z_Construct_UClass_Aplayer_cpp, &Aplayer_cpp::StaticClass, TEXT("/Script/FingerGunz"), TEXT("Aplayer_cpp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aplayer_cpp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

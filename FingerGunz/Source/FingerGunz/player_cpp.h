@@ -9,14 +9,15 @@
 UCLASS()
 class FINGERGUNZ_API Aplayer_cpp : public ACharacter
 {
-	GENERATED_BODY()	
-		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		class UCameraComponent* FirstPersonCameraComponent;
 
+	UCharacterMovementComponent* CharacterMovement = GetCharacterMovement();
 
 public:
 	// Sets default values for this character's properties
 	Aplayer_cpp();
+	GENERATED_BODY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class UCameraComponent* FirstPersonCameraComponent;
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,6 +26,16 @@ protected:
 	void moveRight(float val);
 	void turnAtRate(float Rate);
 	void lookUpAtRate(float Rate);
+	void tryWallRun();
+	void tryStopWallRun();
+	bool isWallRunning;
+	bool isOnWall;
+	float wallJumpAmount;
+	bool canWallRun;
+	bool wallOnRight;
+	bool wallOnLeft;
+	bool onFloor;
+	void doWallRun(bool left, bool right);
 
 public:	
 	// Called every frame
