@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FingerGunz.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{FACE5D72-3C25-40B3-9977-81753E40688C}</UniqueIdentifier>
+			<UniqueIdentifier>{00219161-B42F-426F-9A02-D664CBF267D4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FingerGunz.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8B7D0536-80D0-4446-AE9E-E10E54F7247F}</UniqueIdentifier>
+			<UniqueIdentifier>{5D12F368-A322-4E4E-A5DC-95CAB9E7373D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FingerGunz">
-			<UniqueIdentifier>{86C40950-DF59-4B3C-BEE1-998DEBA17B3F}</UniqueIdentifier>
+			<UniqueIdentifier>{E9959D17-811B-4770-9360-F403872AEBE9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FingerGunz\FingerGunz.Build.cs">
 			<Filter>Source\FingerGunz</Filter>

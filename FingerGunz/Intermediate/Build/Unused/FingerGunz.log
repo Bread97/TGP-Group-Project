@@ -1,0 +1,22 @@
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for FingerGunzEditor (no existing makefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for FingerGunzEditor
+    Running UnrealHeaderTool "C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FingerGunzEditor in 22.3361753 seconds
+  Building 10 actions with 4 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.cpp
+    [3/10] FingerGunz.init.gen.cpp
+    [4/10] FingerGunzGameModeBase.cpp
+    [5/10] FingerGunzGameModeBase.gen.cpp
+    [6/10] FingerGunz.cpp
+    [7/10] player_cpp.gen.cpp
+    [8/10] player_cpp.cpp
+    [9/10] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [10/10] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+  Deploying FingerGunzEditor Win64 Development...
+  Total build time: 124.49 seconds (Parallel executor: 36.70 seconds)

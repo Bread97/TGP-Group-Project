@@ -35,7 +35,10 @@ protected:
 	bool wallOnRight;
 	bool wallOnLeft;
 	bool onFloor;
-	void doWallRun(bool left, bool right);
+	void doWallRun();
+	void endWallRun();
+	void doWallJump();
+	bool canWallJump;
 
 public:	
 	// Called every frame

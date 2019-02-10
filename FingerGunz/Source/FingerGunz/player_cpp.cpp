@@ -16,6 +16,8 @@ Aplayer_cpp::Aplayer_cpp()
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
 	wallJumpAmount = 500;
+	CharacterMovement->JumpZVelocity = 750;
+	CharacterMovement->MaxWalkSpeed = 1200;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f);
@@ -76,25 +78,66 @@ void Aplayer_cpp::lookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+//TRYS TO WALLRUN AND ACTIVATES REQUIRED FUNCTIONS IF SUCCESSFULL
 void Aplayer_cpp::tryWallRun()
 {	
-	//RIGHT WALL RUN CODE
-	//get right vector
+	//WALL RUN CODE
+	if (canWallRun == true)
+	{
+		if (isWallRunning == false)
+		{
+			isWallRunning = true;
+			doWallRun();
+		}
+		else
+		{
+			doWallJump();
+			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Blue, FString::Printf(TEXT("DOING WALL JUMP")));
+		}
+	}
 }
 
+//may be needed later
 void Aplayer_cpp::tryStopWallRun()
 {	
-	//RIGHT WALL JUMP CODE
-	//get right vector
+	//WALL JUMP CODE
 }
 
-
-void Aplayer_cpp::doWallRun(bool left, bool right)
+//DOES WALL RUN
+void Aplayer_cpp::doWallRun()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("TOUCHING WALL ON RIGHT")));
-	//CharacterMovement->Velocity.Z = 250;
-	//float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 0.5;
-	//isWallRunning = true;
+	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("DOING WALL RUN")));
+	CharacterMovement->Velocity.Z = 500;
+	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 0.5;
+	isWallRunning = true;	
+}
+
+//CALLED WHEN WALL RUN ENDS
+void Aplayer_cpp::endWallRun()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("ENDING WALL RUN")));
+	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 2;
+}
+
+//DOES WALL JUMP
+void Aplayer_cpp::doWallJump()
+{
+	if (wallOnLeft == true)
+	{
+		FVector RightVector = FirstPersonCameraComponent->GetRightVector();
+		FVector Direction = (RightVector * 500.f);
+		CharacterMovement->Velocity.Z += 500;
+		CharacterMovement->Velocity += Direction;
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING LEFT WALL JUMP")));
+	}
+	else if (wallOnRight == true)
+	{
+		FVector RightVector = FirstPersonCameraComponent->GetRightVector();
+		FVector Direction = (RightVector * -500.f);
+		CharacterMovement->Velocity.Z += 500;
+		CharacterMovement->Velocity += Direction;
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING RIGHT WALL JUMP")));
+	}
 }
 
 // Called every frame
@@ -119,6 +162,11 @@ void Aplayer_cpp::Tick(float DeltaTime)
 				wallOnRight = true;
 			}
 		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT RIGHT")));
+			wallOnRight = false;
+		}
 	}
 	//LEFT LINETRACE
 	{
@@ -138,6 +186,11 @@ void Aplayer_cpp::Tick(float DeltaTime)
 				wallOnLeft = true;
 			}
 		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT LEFT")));
+			wallOnLeft = false;
+		}
 	}
 	//DOWNWARDS LINETRACE
 	{
@@ -154,14 +207,18 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			if (OutHit.bBlockingHit)
 			{
 				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("ON FLOOR")));
+				isWallRunning = false;
 			}
 		}
 	}
 	{
+		//ACTIVATES WALLRUNS AND CHECKS TO SEE IF PLAYER CAN WALLRUN
 		if (wallOnRight == false && wallOnLeft == false)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CANT WALL RUN")));
 			canWallRun = false;
+			isWallRunning = false;
+			endWallRun();
 		}
 		else
 		{
@@ -169,9 +226,16 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			canWallRun = true;
 		}
 	}
+	//DO THE WALL RUN
+	{
+		if (isWallRunning == true)
+		{
+			//doWallRun();
+		}
+	}
 	//DO NOT DELETE THESE
-	wallOnLeft = false;
-	wallOnRight = false;
+	//wallOnLeft = false;
+	//wallOnRight = false;
 	//DO NOT DELETE THESE
 	//IMPORTANTLINETRACES
 }
