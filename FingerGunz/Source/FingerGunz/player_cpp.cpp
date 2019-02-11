@@ -17,7 +17,7 @@ Aplayer_cpp::Aplayer_cpp()
 	BaseLookUpRate = 45.f;
 	wallJumpAmount = 500;
 	CharacterMovement->JumpZVelocity = 750;
-	CharacterMovement->MaxWalkSpeed = 1200;
+	CharacterMovement->MaxWalkSpeed = 1400;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f);
@@ -107,7 +107,7 @@ void Aplayer_cpp::tryStopWallRun()
 void Aplayer_cpp::doWallRun()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("DOING WALL RUN")));
-	CharacterMovement->Velocity.Z = 500;
+	CharacterMovement->Velocity.Z = 200;
 	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 0.5;
 	isWallRunning = true;	
 }
@@ -224,6 +224,14 @@ void Aplayer_cpp::Tick(float DeltaTime)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CAN WALL RUN")));
 			canWallRun = true;
+			if (canWallRun == true)
+			{
+				if (isWallRunning == false)
+				{
+					isWallRunning = true;
+					doWallRun();
+				}
+			}
 		}
 	}
 	//DO THE WALL RUN
