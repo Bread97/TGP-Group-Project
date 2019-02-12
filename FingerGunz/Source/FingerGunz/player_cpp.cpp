@@ -16,6 +16,7 @@ Aplayer_cpp::Aplayer_cpp()
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
 	wallJumpAmount = 500;
+	vaultJumpAmount = 1000;
 	CharacterMovement->JumpZVelocity = 750;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
@@ -32,7 +33,9 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::Jump);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::StopJumping);
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryWallRun);
+	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
+	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
 
 
 	//axis events
@@ -140,9 +143,50 @@ void Aplayer_cpp::doWallJump()
 	}
 }
 
+void Aplayer_cpp::tryVault()
+{
+	if (canVault == true)
+	{
+		if (isVaulting == false)
+		{
+			isVaulting = true;
+			doVault();
+		}
+	}
+}
+
+void Aplayer_cpp::doVault()
+{
+	CharacterMovement->Velocity.Z = vaultJumpAmount;
+	//FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
+	//FVector Direction = (ForwardVector * 500.f);
+	//CharacterMovement->Velocity += Direction;
+}
+
+void Aplayer_cpp::endVault()
+{
+
+}
+
+void Aplayer_cpp::shoot()
+{
+	FHitResult OutHit;
+	FVector Start = FirstPersonCameraComponent->GetComponentLocation();
+	FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
+	FVector End = FVector((ForwardsVector * 10000.f) + Start);
+	FCollisionQueryParams CollisionParams;
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	//does the linetrace
+	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
+	}
+}
+
 // Called every frame
 void Aplayer_cpp::Tick(float DeltaTime)
 {
+	Super::Tick(DeltaTime);
 	//IMPORTANTLINETRACES
 	//RIGHT LINETRACE
 	{
@@ -192,9 +236,8 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			wallOnLeft = false;
 		}
 	}
-	//DOWNWARDS LINETRACE
+	//DOWNWARDS LINETRACE, CHECKS TO SEE IF PLAYER NIS ON THE FLOOR
 	{
-		Super::Tick(DeltaTime);
 		FHitResult OutHit;
 		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 		FVector UpVector = FirstPersonCameraComponent->GetUpVector();
@@ -208,7 +251,32 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			{
 				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("ON FLOOR")));
 				isWallRunning = false;
+				isVaulting = false;
+				canVault = false;
 			}
+		}
+	}
+	//FORWARDS LINETRACE, CHECKS TO SEE IF THE PLAYER CAN VAULT
+	{
+		FHitResult OutHit;
+		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
+		FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
+		FVector End = FVector((ForwardsVector * 300.f) + Start);
+		FCollisionQueryParams CollisionParams;
+
+		//does the linetrace
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
+		{
+			if (OutHit.bBlockingHit)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN VAULT")));
+				canVault = true;
+			}
+		}
+		else
+		{
+			canVault = false;
+			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN'T VAULT")));
 		}
 	}
 	{

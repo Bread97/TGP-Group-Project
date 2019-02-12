@@ -39,6 +39,13 @@ protected:
 	void endWallRun();
 	void doWallJump();
 	bool canWallJump;
+	bool canVault;
+	bool isVaulting;
+	void tryVault();
+	void doVault();
+	void endVault();
+	void shoot();
+	float vaultJumpAmount;
 
 public:	
 	// Called every frame

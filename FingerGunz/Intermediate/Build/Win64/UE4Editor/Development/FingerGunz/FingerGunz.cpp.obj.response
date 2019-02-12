@@ -24,9 +24,9 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz
-/I C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Source
-/I C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Source\FingerGunz
+/I C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz
+/I C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Source
+/I C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -404,18 +404,18 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "D:\Visual Studio\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Source\FingerGunz\FingerGunz.cpp"
-/FI"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
-/Fo"C:\Users\louis\Documents\TGP_GROUP_PROJECT\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\FingerGunz.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
+/FI"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz\FingerGunz.cpp"
+/FI"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
+/Fo"C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\FingerGunz.cpp.obj"
 /TP
 /GR-
 /W4
