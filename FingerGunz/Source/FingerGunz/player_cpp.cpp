@@ -13,15 +13,15 @@ Aplayer_cpp::Aplayer_cpp()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	BaseTurnRate = 45.f;
-	BaseLookUpRate = 45.f;
+	BaseTurnRate = 100.f;
+	BaseLookUpRate = 100.f;
 	wallJumpAmount = 500;
 	vaultJumpAmount = 1000;
 	CharacterMovement->JumpZVelocity = 750;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f);
+	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, 1.75f, 64.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 }
 
@@ -29,6 +29,7 @@ Aplayer_cpp::Aplayer_cpp()
 void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	//KEYBOARD EVENTS
 	//action events
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::Jump);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::StopJumping);
@@ -36,6 +37,7 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+	PlayerInputComponent->BindAction("Beplayer1", IE_Pressed, this, &Aplayer_cpp::beplayer1);
 
 
 	//axis events
@@ -43,6 +45,23 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("MoveRight", this, &Aplayer_cpp::moveRight);
 	PlayerInputComponent->BindAxis("TurnRate", this, &Aplayer_cpp::turnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Aplayer_cpp::lookUpAtRate);
+	//KEYBOARD EVENTS
+	//CONTROLLER EVENTS
+	//action events
+	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::Jump);
+	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::StopJumping);
+	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryWallRun);
+	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryVault);
+	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
+	PlayerInputComponent->BindAction("ControllerShoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+
+
+	//axis events
+	PlayerInputComponent->BindAxis("ControllerMoveForward", this, &Aplayer_cpp::moveForward);
+	PlayerInputComponent->BindAxis("ControllerMoveRight", this, &Aplayer_cpp::moveRight);
+	PlayerInputComponent->BindAxis("ControllerTurnRate", this, &Aplayer_cpp::turnAtRate);
+	PlayerInputComponent->BindAxis("ControllerLookUpRate", this, &Aplayer_cpp::lookUpAtRate);
+	//CONTROLLER EVENTS
 }
 
 
@@ -181,6 +200,10 @@ void Aplayer_cpp::shoot()
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
 	}
+}
+
+void Aplayer_cpp::beplayer1()
+{
 }
 
 // Called every frame

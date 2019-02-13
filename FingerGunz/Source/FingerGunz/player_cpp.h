@@ -45,6 +45,7 @@ protected:
 	void doVault();
 	void endVault();
 	void shoot();
+	void beplayer1();
 	float vaultJumpAmount;
 
 public:	
