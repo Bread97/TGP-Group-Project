@@ -7,22 +7,33 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
+#include "Runtime/Engine/Classes/GameFramework/Actor.h"
 
 // Sets default values
-Aplayer_cpp::Aplayer_cpp()
+Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	BaseTurnRate = 100.f;
 	BaseLookUpRate = 100.f;
 	wallJumpAmount = 500;
-	vaultJumpAmount = 1000;
-	CharacterMovement->JumpZVelocity = 750;
+	vaultJumpAmount = 1200;
+	Health = 3;
+	DamageAmount = 1;
+	CharacterMovement->JumpZVelocity = 1000;
 	CharacterMovement->MaxWalkSpeed = 1400;
+	CharacterMovement->AirControl = 0.8;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, 1.75f, 64.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
+	FirstPersonCameraComponent->FieldOfView = 120;
+
+	StaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("cunt"));
+	StaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
+	StaticMesh->SetupAttachment(RootComponent);
+	StaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 1.5));
 }
 
 // Called to bind functionality to input
@@ -138,7 +149,7 @@ void Aplayer_cpp::doWallRun()
 void Aplayer_cpp::endWallRun()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("ENDING WALL RUN")));
-	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 2;
+	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 2.5;
 }
 
 //DOES WALL JUMP
@@ -184,26 +195,57 @@ void Aplayer_cpp::doVault()
 
 void Aplayer_cpp::endVault()
 {
-
+	//maybe going to add stuff here
 }
-
+//BROKEN
 void Aplayer_cpp::shoot()
 {
+	//calculates the linetrace
 	FHitResult OutHit;
 	FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 	FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
 	FVector End = FVector((ForwardsVector * 10000.f) + Start);
 	FCollisionQueryParams CollisionParams;
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	CollisionParams.AddIgnoredActor(this);
 	//does the linetrace
 	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
+		if  (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass() )
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
+			AActor* ImpactActor = OutHit.GetActor();
+			TSubclassOf<UDamageType> const ValidDamageTypeClass = TSubclassOf<UDamageType>(UDamageType::StaticClass());
+			FDamageEvent DamageEvent(ValidDamageTypeClass);
+			ImpactActor->TakeDamage(DamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
+		}
 	}
 }
+//BROKEN
+
+float Aplayer_cpp::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser)
+{
+	//HOW MUCH DAMAGE?
+	const float ActualDamage = Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+	if (ActualDamage > 0.f)
+	{
+		Health -= ActualDamage;
+		//"KILLS" PLAYER 
+		if (Health <= 0.f)
+		{
+			this->SetActorLocation(FVector(0, 0, 5000));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
+			Health = 3;
+		}
+	}
+	return ActualDamage;
+}
+
 
 void Aplayer_cpp::beplayer1()
 {
+	//not needed at the moment but might be usefull for testing
 }
 
 // Called every frame
@@ -213,12 +255,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	//IMPORTANTLINETRACES
 	//RIGHT LINETRACE
 	{
+		//calculates the linetrace
 		FHitResult OutHit;
 		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 		FVector RightVector = FirstPersonCameraComponent->GetRightVector();
 		FVector End = ((RightVector * 100.f) + Start);
 		FCollisionQueryParams CollisionParams;
-
+		CollisionParams.AddIgnoredActor(this);
 		//does the linetrace
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 		{
@@ -237,12 +280,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	}
 	//LEFT LINETRACE
 	{
+		//calculates the linetrace
 		FHitResult OutHit;
 		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 		FVector RightVector = FirstPersonCameraComponent->GetRightVector();
 		FVector End = ((RightVector * -100.f) + Start);
 		FCollisionQueryParams CollisionParams;
-
+		CollisionParams.AddIgnoredActor(this);
 		//does the linetrace
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 		{
@@ -261,12 +305,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	}
 	//DOWNWARDS LINETRACE, CHECKS TO SEE IF PLAYER NIS ON THE FLOOR
 	{
+		//calculates the linetrace
 		FHitResult OutHit;
 		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 		FVector UpVector = FirstPersonCameraComponent->GetUpVector();
 		FVector End = FVector(Start.X, Start.Y, Start.Z - 250);
 		FCollisionQueryParams CollisionParams;
-
+		CollisionParams.AddIgnoredActor(this);
 		//does the linetrace
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 		{
@@ -281,12 +326,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	}
 	//FORWARDS LINETRACE, CHECKS TO SEE IF THE PLAYER CAN VAULT
 	{
+		//calculates the linetrace
 		FHitResult OutHit;
 		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
 		FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
 		FVector End = FVector((ForwardsVector * 300.f) + Start);
 		FCollisionQueryParams CollisionParams;
-
+		CollisionParams.AddIgnoredActor(this);
 		//does the linetrace
 		if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 		{
@@ -331,6 +377,10 @@ void Aplayer_cpp::Tick(float DeltaTime)
 		{
 			//doWallRun();
 		}
+	}
+	if (this->GetActorLocation().Z <= -1000)
+	{
+		this->SetActorLocation(FVector(0, 0, 1000));
 	}
 	//DO NOT DELETE THESE
 	//wallOnLeft = false;

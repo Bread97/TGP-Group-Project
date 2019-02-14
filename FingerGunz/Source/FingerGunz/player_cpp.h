@@ -14,7 +14,7 @@ class FINGERGUNZ_API Aplayer_cpp : public ACharacter
 
 public:
 	// Sets default values for this character's properties
-	Aplayer_cpp();
+	Aplayer_cpp(const FObjectInitializer& PCIP);
 	GENERATED_BODY()
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FirstPersonCameraComponent;
@@ -47,6 +47,10 @@ protected:
 	void shoot();
 	void beplayer1();
 	float vaultJumpAmount;
+	int Health;
+	FString ObjectHit;
+	float DamageAmount;
+	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser);
 
 public:	
 	// Called every frame
@@ -61,5 +65,5 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseLookUpRate;
 	
-	
+	UStaticMeshComponent* StaticMesh;
 };

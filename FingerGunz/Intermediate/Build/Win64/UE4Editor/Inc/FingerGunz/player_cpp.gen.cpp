@@ -57,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "player_cpp.h" },
 		{ "ModuleRelativePath", "player_cpp.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
@@ -110,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aplayer_cpp, 778432763);
+	IMPLEMENT_CLASS(Aplayer_cpp, 1449661801);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aplayer_cpp(Z_Construct_UClass_Aplayer_cpp, &Aplayer_cpp::StaticClass, TEXT("/Script/FingerGunz"), TEXT("Aplayer_cpp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aplayer_cpp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
