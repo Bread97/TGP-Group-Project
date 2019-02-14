@@ -41,6 +41,10 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Health;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -75,6 +79,14 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseTurnRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Int" },
+		{ "ModuleRelativePath", "player_cpp.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Int, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020005, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, Health), METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -86,6 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aplayer_cpp_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_Aplayer_cpp_Statics::StaticCppClassTypeInfo = {
@@ -111,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aplayer_cpp, 1449661801);
+	IMPLEMENT_CLASS(Aplayer_cpp, 3660023965);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aplayer_cpp(Z_Construct_UClass_Aplayer_cpp, &Aplayer_cpp::StaticClass, TEXT("/Script/FingerGunz"), TEXT("Aplayer_cpp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aplayer_cpp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

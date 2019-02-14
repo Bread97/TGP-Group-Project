@@ -57,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Aplayer_cpp); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aplayer_cpp)
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_18_PRIVATE_PROPERTY_OFFSET
+#define FingerGunz_Source_FingerGunz_player_cpp_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(Aplayer_cpp, Health); }
+
+
 #define FingerGunz_Source_FingerGunz_player_cpp_h_9_PROLOG
 #define FingerGunz_Source_FingerGunz_player_cpp_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

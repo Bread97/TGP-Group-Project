@@ -47,10 +47,13 @@ protected:
 	void shoot();
 	void beplayer1();
 	float vaultJumpAmount;
-	int Health;
 	FString ObjectHit;
 	float DamageAmount;
 	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser);
+	void StartZoom();
+	void EndZoom();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Int, meta = (AllowPrivateAccess = "true"))
+		int Health;
 
 public:	
 	// Called every frame

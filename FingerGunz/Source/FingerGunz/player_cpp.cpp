@@ -9,6 +9,7 @@
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
+#include "Runtime/UMG/Public/Components/ProgressBar.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -49,6 +50,8 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
 	PlayerInputComponent->BindAction("Beplayer1", IE_Pressed, this, &Aplayer_cpp::beplayer1);
+	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
+	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &Aplayer_cpp::EndZoom);
 
 
 	//axis events
@@ -65,6 +68,8 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("ControllerShoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+	PlayerInputComponent->BindAction("ControllerZoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
+	PlayerInputComponent->BindAction("ControllerZoom", IE_Released, this, &Aplayer_cpp::EndZoom);
 
 
 	//axis events
@@ -206,11 +211,11 @@ void Aplayer_cpp::shoot()
 	FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
 	FVector End = FVector((ForwardsVector * 10000.f) + Start);
 	FCollisionQueryParams CollisionParams;
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 	CollisionParams.AddIgnoredActor(this);
 	//does the linetrace
 	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 	{
+		End = OutHit.Location;
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
 		if  (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass() )
 		{
@@ -221,6 +226,7 @@ void Aplayer_cpp::shoot()
 			ImpactActor->TakeDamage(DamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
 		}
 	}
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 }
 //BROKEN
 
@@ -240,6 +246,20 @@ float Aplayer_cpp::TakeDamage(float Damage, struct FDamageEvent const& DamageEve
 		}
 	}
 	return ActualDamage;
+}
+
+void Aplayer_cpp::StartZoom()
+{
+	BaseTurnRate = 25.f;
+	BaseLookUpRate = 25.f;
+	FirstPersonCameraComponent->FieldOfView = 50;
+}
+
+void Aplayer_cpp::EndZoom()
+{
+	BaseTurnRate = 100.f;
+	BaseLookUpRate = 100.f;
+	FirstPersonCameraComponent->FieldOfView = 120;
 }
 
 
