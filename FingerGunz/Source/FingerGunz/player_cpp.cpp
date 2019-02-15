@@ -10,6 +10,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
+#include "Particles/ParticleSystemComponent.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -22,6 +23,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	vaultJumpAmount = 1200;
 	Health = 3;
 	DamageAmount = 1;
+	ShootingDelay = 10;
 	CharacterMovement->JumpZVelocity = 1000;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	CharacterMovement->AirControl = 0.8;
@@ -49,6 +51,7 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+	PlayerInputComponent->BindAction("Shoot", IE_Released, this, &Aplayer_cpp::StopShooting);
 	PlayerInputComponent->BindAction("Beplayer1", IE_Pressed, this, &Aplayer_cpp::beplayer1);
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &Aplayer_cpp::EndZoom);
@@ -68,6 +71,7 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("ControllerShoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+	PlayerInputComponent->BindAction("ControllerShoot", IE_Released, this, &Aplayer_cpp::StopShooting);
 	PlayerInputComponent->BindAction("ControllerZoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
 	PlayerInputComponent->BindAction("ControllerZoom", IE_Released, this, &Aplayer_cpp::EndZoom);
 
@@ -227,6 +231,17 @@ void Aplayer_cpp::shoot()
 		}
 	}
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	IsShooting = true;
+	//BROKEN AT THE MOMENT
+	//UParticleSystemComponent* BeamComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamEffect, this->GetActorLocation());
+	//BeamComp->SetVectorParameter("BeamEnd", (OutHit.Actor != NULL) ? OutHit.ImpactPoint : End);
+	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("DOING BEAM EFFECT")));
+	//BROKEN AT THE MOMENT
+}
+void Aplayer_cpp::StopShooting()
+{
+	IsShooting = false;
+	ShootingDelay = 0;
 }
 //BROKEN
 
@@ -401,6 +416,19 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	if (this->GetActorLocation().Z <= -1000)
 	{
 		this->SetActorLocation(FVector(0, 0, 1000));
+	}
+	if (IsShooting == true)
+	{
+		if (ShootingDelay > 0)
+		{
+			ShootingDelay -= 1;
+		}
+		else
+		{
+			shoot();
+			ShootingDelay = 10;
+		}
+
 	}
 	//DO NOT DELETE THESE
 	//wallOnLeft = false;

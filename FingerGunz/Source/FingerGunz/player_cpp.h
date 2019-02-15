@@ -18,6 +18,11 @@ public:
 	GENERATED_BODY()
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FirstPersonCameraComponent;
+	//BROKEN AT THE MOMENT
+	//UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Effects)
+	//	UParticleSystem* BeamEffect;
+	//BROKEN AT THE MOMENT
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -45,6 +50,9 @@ protected:
 	void doVault();
 	void endVault();
 	void shoot();
+	void StopShooting();
+	bool IsShooting;
+	int ShootingDelay;
 	void beplayer1();
 	float vaultJumpAmount;
 	FString ObjectHit;
