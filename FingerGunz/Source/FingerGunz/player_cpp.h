@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ParticleDefinitions.h"
 #include "player_cpp.generated.h"
 
 UCLASS()
@@ -78,4 +79,7 @@ public:
 	
 	//UStaticMeshComponent* StaticMesh;
 	UStaticMeshComponent* PlayerStaticMesh;
+	UStaticMeshComponent* GunStaticMesh;
+	UParticleSystemComponent* BeamParticle;
+
 };

@@ -29,7 +29,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	CharacterMovement->AirControl = 0.8;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, -11.5f, 130.f);
+	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, -5.0f, 130.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
@@ -43,6 +43,29 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/PlayerMesh.PlayerMesh'")).Object);
 	PlayerStaticMesh->SetupAttachment(RootComponent);
 	PlayerStaticMesh->SetRelativeScale3D(FVector(0.3, 0.3, 0.3));
+
+	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
+	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
+	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
+	GunStaticMesh->SetRelativeScale3D(FVector(0.2, 0.2, 0.2));
+	GunStaticMesh->RelativeLocation = FVector(0.0f, 20.0f, -20.f);
+	
+	//PlayerParticleSystem = PCIP.CreateDefaultSubobject<UParticleSystem>(this, TEXT("beam"));
+	//PlayerParticleSystem-(ConstructorHelpers::FObjectFinder<UParticleSystem>(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"), PlayerStaticMesh,FName("player"),FVector(0, 0, 64),FRotator(0, 0, 0),EAttachLocation::KeepRelativeOffset,false));
+	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
+	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
+
+	if (Beam.Succeeded()) 
+	{
+		BeamParticle->Template = Beam.Object;
+	}
+	BeamParticle->bAutoActivate = true;
+	BeamParticle->SetHiddenInGame(true);
+	BeamParticle->SetupAttachment(GunStaticMesh);
+	BeamParticle->ActivateSystem();
+	//BeamParticle->SetBeamSourcePoint(0,FVector(9999, 9999, 9999),0);
+	//BeamParticle->SetBeamEndPoint(0, FVector(1, 1, 1));
+	//Beam.Target = FVector(0, 0, 0);
 }
 
 
@@ -96,7 +119,7 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void Aplayer_cpp::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	BeamParticle->ActivateSystem();
 }
 
 void Aplayer_cpp::moveForward(float value)
@@ -237,8 +260,9 @@ void Aplayer_cpp::shoot()
 			ImpactActor->TakeDamage(DamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
 		}
 	}
-	DrawDebugLine(GetWorld(), Start, End, FColor::Yellow, false, 1, 0, 1);
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Yellow, false, 1, 0, 1);
 	IsShooting = true;
+	BeamParticle->SetHiddenInGame(false);
 	//BROKEN AT THE MOMENT
 	//UParticleSystemComponent* BeamComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamEffect, this->GetActorLocation());
 	//BeamComp->SetVectorParameter("BeamEnd", (OutHit.Actor != NULL) ? OutHit.ImpactPoint : End);
@@ -249,6 +273,7 @@ void Aplayer_cpp::StopShooting()
 {
 	IsShooting = false;
 	ShootingDelay = 0;
+	BeamParticle->SetHiddenInGame(true);
 }
 //BROKEN
 
