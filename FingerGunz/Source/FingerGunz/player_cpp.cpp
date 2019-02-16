@@ -21,7 +21,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	BaseLookUpRate = 100.f;
 	wallJumpAmount = 500;
 	vaultJumpAmount = 1200;
-	Health = 3;
+	Health = 5;
 	DamageAmount = 1;
 	ShootingDelay = 10;
 	CharacterMovement->JumpZVelocity = 1000;
@@ -29,15 +29,22 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	CharacterMovement->AirControl = 0.8;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, 1.75f, 64.f);
+	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, -11.5f, 130.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
-	StaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("cunt"));
-	StaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
-	StaticMesh->SetupAttachment(RootComponent);
-	StaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 1.5));
+	//StaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("cube"));
+	//StaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
+	//StaticMesh->SetupAttachment(RootComponent);
+	//StaticMesh->SetRelativeScale3D(FVector(0.6, 0.6, 2.1));
+	//StaticMesh->SetActorHiddenInGame(true);
+
+	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
+	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/PlayerMesh.PlayerMesh'")).Object);
+	PlayerStaticMesh->SetupAttachment(RootComponent);
+	PlayerStaticMesh->SetRelativeScale3D(FVector(0.3, 0.3, 0.3));
 }
+
 
 // Called to bind functionality to input
 void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -230,7 +237,7 @@ void Aplayer_cpp::shoot()
 			ImpactActor->TakeDamage(DamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
 		}
 	}
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	DrawDebugLine(GetWorld(), Start, End, FColor::Yellow, false, 1, 0, 1);
 	IsShooting = true;
 	//BROKEN AT THE MOMENT
 	//UParticleSystemComponent* BeamComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamEffect, this->GetActorLocation());
@@ -257,7 +264,7 @@ float Aplayer_cpp::TakeDamage(float Damage, struct FDamageEvent const& DamageEve
 		{
 			this->SetActorLocation(FVector(0, 0, 5000));
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
-			Health = 3;
+			Health = 5;
 		}
 	}
 	return ActualDamage;

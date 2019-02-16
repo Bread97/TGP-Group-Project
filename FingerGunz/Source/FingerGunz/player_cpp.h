@@ -76,5 +76,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseLookUpRate;
 	
-	UStaticMeshComponent* StaticMesh;
+	//UStaticMeshComponent* StaticMesh;
+	UStaticMeshComponent* PlayerStaticMesh;
 };
