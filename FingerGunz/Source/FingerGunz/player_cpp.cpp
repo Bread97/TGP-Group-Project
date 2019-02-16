@@ -29,7 +29,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	CharacterMovement->AirControl = 0.8;
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, -5.0f, 130.f);
+	FirstPersonCameraComponent->RelativeLocation = FVector(-5.0f, -5.0f, 155.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
@@ -40,15 +40,16 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	//StaticMesh->SetActorHiddenInGame(true);
 
 	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
-	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/PlayerMesh.PlayerMesh'")).Object);
+	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'")).Object);
 	PlayerStaticMesh->SetupAttachment(RootComponent);
-	PlayerStaticMesh->SetRelativeScale3D(FVector(0.3, 0.3, 0.3));
+	PlayerStaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
 
 	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
-	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
+	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
-	GunStaticMesh->SetRelativeScale3D(FVector(0.2, 0.2, 0.2));
-	GunStaticMesh->RelativeLocation = FVector(0.0f, 20.0f, -20.f);
+	GunStaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
+										//					Height
+	GunStaticMesh->RelativeLocation = FVector(160.0f, 20.0f, -50.0f);
 	
 	//PlayerParticleSystem = PCIP.CreateDefaultSubobject<UParticleSystem>(this, TEXT("beam"));
 	//PlayerParticleSystem-(ConstructorHelpers::FObjectFinder<UParticleSystem>(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"), PlayerStaticMesh,FName("player"),FVector(0, 0, 64),FRotator(0, 0, 0),EAttachLocation::KeepRelativeOffset,false));
