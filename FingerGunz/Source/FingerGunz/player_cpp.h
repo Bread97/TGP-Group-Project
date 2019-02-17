@@ -57,7 +57,7 @@ protected:
 	void beplayer1();
 	float vaultJumpAmount;
 	FString ObjectHit;
-	float DamageAmount;
+	float PistolDamageAmount;
 	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser);
 	void StartZoom();
 	void EndZoom();
@@ -81,5 +81,6 @@ public:
 	UStaticMeshComponent* PlayerStaticMesh;
 	UStaticMeshComponent* GunStaticMesh;
 	UParticleSystemComponent* BeamParticle;
+	TSubclassOf<class AItem> BeamActor_BP;
 
 };

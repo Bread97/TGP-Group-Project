@@ -11,6 +11,7 @@
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "BeamActor.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -22,7 +23,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	wallJumpAmount = 500;
 	vaultJumpAmount = 1200;
 	Health = 5;
-	DamageAmount = 1;
+	PistolDamageAmount = 3;
 	ShootingDelay = 10;
 	CharacterMovement->JumpZVelocity = 1000;
 	CharacterMovement->MaxWalkSpeed = 1400;
@@ -53,6 +54,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	
 	//PlayerParticleSystem = PCIP.CreateDefaultSubobject<UParticleSystem>(this, TEXT("beam"));
 	//PlayerParticleSystem-(ConstructorHelpers::FObjectFinder<UParticleSystem>(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"), PlayerStaticMesh,FName("player"),FVector(0, 0, 64),FRotator(0, 0, 0),EAttachLocation::KeepRelativeOffset,false));
+	//Spawn particle system
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
 
@@ -67,6 +69,13 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	//BeamParticle->SetBeamSourcePoint(0,FVector(9999, 9999, 9999),0);
 	//BeamParticle->SetBeamEndPoint(0, FVector(1, 1, 1));
 	//Beam.Target = FVector(0, 0, 0);
+
+	//Spawn beam actor
+	ConstructorHelpers::FObjectFinder<UBlueprint> BeamActorBP(TEXT("Blueprint'/Game/Particles/BeamActorBP.BeamActorBP'"));
+	if (BeamActorBP.Object) {
+		BeamActor_BP = (UClass*)BeamActorBP.Object->GeneratedClass;
+	}
+	//Spawn particle system
 }
 
 
@@ -248,33 +257,38 @@ void Aplayer_cpp::shoot()
 	FCollisionQueryParams CollisionParams;
 	CollisionParams.AddIgnoredActor(this);
 	//does the linetrace
-	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
+	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams)) 
 	{
 		End = OutHit.Location;
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
-		if  (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass() )
+		if (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass())
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
 			AActor* ImpactActor = OutHit.GetActor();
 			TSubclassOf<UDamageType> const ValidDamageTypeClass = TSubclassOf<UDamageType>(UDamageType::StaticClass());
 			FDamageEvent DamageEvent(ValidDamageTypeClass);
-			ImpactActor->TakeDamage(DamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
+			ImpactActor->TakeDamage(PistolDamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
 		}
 	}
 	//DrawDebugLine(GetWorld(), Start, End, FColor::Yellow, false, 1, 0, 1);
 	IsShooting = true;
-	BeamParticle->SetHiddenInGame(false);
+	//BeamParticle->SetHiddenInGame(false);
 	//BROKEN AT THE MOMENT
 	//UParticleSystemComponent* BeamComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamEffect, this->GetActorLocation());
 	//BeamComp->SetVectorParameter("BeamEnd", (OutHit.Actor != NULL) ? OutHit.ImpactPoint : End);
 	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("DOING BEAM EFFECT")));
 	//BROKEN AT THE MOMENT
+	//Spawns c++ beam actor
+	FActorSpawnParameters SpawnInfo;
+	GetWorld()->SpawnActor<ABeamActor>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	//Spawns c++ beam actor
 }
+
 void Aplayer_cpp::StopShooting()
 {
 	IsShooting = false;
 	ShootingDelay = 0;
-	BeamParticle->SetHiddenInGame(true);
+	//BeamParticle->SetHiddenInGame(true);
 }
 //BROKEN
 
@@ -450,19 +464,19 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	{
 		this->SetActorLocation(FVector(0, 0, 1000));
 	}
-	if (IsShooting == true)
-	{
-		if (ShootingDelay > 0)
-		{
-			ShootingDelay -= 1;
-		}
-		else
-		{
-			shoot();
-			ShootingDelay = 10;
-		}
-
-	}
+	//if (IsShooting == true)
+	//{
+	//	if (ShootingDelay > 0)
+	//	{
+	//		ShootingDelay -= 1;
+	//	}
+	//	else
+	//	{
+	//		shoot();
+	//		ShootingDelay = 10;
+	//	}
+	//
+	//}
 	//DO NOT DELETE THESE
 	//wallOnLeft = false;
 	//wallOnRight = false;

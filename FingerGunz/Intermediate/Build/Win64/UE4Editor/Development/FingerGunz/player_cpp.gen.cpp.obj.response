@@ -23,10 +23,26 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz
-/I C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Source
-/I C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -66,25 +82,6 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
 /I Runtime\ApplicationCore\Public
 /I Runtime\ApplicationCore
 /I Runtime\ApplicationCore\Public\GenericPlatform
@@ -403,18 +400,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz
+/I C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Source
+/I C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz
+/I "D:\Visual Studio\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz\player_cpp.gen.cpp"
-/FI"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
-/Fo"C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\player_cpp.gen.cpp.obj"
+/FI"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz\player_cpp.gen.cpp"
+/FI"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
+/Fo"C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\player_cpp.gen.cpp.obj"
 /TP
 /GR-
 /W4
