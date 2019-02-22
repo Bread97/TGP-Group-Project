@@ -63,6 +63,7 @@ protected:
 	void EndZoom();
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Int, meta = (AllowPrivateAccess = "true"))
 		int Health;
+	int Armor;
 
 public:	
 	// Called every frame

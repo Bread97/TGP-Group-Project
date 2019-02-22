@@ -1,48 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for FingerGunzEditor (no existing makefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1099.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1099.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1394.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1394.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1717.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1717.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1769.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1769.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3453.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3453.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3500.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3500.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3819.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3819.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5064.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5064.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5543.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5543.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5874.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5874.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5985.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-5985.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6667.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6667.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6670.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6670.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6705.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6705.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-736.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-736.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-7729.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-7729.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-7946.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-7946.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-8189.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-8189.pdb".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-8263.dll".
-  Deleting old hot reload file: "C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-8263.pdb".
-  Building 2 actions with 12 processes...
-    [1/2] UE4Editor-FingerGunz.lib
-       Creating library C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [2/2] UE4Editor-FingerGunz.dll
-       Creating library C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\louis\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for FingerGunzEditor
+    Running UnrealHeaderTool "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FingerGunzEditor in 14.4369577 seconds
+  Deleting old hot reload file: "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3748.dll".
+  Deleting old hot reload file: "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3748.pdb".
+  Deleting old hot reload file: "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-4497.dll".
+  Deleting old hot reload file: "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-4497.pdb".
+  Building 5 actions with 8 processes...
+    [1/5] FingerGunz.init.gen.cpp
+    [2/5] LightPistol.cpp
+    [3/5] LightPistol.gen.cpp
+    [4/5] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [5/5] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 35.84 seconds (Parallel executor: 0.99 seconds)
+  Total build time: 60.80 seconds (Parallel executor: 4.31 seconds)

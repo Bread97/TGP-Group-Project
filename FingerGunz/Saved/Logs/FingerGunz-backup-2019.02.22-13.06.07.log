@@ -1,0 +1,988 @@
+﻿Log file open, 02/22/19 12:53:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FingerGunz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.667362
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.349s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.22-12.53.22:933][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-12.53.22:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.22-12.53.22:977][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.22-12.53.22:977][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.22-12.53.22:977][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.22-12.53.22:978][  0]LogInit: Computer: C108-36
+[2019.02.22-12.53.22:978][  0]LogInit: User: w019563h
+[2019.02.22-12.53.22:978][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.22-12.53.22:978][  0]LogInit: High frequency timer resolution =3.507174 MHz
+[2019.02.22-12.53.22:978][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.22-12.53.22:978][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.22-12.53.22:978][  0]LogMemory: Process Physical Memory: 102.99 MB used, 102.99 MB peak
+[2019.02.22-12.53.22:978][  0]LogMemory: Process Virtual Memory: 94.69 MB used, 94.69 MB peak
+[2019.02.22-12.53.22:979][  0]LogMemory: Physical Memory: 5779.51 MB used,  10528.37 MB free, 16307.88 MB total
+[2019.02.22-12.53.22:979][  0]LogMemory: Virtual Memory: 4643.59 MB used,  10528.37 MB free, 134217728.00 MB total
+[2019.02.22-12.53.23:309][  0]LogInit: Using OS detected language (en-US).
+[2019.02.22-12.53.23:309][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.22-12.53.23:311][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.22-12.53.23:878][  0]LogStreaming: Display: Took  0.569s to InitEngineTextLocalization.
+[2019.02.22-12.53.23:878][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.22-12.53.24:592][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.22-12.53.24:592][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.22-12.53.29:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-12.53.29:269][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.22-12.53.29:448][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2019.02.22-12.53.29:448][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.22-12.53.29:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.22-12.53.29:456][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.22-12.53.29:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.22-12.53.29:465][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.22-12.53.29:465][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.22-12.53.29:465][  0]LogWindows: EnumDisplayDevices:
+[2019.02.22-12.53.29:465][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2019.02.22-12.53.29:466][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2019.02.22-12.53.29:467][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.02.22-12.53.29:467][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.02.22-12.53.29:468][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.22-12.53.29:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2019.02.22-12.53.29:468][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.02.22-12.53.29:468][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.02.22-12.53.29:468][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
+[2019.02.22-12.53.29:539][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.22-12.53.29:558][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.22-12.53.29:562][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Intermediate/Shaders/WorkingDirectory/11720/).
+[2019.02.22-12.53.29:562][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w019563h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/44D1DEBB483873087C8027BE5CDC2BC2/'.
+[2019.02.22-12.53.30:334][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.22-12.53.30:358][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.22-12.53.30:380][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.22-12.53.30:412][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.22-12.53.30:454][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.22-12.53.30:479][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.22-12.53.30:501][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.22-12.53.30:532][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.22-12.53.30:546][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-12.53.30:701][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.22-12.53.30:795][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-12.53.30:795][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-12.53.30:832][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-12.53.30:832][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-12.53.30:852][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.22-12.53.30:877][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.22-12.53.30:902][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.22-12.53.30:942][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.22-12.53.30:957][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.22-12.53.30:957][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.22-12.53.31:227][  0]LogXGEController: Cleaning working directory: C:/Users/w019563h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.22-12.53.31:227][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.22-12.53.31:228][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.22-12.53.31:228][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.22-12.53.34:233][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.22-12.53.35:939][  0]LogDerivedDataCache: Loaded boot cache 1.71s 88MB C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-12.53.35:940][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.22-12.53.35:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.22-12.53.35:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.22-12.53.35:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.22-12.53.35:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.22-12.53.35:962][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.22-12.53.35:976][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.22-12.53.35:977][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.22-12.53.35:977][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.22-12.53.36:002][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.22-12.53.36:004][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.22-12.53.36:038][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.22-12.53.36:630][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2019.02.22-12.53.37:304][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-12.53.37:741][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.22-12.53.37:755][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.22-12.53.37:755][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.22-12.53.37:755][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.22-12.53.37:755][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.22-12.53.37:824][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.02.22-12.53.39:647][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.255056 seconds
+[2019.02.22-12.53.39:659][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.22-12.53.39:659][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.22-12.53.39:659][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.22-12.54.27:026][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.22-12.54.27:046][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.22-12.54.27:393][  0]SourceControl: Source control is disabled
+[2019.02.22-12.54.27:393][  0]SourceControl: Source control is disabled
+[2019.02.22-12.54.27:397][  0]SourceControl: Source control is disabled
+[2019.02.22-12.54.27:401][  0]SourceControl: Source control is disabled
+[2019.02.22-12.54.27:750][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.22-12.54.27:858][  0]LogOcInput: OculusInput pre-init called
+[2019.02.22-12.54.27:978][  0]LogEngine: Initializing Engine...
+[2019.02.22-12.54.27:980][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-12.54.27:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-12.54.28:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-12.54.28:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-12.54.28:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-12.54.28:596][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.22-12.54.28:626][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.22-12.54.28:643][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.22-12.54.28:676][  0]LogInit: FAudioDevice initialized.
+[2019.02.22-12.54.28:677][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.22-12.54.28:842][  0]LogDerivedDataCache: Saved boot cache 0.17s 88MB C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-12.54.28:864][  0]LogInit: Texture streaming: Enabled
+[2019.02.22-12.54.28:909][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.22-12.54.28:934][  0]LogInit: Transaction tracking system initialized
+[2019.02.22-12.54.28:997][  0]BlueprintLog: New page: Editor Load
+[2019.02.22-12.54.29:302][  0]LocalizationService: Localization service is disabled
+[2019.02.22-12.54.31:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.22-12.54.31:052][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.22-12.54.31:052][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.22-12.54.31:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-12.54.31:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-12.54.31:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-12.54.31:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-12.54.31:835][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.02s
+[2019.02.22-12.54.31:870][  0]SourceControl: Source control is disabled
+[2019.02.22-12.54.31:870][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.22-12.54.31:872][  0]LightingResults: New page: Lighting Build
+[2019.02.22-12.54.31:877][  0]MapCheck: New page: Map Check
+[2019.02.22-12.54.31:877][  0]LightingResults: New page: Lighting Build
+[2019.02.22-12.54.31:912][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.31:913][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.31:925][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.31:926][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:004][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:005][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:029][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:030][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:031][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:031][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:032][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:032][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:040][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:040][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:041][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:042][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.02.22-12.54.32:099][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] In use pin  Input Object  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
+[2019.02.22-12.54.32:099][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] Macro node  Macro instance  is pointing at an invalid macro graph.
+[2019.02.22-12.54.32:106][  0]LogBlueprint: Warning: [Compiler BP_Sky_Sphere] [0074.13] Compile of BP_Sky_Sphere failed. 2 Fatal Issue(s) 0 Warning(s) [in 28 ms] (/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere)
+[2019.02.22-12.54.32:713][  0]LogAIModule: Creating AISystem for world Test
+[2019.02.22-12.54.33:117][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.22-12.54.33:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.22-12.54.33:383][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 237.035ms to complete.
+[2019.02.22-12.54.33:384][  0]LogFileHelpers: Loading map 'Test' took 1.513
+[2019.02.22-12.54.33:579][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.54.33:594][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.54.33:606][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.54.33:616][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.54.33:636][  0]LogCollectionManager: Loaded 0 collections in 0.004668 seconds
+[2019.02.22-12.54.33:709][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Saved/Collections/' took 0.01s
+[2019.02.22-12.54.33:709][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Developers/w019563h/Collections/' took 0.01s
+[2019.02.22-12.54.33:709][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Collections/' took 0.01s
+[2019.02.22-12.54.33:709][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.22-12.54.33:731][  0]LogContentBrowser: Native class hierarchy populated in 0.0222 seconds. Added 2575 classes and 605 folders.
+[2019.02.22-12.54.33:749][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.02.22-12.54.34:160][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.22-12.54.34:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.02.22-12.54.34:227][  0]LogSlate: Took 0.019609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.22-12.54.34:247][  0]LogSlate: Took 0.017460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.22-12.54.34:277][  0]LogSlate: Took 0.021900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.22-12.54.34:463][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.22-12.54.34:672][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.22-12.54.34:738][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.02.22-12.54.34:779][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.22-12.54.34:779][  0]LogLoad: (Engine Initialization) Total time: 76.80 seconds
+[2019.02.22-12.54.34:779][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.22-12.54.34:819][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.22-12.54.34:899][  0]LogSlate: Took 0.014222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.22-12.54.34:977][  2]LogAssetRegistry: Asset discovery search completed in 58.3721 seconds
+[2019.02.22-12.54.34:980][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.22-12.54.34:980][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000131 seconds (updated 0 objects)
+[2019.02.22-12.54.36:368][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-12.54.36:476][119]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.22-12.54.36:510][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.54.36:510][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-12.54.42:674][119]LogSlate: Window 'Message' being destroyed
+[2019.02.22-12.54.44:567][297]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2019.02.22-12.54.44:588][297]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.02.22-12.54.45:781][434]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.22-12.54.45:805][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.54.45:805][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-12.54.48:865][434]LogSlate: Window 'Message' being destroyed
+[2019.02.22-12.54.56:292][128]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.02.22-12.54.56:321][128]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.02.22-12.54.57:774][284]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.22-12.54.57:803][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.54.57:803][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-12.54.59:534][284]LogSlate: Window 'Message' being destroyed
+[2019.02.22-12.54.59:702][284]PIE: New page: PIE session: Test (22 Feb 2019 12:54:59)
+[2019.02.22-12.54.59:717][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.02.22-12.54.59:817][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099463s)
+[2019.02.22-12.54.59:818][284]LogAIModule: Creating AISystem for world Test
+[2019.02.22-12.54.59:831][284]LogPlayLevel: PIE: World Init took: (0.013478s)
+[2019.02.22-12.54.59:831][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.114089s)
+[2019.02.22-12.54.59:881][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.22-12.54.59:901][284]LogInit: FAudioDevice initialized.
+[2019.02.22-12.54.59:938][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.55.00:061][284]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.02.22-12.55.00:247][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-12.55.00
+[2019.02.22-12.55.00:306][284]LogWorld: Bringing up level for play took: 0.093148
+[2019.02.22-12.55.00:458][284]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.02.22-12.55.00:837][284]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 2.067
+[2019.02.22-12.55.00:848][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.55.01:097][284]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:1).
+[2019.02.22-12.55.03:029][378]LogRenderer: Reallocating scene render targets to support 1680x992 Format 10 NumSamples 1 (Frame:96).
+[2019.02.22-12.55.03:263][396]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.05:712][647]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.06:876][767]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.09:334][ 27]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.09:659][ 56]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.09:872][ 79]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.10:679][163]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.10:939][189]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.11:250][221]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.11:586][258]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.11:891][290]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.12:227][324]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.12:582][361]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.12:988][403]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.13:364][442]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.13:712][476]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.14:105][518]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.14:441][553]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.14:740][582]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.15:094][617]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.15:364][645]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.15:664][678]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.15:916][704]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.16:192][732]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.16:426][756]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.16:640][778]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.16:891][803]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.17:072][821]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.17:319][846]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.17:536][869]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:102][925]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:297][946]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:491][963]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:592][973]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:699][984]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:808][995]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.18:920][  6]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:034][ 18]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:146][ 30]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:264][ 41]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:383][ 53]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:495][ 65]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:618][ 76]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:720][ 86]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:840][ 97]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.19:977][110]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.20:072][120]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.20:661][181]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.20:833][199]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:006][216]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:163][233]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:313][250]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:458][266]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:557][277]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:665][287]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:795][301]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.21:918][313]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:016][323]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:149][335]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:266][346]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:398][359]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:527][370]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:657][384]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:782][396]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.22:904][408]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:016][419]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:147][432]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:270][444]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:395][456]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:512][467]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:640][480]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:761][491]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.23:907][506]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.24:054][521]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.24:253][539]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.24:474][563]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.24:743][589]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.25:432][663]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.25:666][690]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.25:893][714]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.26:120][739]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.26:353][763]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.26:570][786]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.27:412][874]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.27:591][894]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.27:808][918]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.28:079][948]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.28:419][983]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.38:511][ 19]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.39:073][ 80]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.39:561][130]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.40:059][179]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.43:905][584]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.44:200][615]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.46:255][828]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.46:984][907]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.55.53:082][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.55.53:580][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.55.53:623][561]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.22-12.55.54:028][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.22-12.55.54:029][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.55.54:247][562]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.22-12.56.10:155][358]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.22-12.56.10:182][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.56.10:182][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-12.56.10:182][358]PIE: New page: PIE session: Test (22 Feb 2019 12:56:10)
+[2019.02.22-12.56.10:183][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.02.22-12.56.10:237][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054201s)
+[2019.02.22-12.56.10:239][358]LogAIModule: Creating AISystem for world Test
+[2019.02.22-12.56.10:239][358]LogPlayLevel: PIE: World Init took: (0.001817s)
+[2019.02.22-12.56.10:239][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.056660s)
+[2019.02.22-12.56.10:270][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.22-12.56.10:288][358]LogInit: FAudioDevice initialized.
+[2019.02.22-12.56.10:300][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.56.10:354][358]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.02.22-12.56.10:395][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-12.56.10
+[2019.02.22-12.56.10:402][358]LogWorld: Bringing up level for play took: 0.046156
+[2019.02.22-12.56.10:426][358]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.345
+[2019.02.22-12.56.10:596][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.56.12:834][516]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.38:560][188]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.38:791][214]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.38:972][234]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.39:129][252]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.39:402][282]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.39:972][347]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.40:208][374]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.40:425][396]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.40:889][446]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.41:161][474]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.41:530][514]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.42:638][636]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.42:826][655]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.43:048][678]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.43:287][703]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.43:517][728]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.44:180][801]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.44:560][841]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.44:793][867]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.45:005][891]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.45:235][915]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.45:382][931]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.45:518][946]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.45:905][989]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.46:172][ 18]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.46:333][ 35]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.46:726][ 77]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.47:218][132]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.47:365][148]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.47:674][183]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.47:911][208]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.48:259][245]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.48:428][263]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.48:571][279]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.48:686][292]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.48:841][309]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.56.52:752][724]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.00:828][610]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.03:341][888]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.04:033][969]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.10:285][673]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.13:159][999]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.15:175][234]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.15:377][258]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.16:409][380]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.16:663][409]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.16:960][444]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.20:310][837]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.20:697][883]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.24:451][328]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.24:710][359]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.42:081][422]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.42:336][452]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.42:533][475]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.42:956][525]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:226][675]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:362][691]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:496][707]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:630][723]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:757][738]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.44:901][755]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.45:030][770]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.45:167][786]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.50:451][404]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.50:626][423]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.50:792][442]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.50:944][460]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.51:164][486]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.51:373][511]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.51:633][542]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.51:899][573]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.52:021][587]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.52:153][602]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.52:267][615]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.53:973][816]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.54:232][847]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.54:403][867]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.57:676][255]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.58:416][342]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.58:635][368]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.57.59:626][486]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.58.00:178][551]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.58.01:421][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.58.01:422][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.58.01:448][699]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.22-12.58.01:488][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.22-12.58.01:488][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.58.01:542][700]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.22-12.58.11:308][394]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.22-12.58.11:437][395]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FingerGunz
+[2019.02.22-12.58.11:437][395]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.22-12.58.11:437][395]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2019.02.22-12.58.11:437][395]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.22-12.58.11:437][395]LogTemp: BranchPath = C108-36/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C108-36/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2019.02.22-12.58.11:527][398]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\w019563h.STUDENT\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.22-12.58.13:401][584]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.22-12.58.22:214][512]Candidate modules for hot reload:
+[2019.02.22-12.58.22:215][512]  FingerGunz
+[2019.02.22-12.58.22:215][512]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,4278 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.02.22-12.58.22:230][512]Warning: Starting HotReload took  0.6s.
+[2019.02.22-12.58.42:374][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-12.59.09:565][ 30]CompilerResultsLog: New page: Compilation - 22 Feb 2019 12:59:09
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.22-12.59.09:578][ 30]CompilerResultsLog: Target is up to date
+[2019.02.22-12.59.09:579][ 30]CompilerResultsLog: Total build time: 46.86 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.22-12.59.09:589][ 30]LogMainFrame: MainFrame: Module compiling took 47.443 seconds
+[2019.02.22-12.59.09:649][ 30]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-12.59.09:701][ 30]Display: HotReload took 48.1s.
+[2019.02.22-12.59.13:707][502]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.22-12.59.13:732][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.59.13:732][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.22-12.59.13:732][502]PIE: New page: PIE session: Test (22 Feb 2019 12:59:13)
+[2019.02.22-12.59.13:732][502]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.02.22-12.59.13:784][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051291s)
+[2019.02.22-12.59.13:785][502]LogAIModule: Creating AISystem for world Test
+[2019.02.22-12.59.13:785][502]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2019.02.22-12.59.13:785][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.052923s)
+[2019.02.22-12.59.13:817][502]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.22-12.59.13:838][502]LogInit: FAudioDevice initialized.
+[2019.02.22-12.59.13:851][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-12.59.13:906][502]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.02.22-12.59.13:933][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-12.59.13
+[2019.02.22-12.59.13:935][502]LogWorld: Bringing up level for play took: 0.027950
+[2019.02.22-12.59.13:955][502]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 1.183
+[2019.02.22-12.59.13:955][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-12.59.15:644][654]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:154).
+[2019.02.22-12.59.15:881][676]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.33:446][762]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.34:384][873]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.34:579][896]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.38:696][387]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.38:933][415]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.39:210][448]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:408][421]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:519][434]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:611][445]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:714][457]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:816][469]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.47:936][483]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.48:046][496]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.48:149][508]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.48:276][523]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.50:276][757]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.50:528][784]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.50:704][804]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.51:081][849]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.51:316][877]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.51:590][909]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.51:825][937]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:143][975]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:352][  0]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:529][ 21]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:546][ 23]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:648][ 35]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:742][ 46]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:743][ 46]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:837][ 56]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:930][ 67]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.52:948][ 69]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:034][ 79]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:135][ 91]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:144][ 92]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:257][105]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:378][119]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.53:488][132]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.54:126][207]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:358][353]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:589][380]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:647][386]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:704][392]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:815][405]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.55:901][415]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:020][429]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:122][441]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:241][455]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:352][468]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:480][483]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:598][497]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:726][512]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.56:861][528]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:423][594]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:559][610]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:636][619]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:737][631]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:821][641]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:848][644]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.57:968][658]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:080][671]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:299][697]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:393][708]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:498][720]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:616][734]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:740][747]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:840][759]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:968][774]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.58:993][777]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:190][800]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:231][805]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:291][812]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:403][825]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:428][828]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:538][841]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:588][847]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:707][861]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:826][875]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-12.59.59:868][880]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.00:012][896]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.00:045][900]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.00:131][910]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.03:720][338]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.03:836][351]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.03:920][361]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.03:946][364]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.04:043][375]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.04:154][388]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.04:626][444]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.04:778][462]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.04:954][483]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.05:064][496]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.06:612][680]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.06:872][711]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.06:967][722]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:077][735]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:178][747]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:280][759]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:516][787]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:617][799]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:736][813]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:845][826]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.07:947][838]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:059][851]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:168][864]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:269][876]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:376][888]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:478][900]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:582][912]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:800][938]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.08:898][949]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:016][963]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:226][988]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:337][  1]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:464][ 16]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:566][ 28]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:686][ 42]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.09:800][ 55]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.10:039][ 83]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.10:157][ 97]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.10:275][111]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.10:396][125]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.10:861][180]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:103][209]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:284][230]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:446][249]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:583][265]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:634][271]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:701][279]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:795][290]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:813][292]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:906][303]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.11:991][313]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:151][332]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:160][333]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:264][345]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:347][355]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:357][356]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:477][370]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:527][376]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:729][400]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:814][409]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.12:941][424]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.18:766][118]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.19:090][156]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.19:201][169]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.20:072][272]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.21:923][492]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:082][511]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:218][527]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:436][553]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:562][568]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:693][583]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.22:888][606]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.23:357][662]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.23:710][704]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.24:047][743]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.24:401][785]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.24:803][833]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.25:071][865]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.25:223][883]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.25:463][911]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.25:617][929]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.25:843][955]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.26:472][ 30]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.26:623][ 48]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.26:741][ 62]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.26:833][ 73]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.26:944][ 86]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_169 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.27:054][ 99]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.27:183][114]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_171 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.32:884][789]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.33:018][805]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_173 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.33:228][830]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.33:238][831]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_175 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.33:424][853]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.33:808][899]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_177 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:011][923]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:200][945]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_179 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:419][971]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:646][998]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_181 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:789][ 15]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:875][ 25]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_183 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:902][ 28]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.34:995][ 39]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_185 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.35:104][ 52]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.35:129][ 55]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_187 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.40:911][744]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.40:978][752]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_189 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:064][762]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:277][787]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_191 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:362][797]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:380][799]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_193 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:474][810]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:592][824]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_195 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:702][837]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:812][850]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_197 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:925][863]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.41:959][867]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_199 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:036][876]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:158][890]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_201 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:268][903]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:386][917]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_203 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:488][929]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:623][945]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_205 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:733][957]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:852][971]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_207 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.42:970][985]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:091][999]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_209 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:192][ 11]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:319][ 26]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_211 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:404][ 36]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:506][ 48]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_213 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:606][ 60]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:624][ 62]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_215 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:728][ 74]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:863][ 90]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_217 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.43:984][104]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:091][116]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_219 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:201][129]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:313][141]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_221 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:426][154]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:537][167]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_223 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:657][181]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:866][206]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_225 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:876][207]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.44:987][220]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_227 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:114][235]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:224][248]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_229 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:335][261]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:440][273]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_231 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:465][276]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:672][300]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_233 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:775][312]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:893][326]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_235 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.45:894][326]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:109][351]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_237 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:110][351]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:210][363]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_239 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:285][372]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:330][377]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_241 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:440][390]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:475][394]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_243 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:561][404]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:680][418]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_245 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:800][432]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.46:859][439]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_247 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.52:764][125]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.52:880][138]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_249 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:032][155]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:144][168]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_251 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:205][174]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:529][210]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_253 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:727][233]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:862][248]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_255 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.53:975][261]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_256 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.00.58:667][806]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_257 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:418][ 13]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_258 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:451][ 17]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_259 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:535][ 27]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_260 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:628][ 38]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_261 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:723][ 49]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_262 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:731][ 50]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_263 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.00:842][ 63]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_264 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.01:287][116]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_265 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.01:393][128]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_266 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.01:512][142]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_267 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.01:677][161]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_268 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:440][252]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_269 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:575][268]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:672][278]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_271 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:715][283]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_272 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:775][290]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_273 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:879][302]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_274 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.02:997][316]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_275 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.03:302][352]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_276 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.03:797][411]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_277 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.04:016][437]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_278 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.04:122][449]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_279 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.13:765][599]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_280 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.14:196][650]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_281 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.22:115][594]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_282 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.22:391][627]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_283 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.23:114][713]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_284 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.23:473][756]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_285 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.23:798][795]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_286 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.23:832][799]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_287 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.24:000][819]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_288 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.29:275][446]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_289 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.32:538][834]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_290 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.32:877][872]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_291 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.33:386][932]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_292 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.33:764][977]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_293 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.37:216][387]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_294 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.37:625][436]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_295 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.44:994][312]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_296 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.45:179][333]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_297 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.45:524][373]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_298 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.45:567][378]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_299 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.45:954][424]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_300 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.46:213][455]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_301 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.46:481][487]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_302 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.46:578][498]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_303 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.46:678][510]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_304 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.46:958][543]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_305 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.50:625][975]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_306 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.50:810][997]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_307 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.50:945][ 13]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_308 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.51:181][ 41]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_309 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.01.53:134][273]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_310 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.30:130][683]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_311 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.48:998][927]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_312 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.49:331][966]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_313 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.49:582][996]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_314 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.49:775][ 19]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_315 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.50:784][134]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_316 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.02.52:877][383]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_317 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.01:176][371]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_318 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.02:409][518]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_319 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.02:627][544]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_320 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.03:225][615]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_321 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.03:686][670]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_322 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.04:037][712]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_323 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.04:366][751]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_324 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.08:775][274]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_325 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.09:960][415]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_326 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.10:273][452]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_327 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.10:309][456]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_328 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.10:539][482]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_329 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.11:595][608]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_330 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.11:816][633]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_331 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.11:915][645]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.12:001][655]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_333 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.12:193][678]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_334 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.12:722][741]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_335 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.12:932][766]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_336 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.13:134][790]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_337 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.13:339][814]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_338 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.13:574][842]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_339 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.20:108][620]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_340 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.20:272][639]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_341 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.20:280][640]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_342 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.20:448][660]LogActor: Warning: BeamActor /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.BeamActor_343 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.22-13.03.22:709][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-13.03.22:709][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-13.03.22:736][930]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.22-13.03.22:780][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.22-13.03.22:781][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.22-13.03.22:845][931]LogPlayLevel: Display: Destroying online subsystem :Context_4

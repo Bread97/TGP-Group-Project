@@ -12,6 +12,7 @@
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "BeamActor.h"
+#include "LightPistol.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -23,6 +24,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	wallJumpAmount = 500;
 	vaultJumpAmount = 1200;
 	Health = 5;
+	Armor = 0;
 	PistolDamageAmount = 3;
 	ShootingDelay = 10;
 	CharacterMovement->JumpZVelocity = 1000;
@@ -92,7 +94,6 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
 	PlayerInputComponent->BindAction("Shoot", IE_Released, this, &Aplayer_cpp::StopShooting);
-	PlayerInputComponent->BindAction("Beplayer1", IE_Pressed, this, &Aplayer_cpp::beplayer1);
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &Aplayer_cpp::EndZoom);
 
@@ -103,25 +104,6 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("TurnRate", this, &Aplayer_cpp::turnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Aplayer_cpp::lookUpAtRate);
 	//KEYBOARD EVENTS
-	//CONTROLLER EVENTS
-	//action events
-	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::Jump);
-	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::StopJumping);
-	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryWallRun);
-	PlayerInputComponent->BindAction("ControllerSpace", IE_Pressed, this, &Aplayer_cpp::tryVault);
-	PlayerInputComponent->BindAction("ControllerSpace", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
-	PlayerInputComponent->BindAction("ControllerShoot", IE_Pressed, this, &Aplayer_cpp::shoot);
-	PlayerInputComponent->BindAction("ControllerShoot", IE_Released, this, &Aplayer_cpp::StopShooting);
-	PlayerInputComponent->BindAction("ControllerZoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
-	PlayerInputComponent->BindAction("ControllerZoom", IE_Released, this, &Aplayer_cpp::EndZoom);
-
-
-	//axis events
-	PlayerInputComponent->BindAxis("ControllerMoveForward", this, &Aplayer_cpp::moveForward);
-	PlayerInputComponent->BindAxis("ControllerMoveRight", this, &Aplayer_cpp::moveRight);
-	PlayerInputComponent->BindAxis("ControllerTurnRate", this, &Aplayer_cpp::turnAtRate);
-	PlayerInputComponent->BindAxis("ControllerLookUpRate", this, &Aplayer_cpp::lookUpAtRate);
-	//CONTROLLER EVENTS
 }
 
 
@@ -280,7 +262,7 @@ void Aplayer_cpp::shoot()
 	//BROKEN AT THE MOMENT
 	//Spawns c++ beam actor
 	FActorSpawnParameters SpawnInfo;
-	GetWorld()->SpawnActor<ABeamActor>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 	//Spawns c++ beam actor
 }
 
@@ -463,6 +445,10 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	if (this->GetActorLocation().Z <= -1000)
 	{
 		this->SetActorLocation(FVector(0, 0, 1000));
+	}
+	if (Health > 5)
+	{
+		Health = 5;
 	}
 	//if (IsShooting == true)
 	//{
