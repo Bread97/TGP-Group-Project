@@ -1,4 +1,4 @@
-﻿Log file open, 02/22/19 13:23:06
+﻿Log file open, 02/23/19 02:59:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FingerGunz
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.731934
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.529415
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.415s to configure plugins.
+LogStreaming: Display: Took  0.088s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1080 Ti
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  -skipcompile
-LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: -EpicPortal  -epicusername="OfficialStammy" -epicuserid=51c7b18fdb93446298e25144dfadca05 -epiclocale=en-US
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,403 +147,252 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.016s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.22-13.23.07:395][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.22-13.23.07:396][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.22-13.23.07:435][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.22-13.23.07:435][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.22-13.23.07:435][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.22-13.23.07:436][  0]LogInit: Computer: C108-36
-[2019.02.22-13.23.07:436][  0]LogInit: User: w019563h
-[2019.02.22-13.23.07:436][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.22-13.23.07:436][  0]LogInit: High frequency timer resolution =3.507174 MHz
-[2019.02.22-13.23.07:436][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.22-13.23.07:436][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.22-13.23.07:436][  0]LogMemory: Process Physical Memory: 101.87 MB used, 101.87 MB peak
-[2019.02.22-13.23.07:436][  0]LogMemory: Process Virtual Memory: 93.24 MB used, 93.24 MB peak
-[2019.02.22-13.23.07:437][  0]LogMemory: Physical Memory: 6254.33 MB used,  10053.55 MB free, 16307.88 MB total
-[2019.02.22-13.23.07:437][  0]LogMemory: Virtual Memory: 4642.52 MB used,  10053.55 MB free, 134217728.00 MB total
-[2019.02.22-13.23.07:699][  0]LogInit: Using OS detected language (en-US).
-[2019.02.22-13.23.07:699][  0]LogInit: Using OS detected locale (en-GB).
-[2019.02.22-13.23.07:701][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.22-13.23.08:316][  0]LogStreaming: Display: Took  0.616s to InitEngineTextLocalization.
-[2019.02.22-13.23.08:317][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.22-13.23.08:504][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.22-13.23.08:504][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.22-13.23.12:567][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.22-13.23.12:567][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.22-13.23.12:701][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
-[2019.02.22-13.23.12:701][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.02.22-13.23.12:707][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.22-13.23.12:707][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.22-13.23.12:707][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.22-13.23.12:718][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.22-13.23.12:719][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.22-13.23.12:719][  0]LogWindows: EnumDisplayDevices:
-[2019.02.22-13.23.12:719][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
-[2019.02.22-13.23.12:720][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
-[2019.02.22-13.23.12:720][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
-[2019.02.22-13.23.12:721][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
-[2019.02.22-13.23.12:721][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.22-13.23.12:721][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
-[2019.02.22-13.23.12:721][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2019.02.22-13.23.12:721][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2019.02.22-13.23.12:721][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
-[2019.02.22-13.23.12:792][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.22-13.23.12:811][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.22-13.23.12:815][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Intermediate/Shaders/WorkingDirectory/10104/).
-[2019.02.22-13.23.12:816][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w019563h.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/3AB2F743463F850A85587FBD184C102F/'.
-[2019.02.22-13.23.13:278][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.22-13.23.13:302][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.22-13.23.13:338][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.22-13.23.13:393][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.22-13.23.13:461][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.22-13.23.13:507][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.22-13.23.13:537][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.22-13.23.13:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.22-13.23.13:605][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.22-13.23.13:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:769][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:770][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:771][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:771][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:771][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.22-13.23.13:776][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.22-13.23.13:874][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.22-13.23.13:874][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.22-13.23.13:910][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.22-13.23.13:910][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.22-13.23.13:946][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.22-13.23.13:966][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.22-13.23.13:985][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.22-13.23.14:019][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.22-13.23.14:035][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.22-13.23.14:035][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.22-13.23.14:376][  0]LogXGEController: Cleaning working directory: C:/Users/w019563h.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.22-13.23.14:378][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.22-13.23.14:378][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.22-13.23.14:378][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.22-13.23.18:148][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.22-13.23.18:434][  0]LogDerivedDataCache: Loaded boot cache 0.29s 71MB C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.22-13.23.18:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.22-13.23.18:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.22-13.23.18:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.22-13.23.18:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.22-13.23.18:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.22-13.23.18:450][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.22-13.23.18:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.22-13.23.18:467][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.22-13.23.18:467][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.22-13.23.18:494][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.22-13.23.18:498][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.22-13.23.18:560][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.22-13.23.19:223][  0]LogAssetRegistry: FAssetRegistry took 0.0437 seconds to start up
-[2019.02.22-13.23.19:885][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.22-13.23.20:220][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.22-13.23.20:246][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.22-13.23.20:246][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.22-13.23.20:246][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.22-13.23.20:246][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.22-13.23.20:278][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
-[2019.02.22-13.23.21:217][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.189526 seconds
-[2019.02.22-13.23.21:225][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.22-13.23.21:225][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.02.22-13.23.21:225][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.22-13.23.39:427][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.22-13.23.39:445][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.22-13.23.39:869][  0]SourceControl: Source control is disabled
-[2019.02.22-13.23.39:869][  0]SourceControl: Source control is disabled
-[2019.02.22-13.23.39:879][  0]SourceControl: Source control is disabled
-[2019.02.22-13.23.39:885][  0]SourceControl: Source control is disabled
-[2019.02.22-13.23.40:424][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.22-13.23.40:555][  0]LogOcInput: OculusInput pre-init called
-[2019.02.22-13.23.40:693][  0]LogEngine: Initializing Engine...
-[2019.02.22-13.23.40:694][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.22-13.23.40:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.22-13.23.40:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.22-13.23.40:697][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.22-13.23.40:697][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.22-13.23.40:985][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.22-13.23.41:019][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.22-13.23.41:046][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.22-13.23.41:087][  0]LogInit: FAudioDevice initialized.
-[2019.02.22-13.23.41:088][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.22-13.23.41:237][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/w019563h.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.22-13.23.41:250][  0]LogInit: Texture streaming: Enabled
-[2019.02.22-13.23.41:321][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.22-13.23.41:348][  0]LogInit: Transaction tracking system initialized
-[2019.02.22-13.23.41:452][  0]BlueprintLog: New page: Editor Load
-[2019.02.22-13.23.41:763][  0]LocalizationService: Localization service is disabled
-[2019.02.22-13.23.42:259][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.22-13.23.42:260][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.22-13.23.42:260][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.22-13.23.42:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.22-13.23.42:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.22-13.23.42:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.22-13.23.42:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.22-13.23.42:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.02s
-[2019.02.22-13.23.42:752][  0]SourceControl: Source control is disabled
-[2019.02.22-13.23.42:752][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.22-13.23.42:754][  0]LightingResults: New page: Lighting Build
-[2019.02.22-13.23.42:759][  0]MapCheck: New page: Map Check
-[2019.02.22-13.23.42:759][  0]LightingResults: New page: Lighting Build
-[2019.02.22-13.23.42:797][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:798][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:803][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:803][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:818][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:819][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:836][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:837][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:837][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:838][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:839][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:839][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:847][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:847][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:848][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:849][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset' contains unrecognizable data, check that it is of the expected type.
-[2019.02.22-13.23.42:900][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] In use pin  Input Object  no longer exists on node  Macro instance . Please refresh node or break links to remove pin.
-[2019.02.22-13.23.42:900][  0]LogBlueprint: Error: [Compiler BP_Sky_Sphere] Macro node  Macro instance  is pointing at an invalid macro graph.
-[2019.02.22-13.23.42:909][  0]LogBlueprint: Warning: [Compiler BP_Sky_Sphere] [0040.70] Compile of BP_Sky_Sphere failed. 2 Fatal Issue(s) 0 Warning(s) [in 27 ms] (/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere)
-[2019.02.22-13.23.43:393][  0]LogAIModule: Creating AISystem for world Test
-[2019.02.22-13.23.43:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.22-13.23.43:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.22-13.23.44:091][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 269.152ms to complete.
-[2019.02.22-13.23.44:092][  0]LogFileHelpers: Loading map 'Test' took 1.340
-[2019.02.22-13.23.44:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.23.44:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.23.44:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.23.44:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.23.44:401][  0]LogCollectionManager: Loaded 0 collections in 0.004586 seconds
-[2019.02.22-13.23.44:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Saved/Collections/' took 0.01s
-[2019.02.22-13.23.44:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Developers/w019563h/Collections/' took 0.01s
-[2019.02.22-13.23.44:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/Content/Collections/' took 0.01s
-[2019.02.22-13.23.44:466][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.22-13.23.44:491][  0]LogContentBrowser: Native class hierarchy populated in 0.0247 seconds. Added 2577 classes and 605 folders.
-[2019.02.22-13.23.44:508][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.02.22-13.23.44:956][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2019.02.22-13.23.44:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2019.02.22-13.23.45:037][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.22-13.23.45:041][  0]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.22-13.23.45:068][  0]LogSlate: Took 0.017842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.22-13.23.45:258][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.22-13.23.45:552][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.22-13.23.45:577][  0]LogSlate: Window 'Tutorials' being destroyed
-[2019.02.22-13.23.45:628][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2019.02.22-13.23.45:628][  0]LogLoad: (Engine Initialization) Total time: 43.42 seconds
-[2019.02.22-13.23.45:628][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.22-13.23.45:662][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.22-13.23.45:746][  0]LogSlate: Took 0.023890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.22-13.23.46:067][  2]LogAssetRegistry: Asset discovery search completed in 26.8735 seconds
-[2019.02.22-13.23.46:070][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.02.22-13.23.46:070][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000255 seconds (updated 0 objects)
-[2019.02.22-13.30.03:469][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.22-13.30.03:984][203]Candidate modules for hot reload:
-[2019.02.22-13.30.03:984][203]  FingerGunz
-[2019.02.22-13.30.03:984][203]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,5612 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
-[2019.02.22-13.30.03:989][203]Warning: Starting HotReload took  0.1s.
-[2019.02.22-13.30.29:758][175]CompilerResultsLog: New page: Compilation - 22 Feb 2019 13:30:29
-[2019.02.22-13.30.29:758][175]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.22-13.30.29:758][175]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.22-13.30.29:758][175]CompilerResultsLog: Parsing headers for FingerGunzEditor
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.02.22-13.30.29:759][175]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 14.599918 seconds
-[2019.02.22-13.30.29:759][175]CompilerResultsLog: Building 4 actions with 8 processes...
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:   [1/4] player_cpp.gen.cpp
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:   [2/4] player_cpp.cpp
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:   [3/4] UE4Editor-FingerGunz-5612.lib
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5612.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5612.exp
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:   [4/4] UE4Editor-FingerGunz-5612.dll
-[2019.02.22-13.30.29:759][175]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5612.suppressed.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5612.suppressed.exp
-[2019.02.22-13.30.29:759][175]CompilerResultsLog: Total build time: 25.33 seconds (Parallel executor: 5.80 seconds)
-[2019.02.22-13.30.29:760][175]LogMainFrame: MainFrame: Module compiling took 25.785 seconds
-[2019.02.22-13.30.29:817][175]LogHotReload: Re-instancing player_cpp after hot-reload.
-[2019.02.22-13.30.29:880][175]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0012 seconds. Added 5 classes and 2 folders.
-[2019.02.22-13.30.29:884][175]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.22-13.30.30:044][175]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 2578 classes and 607 folders.
-[2019.02.22-13.30.30:046][175]Display: HotReload took 26.2s.
-[2019.02.22-13.30.32:154][424]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.22-13.30.32:180][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.30.32:180][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.22-13.30.34:061][424]LogSlate: Window 'Message' being destroyed
-[2019.02.22-13.30.34:081][424]PIE: New page: PIE session: Test (22 Feb 2019 13:30:34)
-[2019.02.22-13.30.34:082][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
-[2019.02.22-13.30.34:144][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062102s)
-[2019.02.22-13.30.34:145][424]LogAIModule: Creating AISystem for world Test
-[2019.02.22-13.30.34:145][424]LogPlayLevel: PIE: World Init took: (0.000997s)
-[2019.02.22-13.30.34:145][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.063610s)
-[2019.02.22-13.30.34:173][424]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.22-13.30.34:192][424]LogInit: FAudioDevice initialized.
-[2019.02.22-13.30.34:204][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.30.34:283][424]LogLoad: Game class is 'FingerGunzGamemode_C'
-[2019.02.22-13.30.34:310][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-13.30.34
-[2019.02.22-13.30.34:313][424]LogWorld: Bringing up level for play took: 0.028123
-[2019.02.22-13.30.34:402][424]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
-[2019.02.22-13.30.34:418][424]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 1.623
-[2019.02.22-13.30.34:419][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.30.34:460][424]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:1).
-[2019.02.22-13.30.35:052][483]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.30.35:404][521]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.30.35:692][554]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.30.35:896][578]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.30.36:746][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.30.36:746][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.30.36:782][676]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.22-13.30.36:820][676]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.22-13.30.36:821][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.30.36:888][677]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.02.22-13.30.44:468][285]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.22-13.30.44:561][286]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FingerGunz
-[2019.02.22-13.30.44:561][286]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.22-13.30.44:562][286]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
-[2019.02.22-13.30.44:562][286]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.22-13.30.44:562][286]LogTemp: BranchPath = C108-36/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C108-36/C/Epic/UE4/UE_4.20/Engine/Binaries
-[2019.02.22-13.30.44:562][286]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\w019563h.STUDENT\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.22-13.30.54:736][461]LogSlate: Window 'Project Settings' being destroyed
-[2019.02.22-13.30.57:965][772]LogSlate: Window 'Project Settings' being destroyed
-[2019.02.22-13.32.48:001][364]Cmd: TRANSACTION UNDO
-[2019.02.22-13.32.48:001][364]LogEditorTransaction: Undo Add Action Mapping To Group
-[2019.02.22-13.32.48:030][364]LogSlate: Took 0.000530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.22-13.32.48:514][410]Cmd: TRANSACTION UNDO
-[2019.02.22-13.32.48:514][410]LogEditorTransaction: Undo Remove Action Mapping Group
-[2019.02.22-13.35.57:082][609]Candidate modules for hot reload:
-[2019.02.22-13.35.57:082][609]  FingerGunz
-[2019.02.22-13.35.57:082][609]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,5353 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
-[2019.02.22-13.35.57:086][609]Warning: Starting HotReload took  0.0s.
-[2019.02.22-13.36.15:184][697]CompilerResultsLog: New page: Compilation - 22 Feb 2019 13:36:15
-[2019.02.22-13.36.15:184][697]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.22-13.36.15:184][697]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (ini files are newer than UBTMakefile)
-[2019.02.22-13.36.15:184][697]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.22-13.36.15:184][697]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.22-13.36.15:185][697]CompilerResultsLog: Building 3 actions with 8 processes...
-[2019.02.22-13.36.15:185][697]CompilerResultsLog:   [1/3] player_cpp.cpp
-[2019.02.22-13.36.15:185][697]CompilerResultsLog:   [2/3] UE4Editor-FingerGunz-5353.lib
-[2019.02.22-13.36.15:185][697]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5353.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5353.exp
-[2019.02.22-13.36.15:185][697]CompilerResultsLog:   [3/3] UE4Editor-FingerGunz-5353.dll
-[2019.02.22-13.36.15:185][697]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5353.suppressed.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5353.suppressed.exp
-[2019.02.22-13.36.15:185][697]CompilerResultsLog: Total build time: 17.70 seconds (Parallel executor: 6.02 seconds)
-[2019.02.22-13.36.15:185][697]LogMainFrame: MainFrame: Module compiling took 18.111 seconds
-[2019.02.22-13.36.15:243][697]LogHotReload: Re-instancing player_cpp after hot-reload.
-[2019.02.22-13.36.15:304][697]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0007 seconds. Added 5 classes and 2 folders.
-[2019.02.22-13.36.15:309][697]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.22-13.36.15:376][697]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2578 classes and 607 folders.
-[2019.02.22-13.36.15:376][697]Display: HotReload took 18.3s.
-[2019.02.22-13.36.22:605][561]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.22-13.36.22:630][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.36.22:630][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.22-13.36.22:630][561]PIE: New page: PIE session: Test (22 Feb 2019 13:36:22)
-[2019.02.22-13.36.22:631][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
-[2019.02.22-13.36.22:677][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046616s)
-[2019.02.22-13.36.22:678][561]LogAIModule: Creating AISystem for world Test
-[2019.02.22-13.36.22:679][561]LogPlayLevel: PIE: World Init took: (0.001153s)
-[2019.02.22-13.36.22:679][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.048460s)
-[2019.02.22-13.36.22:709][561]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.22-13.36.22:727][561]LogInit: FAudioDevice initialized.
-[2019.02.22-13.36.22:738][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.36.22:790][561]LogLoad: Game class is 'FingerGunzGamemode_C'
-[2019.02.22-13.36.22:822][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-13.36.22
-[2019.02.22-13.36.22:824][561]LogWorld: Bringing up level for play took: 0.031981
-[2019.02.22-13.36.22:849][561]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.053
-[2019.02.22-13.36.22:849][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.36.23:051][573]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.36.30:365][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.36.30:365][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.36.30:391][440]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.22-13.36.30:434][440]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.22-13.36.30:434][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.36.30:480][441]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.02.22-13.36.44:127][640]Candidate modules for hot reload:
-[2019.02.22-13.36.44:128][640]  FingerGunz
-[2019.02.22-13.36.44:128][640]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,5653 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
-[2019.02.22-13.36.44:138][640]Warning: Starting HotReload took  0.1s.
-[2019.02.22-13.36.48:998][190]CompilerResultsLog: New page: Compilation - 22 Feb 2019 13:36:48
-[2019.02.22-13.36.48:999][190]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.22-13.36.48:999][190]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.22-13.36.48:999][190]CompilerResultsLog: Target is up to date
-[2019.02.22-13.36.48:999][190]CompilerResultsLog: Total build time: 4.45 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2019.02.22-13.36.48:999][190]LogMainFrame: MainFrame: Module compiling took 4.884 seconds
-[2019.02.22-13.36.49:038][190]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2578 classes and 607 folders.
-[2019.02.22-13.36.49:038][190]Display: HotReload took  5.0s.
-[2019.02.22-13.37.18:273][692]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.22-13.37.18:299][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.37.18:299][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.22-13.37.18:299][692]PIE: New page: PIE session: Test (22 Feb 2019 13:37:18)
-[2019.02.22-13.37.18:299][692]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
-[2019.02.22-13.37.18:350][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050557s)
-[2019.02.22-13.37.18:351][692]LogAIModule: Creating AISystem for world Test
-[2019.02.22-13.37.18:351][692]LogPlayLevel: PIE: World Init took: (0.001107s)
-[2019.02.22-13.37.18:351][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.052149s)
-[2019.02.22-13.37.18:380][692]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.22-13.37.18:398][692]LogInit: FAudioDevice initialized.
-[2019.02.22-13.37.18:408][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.37.18:460][692]LogLoad: Game class is 'FingerGunzGamemode_C'
-[2019.02.22-13.37.18:499][692]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.02.22-13.37.18
-[2019.02.22-13.37.18:503][692]LogWorld: Bringing up level for play took: 0.041880
-[2019.02.22-13.37.18:527][692]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.269
-[2019.02.22-13.37.18:528][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.37.18:783][712]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.26:486][629]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.26:709][655]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.26:863][673]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.27:005][690]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.27:148][707]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.27:354][731]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.27:572][757]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.27:918][798]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.28:314][845]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.28:473][864]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.33:865][508]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.34:067][532]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.34:343][565]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.34:661][603]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.34:845][625]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.35:195][667]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.02.22-13.37.55:765][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.37.55:765][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.22-13.37.55:792][125]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.22-13.37.55:838][125]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.22-13.37.55:838][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
-[2019.02.22-13.37.55:897][126]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.02.22-13.41.17:788][ 65]Candidate modules for hot reload:
-[2019.02.22-13.41.17:788][ 65]  FingerGunz
-[2019.02.22-13.41.17:789][ 65]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,203 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/w019563h.STUDENT/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
-[2019.02.22-13.41.17:793][ 65]Warning: Starting HotReload took  0.1s.
-[2019.02.22-13.42.02:580][455]CompilerResultsLog: New page: Compilation - 22 Feb 2019 13:42:02
-[2019.02.22-13.42.02:580][455]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.22-13.42.02:580][455]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.22-13.42.02:581][455]CompilerResultsLog: Parsing headers for FingerGunzEditor
-[2019.02.22-13.42.02:581][455]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.02.22-13.42.02:581][455]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 29.1058179 seconds
-[2019.02.22-13.42.02:581][455]CompilerResultsLog: Building 6 actions with 8 processes...
-[2019.02.22-13.42.02:581][455]CompilerResultsLog:   [1/6] FingerGunz.init.gen.cpp
-[2019.02.22-13.42.02:582][455]CompilerResultsLog:   [2/6] HeavyPistol.gen.cpp
-[2019.02.22-13.42.02:582][455]CompilerResultsLog:   [3/6] HeavyPistol.cpp
-[2019.02.22-13.42.02:582][455]CompilerResultsLog:   [4/6] player_cpp.cpp
-[2019.02.22-13.42.02:582][455]CompilerResultsLog:   [5/6] UE4Editor-FingerGunz-203.lib
-[2019.02.22-13.42.02:582][455]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-203.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-203.exp
-[2019.02.22-13.42.02:583][455]CompilerResultsLog:   [6/6] UE4Editor-FingerGunz-203.dll
-[2019.02.22-13.42.02:583][455]CompilerResultsLog:      Creating library C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-203.suppressed.lib and object C:\Users\w019563h.STUDENT\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-203.suppressed.exp
-[2019.02.22-13.42.02:583][455]CompilerResultsLog: Total build time: 44.11 seconds (Parallel executor: 6.80 seconds)
-[2019.02.22-13.42.02:583][455]LogMainFrame: MainFrame: Module compiling took 44.802 seconds
-[2019.02.22-13.42.02:639][455]LogClass: Could not find existing class HeavyPistol in package /Script/FingerGunz for HotReload, assuming new class
-[2019.02.22-13.42.02:645][455]LogHotReload: Re-instancing HeavyPistol after hot-reload.
-[2019.02.22-13.42.02:714][455]LogHotReload: Re-instancing player_cpp after hot-reload.
-[2019.02.22-13.42.02:842][455]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0022 seconds. Added 5 classes and 2 folders.
-[2019.02.22-13.42.02:848][455]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.22-13.42.02:942][455]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2578 classes and 607 folders.
-[2019.02.22-13.42.02:942][455]Display: HotReload took 45.3s.
+[2019.02.23-02.59.26:598][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.23-02.59.26:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.23-02.59.26:606][  0]LogHAL: Display: Platform has ~ 64 GB [68376305664 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.23-02.59.26:606][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.23-02.59.26:606][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.23-02.59.26:607][  0]LogInit: Computer: STAMMYPC
+[2019.02.23-02.59.26:607][  0]LogInit: User: Jared
+[2019.02.23-02.59.26:607][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.02.23-02.59.26:607][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.23-02.59.26:607][  0]LogMemory: Memory total: Physical=63.7GB (64GB approx)
+[2019.02.23-02.59.26:607][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.23-02.59.26:607][  0]LogMemory: Process Physical Memory: 104.00 MB used, 104.00 MB peak
+[2019.02.23-02.59.26:607][  0]LogMemory: Process Virtual Memory: 95.44 MB used, 95.44 MB peak
+[2019.02.23-02.59.26:607][  0]LogMemory: Physical Memory: 27879.09 MB used,  37329.63 MB free, 65208.73 MB total
+[2019.02.23-02.59.26:607][  0]LogMemory: Virtual Memory: 4680.41 MB used,  37329.63 MB free, 134217728.00 MB total
+[2019.02.23-02.59.26:626][  0]LogInit: Using OS detected language (en-US).
+[2019.02.23-02.59.26:626][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.23-02.59.26:627][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.23-02.59.26:997][  0]LogStreaming: Display: Took  0.371s to InitEngineTextLocalization.
+[2019.02.23-02.59.26:998][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.23-02.59.27:048][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.23-02.59.27:048][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.23-02.59.27:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.23-02.59.27:274][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.23-02.59.27:340][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.02.23-02.59.27:340][  0]LogD3D11RHI:       11127/0/32604 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.02.23-02.59.27:342][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.23-02.59.27:342][  0]LogD3D11RHI:       0/0/32604 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.23-02.59.27:342][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.23-02.59.27:360][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.23-02.59.27:360][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.23-02.59.27:360][  0]LogWindows: EnumDisplayDevices:
+[2019.02.23-02.59.27:361][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.02.23-02.59.27:361][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.02.23-02.59.27:361][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.02.23-02.59.27:361][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.02.23-02.59.27:361][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.23-02.59.27:362][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.02.23-02.59.27:362][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.23-02.59.27:362][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.23-02.59.27:362][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.02.23-02.59.27:426][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.23-02.59.27:440][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.23-02.59.27:538][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Intermediate/Shaders/WorkingDirectory/25956/).
+[2019.02.23-02.59.27:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jared/AppData/Local/Temp/UnrealShaderWorkingDir/19C543E4449A916E86384EBC8516D92D/'.
+[2019.02.23-02.59.27:838][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.23-02.59.27:850][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.23-02.59.27:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.23-02.59.27:876][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.23-02.59.27:889][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.23-02.59.27:902][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.23-02.59.27:915][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.23-02.59.27:928][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.23-02.59.27:934][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:009][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.23-02.59.28:010][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.23-02.59.28:069][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.23-02.59.28:069][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.23-02.59.28:091][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.23-02.59.28:091][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.23-02.59.28:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.23-02.59.28:125][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.23-02.59.28:138][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.23-02.59.28:163][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.23-02.59.28:172][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.23-02.59.28:172][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.23-02.59.28:234][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.23-02.59.28:234][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.23-02.59.28:234][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.23-02.59.28:967][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Jared/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jared/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.23-02.59.29:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.23-02.59.29:044][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.23-02.59.29:056][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jared/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.23-02.59.29:056][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.23-02.59.29:056][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.23-02.59.29:087][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.23-02.59.29:090][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.23-02.59.29:090][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.23-02.59.29:166][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2019.02.23-02.59.29:496][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.23-02.59.29:623][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.23-02.59.29:626][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.23-02.59.29:626][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.23-02.59.29:626][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.23-02.59.29:626][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.23-02.59.29:673][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.02.23-02.59.30:196][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.087856 seconds
+[2019.02.23-02.59.30:204][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.23-02.59.30:204][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.23-02.59.30:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.23-02.59.31:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.23-02.59.31:015][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.23-02.59.31:184][  0]SourceControl: Source control is disabled
+[2019.02.23-02.59.31:184][  0]SourceControl: Source control is disabled
+[2019.02.23-02.59.31:185][  0]SourceControl: Source control is disabled
+[2019.02.23-02.59.31:186][  0]SourceControl: Source control is disabled
+[2019.02.23-02.59.31:362][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.23-02.59.31:452][  0]LogOcInput: OculusInput pre-init called
+[2019.02.23-02.59.31:505][  0]LogEngine: Initializing Engine...
+[2019.02.23-02.59.31:506][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.23-02.59.31:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.23-02.59.31:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.23-02.59.31:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.23-02.59.31:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.23-02.59.31:691][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.23-02.59.31:716][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.23-02.59.31:789][  0]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.02.23-02.59.31:809][  0]LogInit: FAudioDevice initialized.
+[2019.02.23-02.59.31:809][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.23-02.59.31:891][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Jared/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.23-02.59.31:897][  0]LogInit: Texture streaming: Enabled
+[2019.02.23-02.59.31:930][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.23-02.59.31:950][  0]LogInit: Transaction tracking system initialized
+[2019.02.23-02.59.31:976][  0]BlueprintLog: New page: Editor Load
+[2019.02.23-02.59.32:071][  0]LocalizationService: Localization service is disabled
+[2019.02.23-02.59.32:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.23-02.59.32:328][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.23-02.59.32:329][  0]LogFileCache: Scanning file cache for directory 'D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/' took 0.01s
+[2019.02.23-02.59.32:330][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.23-02.59.32:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.23-02.59.32:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.23-02.59.32:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.23-02.59.32:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.23-02.59.32:458][  0]SourceControl: Source control is disabled
+[2019.02.23-02.59.32:458][  0]Cmd: MAP LOAD FILE="D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.23-02.59.32:458][  0]LightingResults: New page: Lighting Build
+[2019.02.23-02.59.32:461][  0]MapCheck: New page: Map Check
+[2019.02.23-02.59.32:461][  0]LightingResults: New page: Lighting Build
+[2019.02.23-02.59.32:619][  0]LogBlueprint: Warning: [Compiler CrossHair] Could not find a variable named "Health" in 'player_cpp'.
+Make sure 'player_cpp' has been compiled for  Get Health
+[2019.02.23-02.59.32:619][  0]LogBlueprint: Error: [Compiler CrossHair] The property associated with  Health  could not be found in '/Game/HUD/CrossHair.CrossHair_C'
+[2019.02.23-02.59.32:620][  0]LogBlueprint: Warning: [Compiler CrossHair] [0008.18] Compile of CrossHair failed. 1 Fatal Issue(s) 1 Warning(s) [in 4 ms] (/Game/HUD/CrossHair.CrossHair)
+[2019.02.23-02.59.32:709][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave special-spotlight-by-kevin-macleod...
+[2019.02.23-02.59.32:754][  0]LogTemp: Couldn't find amount to resample to.
+[2019.02.23-02.59.36:081][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave rhinoceros-by-kevin-macleod...
+[2019.02.23-02.59.36:118][  0]LogTemp: Couldn't find amount to resample to.
+[2019.02.23-02.59.39:522][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 35965440 while cooking SoundWave /Game/Audio/Music/rhinoceros-by-kevin-macleod.rhinoceros-by-kevin-macleod.
+[2019.02.23-02.59.39:530][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave phat-sketch-by-kevin-macleod...
+[2019.02.23-02.59.39:548][  0]LogTemp: Couldn't find amount to resample to.
+[2019.02.23-02.59.40:723][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave misuse-by-kevin-macleod...
+[2019.02.23-02.59.40:821][  0]LogTemp: Couldn't find amount to resample to.
+[2019.02.23-02.59.48:088][  0]LogMaterial: Display: Missing cached shader map for material Glow, compiling. 
+[2019.02.23-02.59.48:239][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.02.23-02.59.48:240][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.02.23-02.59.48:240][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.23-02.59.48:240][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.23-02.59.48:240][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.23-02.59.48:240][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.23-02.59.48:240][  0]LogAIModule: Creating AISystem for world Test
+[2019.02.23-02.59.48:482][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.23-02.59.48:521][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.23-02.59.48:596][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.046ms to complete.
+[2019.02.23-02.59.48:596][  0]LogFileHelpers: Loading map 'Test' took 16.137
+[2019.02.23-02.59.48:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.23-02.59.48:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.23-02.59.48:883][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.23-02.59.48:893][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.23-02.59.48:903][  0]LogCollectionManager: Loaded 0 collections in 0.002653 seconds
+[2019.02.23-02.59.48:964][  0]LogFileCache: Scanning file cache for directory 'D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Saved/Collections/' took 0.01s
+[2019.02.23-02.59.48:965][  0]LogFileCache: Scanning file cache for directory 'D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Developers/Jared/Collections/' took 0.01s
+[2019.02.23-02.59.48:965][  0]LogFileCache: Scanning file cache for directory 'D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Collections/' took 0.01s
+[2019.02.23-02.59.48:965][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.23-02.59.48:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2575 classes and 607 folders.
+[2019.02.23-02.59.48:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.23-02.59.49:318][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.23-02.59.49:446][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.23-02.59.49:448][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.23-02.59.49:462][  0]LogSlate: Took 0.003922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.23-02.59.49:470][  0]LogSlate: Took 0.004123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.23-02.59.49:641][  0]LogRenderer: Reallocating scene render targets to support 1064x580 Format 10 NumSamples 1 (Frame:1).
+[2019.02.23-02.59.49:922][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.23-02.59.49:923][  0]LogLoad: (Engine Initialization) Total time: 25.48 seconds
+[2019.02.23-02.59.49:923][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.23-02.59.49:960][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.23-02.59.50:052][  2]LogAssetRegistry: Asset discovery search completed in 20.9085 seconds
+[2019.02.23-02.59.50:056][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.23-02.59.50:057][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000262 seconds (updated 0 objects)
+[2019.02.23-02.59.54:290][459]LogSlate: Took 0.006717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.23-02.59.54:882][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.23-02.59.54:953][536]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.23-02.59.54:973][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.23-02.59.54:974][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.23-02.59.56:938][536]LogSlate: Window 'Message' being destroyed
+[2019.02.23-02.59.59:304][701]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.23-02.59.59:318][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.02.23-02.59.59:318][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.23-03.00.02:852][701]LogSlate: Window 'Message' being destroyed
+[2019.02.23-03.00.47:960][172]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.23-03.01.59:410][818]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/firing boost.fbx)
+[2019.02.23-03.01.59:444][818]LogFbx: Loading FBX Scene from D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/firing boost.fbx
+[2019.02.23-03.01.59:452][818]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.23-03.02.01:425][818]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.23-03.02.01:593][818]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.02.23-03.02.01:615][818]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.23-03.02.01:615][818]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.23-03.02.01:615][818]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.23-03.02.01:620][818]LogStaticMesh: Building static mesh firing_boost_Cube_002...
+[2019.02.23-03.02.01:631][818]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/firing_boost_Cube_002.firing_boost_Cube_002
+[2019.02.23-03.02.01:649][818]LogStaticMesh: Building static mesh firing_boost_Cube_001...
+[2019.02.23-03.02.01:658][818]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/firing_boost_Cube_001.firing_boost_Cube_001
+[2019.02.23-03.02.01:669][818]LogStaticMesh: Building static mesh firing_boost_Cube...
+[2019.02.23-03.02.01:677][818]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/firing_boost_Cube.firing_boost_Cube
+[2019.02.23-03.02.01:688][818]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.23-03.02.01:728][818]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/shield.fbx)
+[2019.02.23-03.02.01:740][818]LogFbx: Loading FBX Scene from D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/shield.fbx
+[2019.02.23-03.02.01:746][818]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.23-03.02.01:750][818]LogStaticMesh: Building static mesh shield_Cube...
+[2019.02.23-03.02.01:751][818]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/shield_Cube.shield_Cube
+[2019.02.23-03.02.01:759][818]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.23-03.02.01:769][818]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/speed up.fbx)
+[2019.02.23-03.02.01:781][818]LogFbx: Loading FBX Scene from D:/University/Technical Games Production/Group Project/TGP-Group-Project/FingerGunz/Content/Meshes/speed up.fbx
+[2019.02.23-03.02.01:787][818]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.23-03.02.01:791][818]LogStaticMesh: Building static mesh speed_up_Cube...
+[2019.02.23-03.02.01:792][818]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/speed_up_Cube.speed_up_Cube
+[2019.02.23-03.02.01:793][818]LogStaticMesh: Warning: speed_up_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.02.23-03.02.01:794][818]LogStaticMesh: Warning: speed_up_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.02.23-03.02.01:801][818]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.23-03.02.01:802][818]FBXImport: Warning: speed_up_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2019.02.23-03.02.01:802][818]FBXImport: Warning: speed_up_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.02.23-03.02.12:040][589]LogSlate: Window 'Message Log' being destroyed
+[2019.02.23-03.02.12:058][589]LogSlate: Window 'Message Log' being destroyed
+[2019.02.23-03.02.23:357][433]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.23-03.02.25:722][500]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.23-03.02.43:738][449]LogSlate: Window 'Delete Assets' being destroyed
