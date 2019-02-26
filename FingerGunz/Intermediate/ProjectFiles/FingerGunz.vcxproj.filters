@@ -1,76 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\FingerGunz.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{EA521C41-B0A5-4274-BDB4-91E8E1CEA11B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FingerGunz.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\FingerGunzEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{3BB1E6B3-4DBE-43A5-AB22-DF8CA7D840E8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\FingerGunz">
-      <UniqueIdentifier>{5199E490-EBEA-442F-911A-6FB407F8F55F}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FingerGunz\BeamActor.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\FingerGunz\FingerGunz.Build.cs">
-      <Filter>Source\FingerGunz</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FingerGunz\FingerGunz.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FingerGunz\FingerGunz.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FingerGunz\player_cpp.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FingerGunz\player_cpp.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FingerGunz\LightPistol.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FingerGunz\HeavyPistol.h">
-      <Filter>Source\FingerGunz</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FingerGunz\LightPistol.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FingerGunz\HeavyPistol.cpp">
-      <Filter>Source\FingerGunz</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\FingerGunz.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{53B7D93B-3590-441D-8688-261FF8669DD9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FingerGunz.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FingerGunzEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{55686840-5BD5-42F5-AC23-E2281F1907E9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FingerGunz">
+			<UniqueIdentifier>{BA51457A-DEB2-4555-B10A-230FD6FADC39}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\BeamActor.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\FingerGunz\FingerGunz.Build.cs">
+			<Filter>Source\FingerGunz</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FingerGunz\FingerGunz.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\FingerGunz.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FingerGunz\HeavyPistol.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\HeavyPistol.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FingerGunz\LightPistol.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\LightPistol.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FingerGunz\player_cpp.cpp">
+			<Filter>Source\FingerGunz</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FingerGunz\player_cpp.h">
+			<Filter>Source\FingerGunz</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
