@@ -1,28 +1,27 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FingerGunzEditor (Build.version is newer)
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for FingerGunzEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for FingerGunzEditor
-    Running UnrealHeaderTool "D:\Y2\SourceTreeRepositories\FingerGunz\FingerGunz.uproject" "D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FingerGunzEditor in 21.438574 seconds
-  Building 16 actions with 8 processes...
-    [1/16] PCLaunch.rc
-    [2/16] SharedPCH.Engine.cpp
-    [3/16] FingerGunz.cpp
-    [4/16] FingerGunz.init.gen.cpp
-    [5/16] FingerGunzGameModeBase.cpp
-    [6/16] FingerGunzGameModeBase.gen.cpp
-    [7/16] BeamActor.gen.cpp
-    [8/16] HeavyPistol.cpp
-    [9/16] LightPistol.cpp
-    [10/16] LightPistol.gen.cpp
-    [11/16] HeavyPistol.gen.cpp
-    [12/16] player_cpp.gen.cpp
-    [13/16] BeamActor.cpp
-    [14/16] player_cpp.cpp
-    [15/16] UE4Editor-FingerGunz.lib
-       Creating library D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [16/16] UE4Editor-FingerGunz.dll
-       Creating library D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FingerGunzEditor in 15.569617 seconds
+  Building 15 actions with 8 processes...
+    [1/15] SharedPCH.Engine.cpp
+    [2/15] FingerGunz.cpp
+    [3/15] FingerGunz.init.gen.cpp
+    [4/15] FingerGunzGameModeBase.cpp
+    [5/15] FingerGunzGameModeBase.gen.cpp
+    [6/15] BeamActor.gen.cpp
+    [7/15] HeavyPistol.cpp
+    [8/15] LightPistol.cpp
+    [9/15] HeavyPistol.gen.cpp
+    [10/15] LightPistol.gen.cpp
+    [11/15] player_cpp.gen.cpp
+    [12/15] BeamActor.cpp
+    [13/15] player_cpp.cpp
+    [14/15] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [15/15] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\w019563h\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 173.60 seconds (Parallel executor: 62.90 seconds)
+  Total build time: 149.21 seconds (Parallel executor: 47.25 seconds)

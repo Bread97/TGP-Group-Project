@@ -30,9 +30,12 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	CharacterMovement->JumpZVelocity = 1000;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	CharacterMovement->AirControl = 0.8;
+
+	GetCapsuleComponent()->SetRelativeScale3D(FVector(1.5, 1.5, 1.5));
+
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->RelativeLocation = FVector(-5.0f, -5.0f, 155.f);
+	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, 0.0f, 80.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
@@ -45,14 +48,15 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
 	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'")).Object);
 	PlayerStaticMesh->SetupAttachment(RootComponent);
-	PlayerStaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
+	PlayerStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
+	PlayerStaticMesh->RelativeLocation = FVector(0.0f, 5.0f, -20.0f);
 
 	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
 	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
-	GunStaticMesh->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
+	GunStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
 										//					Height
-	GunStaticMesh->RelativeLocation = FVector(160.0f, 20.0f, -50.0f);
+	GunStaticMesh->RelativeLocation = FVector(120.0f, 20.0f, -40.0f);
 	
 	//PlayerParticleSystem = PCIP.CreateDefaultSubobject<UParticleSystem>(this, TEXT("beam"));
 	//PlayerParticleSystem-(ConstructorHelpers::FObjectFinder<UParticleSystem>(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"), PlayerStaticMesh,FName("player"),FVector(0, 0, 64),FRotator(0, 0, 0),EAttachLocation::KeepRelativeOffset,false));
@@ -371,8 +375,8 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	{
 		//calculates the linetrace
 		FHitResult OutHit;
-		FVector Start = FirstPersonCameraComponent->GetComponentLocation();
-		FVector UpVector = FirstPersonCameraComponent->GetUpVector();
+		FVector Start = GetCapsuleComponent()->GetComponentLocation();
+		FVector UpVector = GetCapsuleComponent()->GetUpVector();
 		FVector End = FVector(Start.X, Start.Y, Start.Z - 250);
 		FCollisionQueryParams CollisionParams;
 		CollisionParams.AddIgnoredActor(this);
