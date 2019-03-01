@@ -401,21 +401,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz
-/I D:\Y2\SourceTreeRepositories\FingerGunz\Source
-/I D:\Y2\SourceTreeRepositories\FingerGunz\Source\FingerGunz
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Inc\FingerGunz"
+/I "D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Source"
+/I "D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Source\FingerGunz"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Y2\SourceTreeRepositories\FingerGunz\Source\FingerGunz\player_cpp.cpp"
-/FI"D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
-/Fo"D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\player_cpp.cpp.obj"
+/FI"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Source\FingerGunz\player_cpp.cpp"
+/FI"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\Definitions.FingerGunz.h"
+/Fo"D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\player_cpp.cpp.obj"
 /TP
 /GR-
 /W4

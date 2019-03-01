@@ -1,28 +1,10 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FingerGunzEditor (Build.version is newer)
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for FingerGunzEditor
-    Running UnrealHeaderTool "D:\Y2\SourceTreeRepositories\FingerGunz\FingerGunz.uproject" "D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FingerGunzEditor in 21.438574 seconds
-  Building 16 actions with 8 processes...
-    [1/16] PCLaunch.rc
-    [2/16] SharedPCH.Engine.cpp
-    [3/16] FingerGunz.cpp
-    [4/16] FingerGunz.init.gen.cpp
-    [5/16] FingerGunzGameModeBase.cpp
-    [6/16] FingerGunzGameModeBase.gen.cpp
-    [7/16] BeamActor.gen.cpp
-    [8/16] HeavyPistol.cpp
-    [9/16] LightPistol.cpp
-    [10/16] LightPistol.gen.cpp
-    [11/16] HeavyPistol.gen.cpp
-    [12/16] player_cpp.gen.cpp
-    [13/16] BeamActor.cpp
-    [14/16] player_cpp.cpp
-    [15/16] UE4Editor-FingerGunz.lib
-       Creating library D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [16/16] UE4Editor-FingerGunz.dll
-       Creating library D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object D:\Y2\SourceTreeRepositories\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Building 3 actions with 16 processes...
+    [1/3] GameManager.cpp
+    [2/3] UE4Editor-FingerGunz-6843.lib
+       Creating library D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-6843.lib and object D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-6843.exp
+    [3/3] UE4Editor-FingerGunz-6843.dll
+       Creating library D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-6843.suppressed.lib and object D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-6843.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 173.60 seconds (Parallel executor: 62.90 seconds)
+  Total build time: 5.49 seconds (Parallel executor: 2.11 seconds)
