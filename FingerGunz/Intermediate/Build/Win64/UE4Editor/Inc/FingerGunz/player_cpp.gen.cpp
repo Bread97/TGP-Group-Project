@@ -83,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Int" },
 		{ "ModuleRelativePath", "player_cpp.h" },
+		{ "ToolTip", "Setup Player Properties" },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Int, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020005, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, Health), METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health_MetaData)) };
@@ -124,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aplayer_cpp, 3660023965);
+	IMPLEMENT_CLASS(Aplayer_cpp, 1190363338);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aplayer_cpp(Z_Construct_UClass_Aplayer_cpp, &Aplayer_cpp::StaticClass, TEXT("/Script/FingerGunz"), TEXT("Aplayer_cpp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aplayer_cpp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

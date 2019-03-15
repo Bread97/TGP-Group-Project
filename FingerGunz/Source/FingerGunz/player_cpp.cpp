@@ -12,7 +12,9 @@
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "BeamActor.h"
+
 #include "LightPistol.h"
+#include "HeavyPistol.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -107,7 +109,33 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("MoveRight", this, &Aplayer_cpp::moveRight);
 	PlayerInputComponent->BindAxis("TurnRate", this, &Aplayer_cpp::turnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Aplayer_cpp::lookUpAtRate);
+
+	//D-Pad Events
+	PlayerInputComponent->BindAction("ChangeWeaponRight", IE_Pressed, this, &Aplayer_cpp::ChangeRight);
+
 	//KEYBOARD EVENTS
+}
+
+//Handle damage taken from incoming attacks
+void Aplayer_cpp::TakeDamage(float Damage)
+{
+	if (Health > 0)
+	{
+		Health -= Damage;
+		if (Health < 1)
+		{
+			this->SetActorLocation(FVector(0, 0, 5000));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
+			Health = 5;
+		}
+	}
+	else
+	{
+		this->SetActorLocation(FVector(0, 0, 5000));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
+		Health = 5;
+	}
+	return;
 }
 
 
@@ -118,6 +146,7 @@ void Aplayer_cpp::BeginPlay()
 	BeamParticle->ActivateSystem();
 }
 
+/////////////////Handle player movement//////////////////////
 void Aplayer_cpp::moveForward(float value)
 {
 	if (value != 0.0f)
@@ -126,7 +155,6 @@ void Aplayer_cpp::moveForward(float value)
 		AddMovementInput(GetActorForwardVector(), value);
 	}
 }
-
 void Aplayer_cpp::moveRight(float value)
 {
 	if (value != 0.0f)
@@ -135,12 +163,10 @@ void Aplayer_cpp::moveRight(float value)
 		AddMovementInput(GetActorRightVector(), value);
 	}
 }
-
 void Aplayer_cpp::turnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
-
 void Aplayer_cpp::lookUpAtRate(float Rate)
 {
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
@@ -232,42 +258,30 @@ void Aplayer_cpp::endVault()
 {
 	//maybe going to add stuff here
 }
+
+void Aplayer_cpp::ChangeRight()
+{
+	CurrentWeapon = 3;
+}
 //BROKEN
 void Aplayer_cpp::shoot()
 {
-	//calculates the linetrace
-	FHitResult OutHit;
-	FVector Start = FirstPersonCameraComponent->GetComponentLocation();
-	FVector ForwardsVector = FirstPersonCameraComponent->GetForwardVector();
-	FVector End = FVector((ForwardsVector * 10000.f) + Start);
-	FCollisionQueryParams CollisionParams;
-	CollisionParams.AddIgnoredActor(this);
-	//does the linetrace
-	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams)) 
-	{
-		End = OutHit.Location;
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
-		if (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass())
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
-			AActor* ImpactActor = OutHit.GetActor();
-			TSubclassOf<UDamageType> const ValidDamageTypeClass = TSubclassOf<UDamageType>(UDamageType::StaticClass());
-			FDamageEvent DamageEvent(ValidDamageTypeClass);
-			ImpactActor->TakeDamage(PistolDamageAmount, DamageEvent, Aplayer_cpp::Controller, this);
-		}
-	}
-	//DrawDebugLine(GetWorld(), Start, End, FColor::Yellow, false, 1, 0, 1);
-	IsShooting = true;
-	//BeamParticle->SetHiddenInGame(false);
-	//BROKEN AT THE MOMENT
-	//UParticleSystemComponent* BeamComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BeamEffect, this->GetActorLocation());
-	//BeamComp->SetVectorParameter("BeamEnd", (OutHit.Actor != NULL) ? OutHit.ImpactPoint : End);
-	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("DOING BEAM EFFECT")));
-	//BROKEN AT THE MOMENT
-	//Spawns c++ beam actor
 	FActorSpawnParameters SpawnInfo;
-	GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
-	//Spawns c++ beam actor
+
+	switch (CurrentWeapon)
+	{
+	case 0 :
+	{
+		GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	}
+	case 1 :
+	{
+		GetWorld()->SpawnActor<AHeavyPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	}
+	default:
+		break;
+	}
+
 }
 
 void Aplayer_cpp::StopShooting()
@@ -278,23 +292,6 @@ void Aplayer_cpp::StopShooting()
 }
 //BROKEN
 
-float Aplayer_cpp::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser)
-{
-	//HOW MUCH DAMAGE?
-	const float ActualDamage = Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
-	if (ActualDamage > 0.f)
-	{
-		Health -= ActualDamage;
-		//"KILLS" PLAYER 
-		if (Health <= 0.f)
-		{
-			this->SetActorLocation(FVector(0, 0, 5000));
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
-			Health = 5;
-		}
-	}
-	return ActualDamage;
-}
 
 void Aplayer_cpp::StartZoom()
 {
@@ -309,7 +306,6 @@ void Aplayer_cpp::EndZoom()
 	BaseLookUpRate = 100.f;
 	FirstPersonCameraComponent->FieldOfView = 120;
 }
-
 
 void Aplayer_cpp::beplayer1()
 {

@@ -28,10 +28,14 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	//Setup Movement Variables
 	void moveForward(float val);
 	void moveRight(float val);
 	void turnAtRate(float Rate);
 	void lookUpAtRate(float Rate);
+
+	//Setup Parkour Bariables
 	void tryWallRun();
 	void tryStopWallRun();
 	bool isWallRunning;
@@ -50,20 +54,25 @@ protected:
 	void tryVault();
 	void doVault();
 	void endVault();
+	float vaultJumpAmount;
+
+	//Setup Weapon Variables
 	void shoot();
 	void StopShooting();
 	bool IsShooting;
 	int ShootingDelay;
 	void beplayer1();
-	float vaultJumpAmount;
 	FString ObjectHit;
 	float PistolDamageAmount;
-	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser);
 	void StartZoom();
 	void EndZoom();
+	void ChangeRight();
+
+	//Setup Player Properties
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Int, meta = (AllowPrivateAccess = "true"))
 		int Health;
 	int Armor;
+	int CurrentWeapon = 0;
 
 public:	
 	// Called every frame
@@ -83,5 +92,7 @@ public:
 	UStaticMeshComponent* GunStaticMesh;
 	UParticleSystemComponent* BeamParticle;
 	TSubclassOf<class AItem> BeamActor_BP;
+
+	void TakeDamage(float Damage);
 
 };
