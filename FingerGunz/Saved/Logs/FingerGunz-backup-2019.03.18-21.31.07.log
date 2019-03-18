@@ -1,0 +1,1039 @@
+﻿Log file open, 03/15/19 12:38:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FingerGunz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 7.669313
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.315s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.15-12.38.21:345][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-12.38.21:345][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-12.38.21:382][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.15-12.38.21:382][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.15-12.38.21:382][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.15-12.38.21:387][  0]LogInit: Computer: C108-38
+[2019.03.15-12.38.21:387][  0]LogInit: User: a016430f
+[2019.03.15-12.38.21:387][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.15-12.38.21:388][  0]LogInit: High frequency timer resolution =3.507170 MHz
+[2019.03.15-12.38.21:388][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-12.38.21:388][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-12.38.21:388][  0]LogMemory: Process Physical Memory: 102.55 MB used, 102.55 MB peak
+[2019.03.15-12.38.21:388][  0]LogMemory: Process Virtual Memory: 93.20 MB used, 93.20 MB peak
+[2019.03.15-12.38.21:388][  0]LogMemory: Physical Memory: 6841.53 MB used,  9466.35 MB free, 16307.88 MB total
+[2019.03.15-12.38.21:388][  0]LogMemory: Virtual Memory: 4641.40 MB used,  9466.35 MB free, 134217728.00 MB total
+[2019.03.15-12.38.24:516][  0]LogInit: Using OS detected language (en-US).
+[2019.03.15-12.38.24:516][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.15-12.38.24:606][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.15-12.38.26:894][  0]LogStreaming: Display: Took  2.379s to InitEngineTextLocalization.
+[2019.03.15-12.38.26:894][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.15-12.38.28:376][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.15-12.38.28:376][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.15-12.38.34:866][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-12.38.34:883][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-12.38.35:704][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2019.03.15-12.38.35:705][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.15-12.38.35:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-12.38.35:791][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-12.38.35:791][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-12.38.35:801][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-12.38.35:801][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-12.38.35:830][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-12.38.35:830][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2019.03.15-12.38.35:831][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2019.03.15-12.38.35:831][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.03.15-12.38.35:832][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.03.15-12.38.35:832][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.15-12.38.35:832][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2019.03.15-12.38.35:832][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.03.15-12.38.35:832][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.03.15-12.38.35:832][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
+[2019.03.15-12.38.35:929][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-12.38.36:650][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2019.03.15-12.38.36:834][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Intermediate/Shaders/WorkingDirectory/10752/).
+[2019.03.15-12.38.36:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a016430f.STUDENT.000/AppData/Local/Temp/UnrealShaderWorkingDir/56305E33407037E9C220FCB7A1D3D47C/'.
+[2019.03.15-12.38.37:854][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-12.38.37:924][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-12.38.37:976][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-12.38.38:035][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-12.38.38:151][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.15-12.38.38:206][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-12.38.38:247][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-12.38.38:308][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-12.38.38:353][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.38.38:553][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-12.38.38:725][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-12.38.38:725][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-12.38.38:843][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-12.38.38:843][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-12.38.38:959][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-12.38.38:998][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-12.38.39:077][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-12.38.39:131][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-12.38.39:252][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-12.38.39:253][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.15-12.38.40:800][  0]LogXGEController: Cleaning working directory: C:/Users/a016430f.STUDENT.000/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.15-12.38.40:801][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.15-12.38.40:801][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.15-12.38.40:801][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.15-12.38.48:266][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.15-12.38.48:266][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2019.03.15-12.38.48:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-12.38.48:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-12.38.48:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-12.38.48:267][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-12.38.48:456][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-12.38.48:483][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a016430f.STUDENT.000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-12.38.48:483][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.15-12.38.48:483][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.15-12.38.48:627][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.15-12.38.48:687][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.15-12.38.48:761][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-12.38.49:506][  0]LogAssetRegistry: FAssetRegistry took 0.0368 seconds to start up
+[2019.03.15-12.38.54:217][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-12.38.57:802][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-12.38.58:865][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-12.38.58:865][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.15-12.38.58:881][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-12.38.58:881][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.15-12.38.59:790][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.03.15-12.39.11:692][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.189014 seconds
+[2019.03.15-12.39.11:742][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2019.03.15-12.39.11:742][  0]LogUObjectAllocator: 6692624 out of 0 bytes used by permanent object pool.
+[2019.03.15-12.39.11:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-12.39.37:231][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-12.39.37:318][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-12.39.39:202][  0]LogMaterial: Display: Missing cached shader map for material Glow, compiling. 
+[2019.03.15-12.39.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.15-12.39.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.15-12.39.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.15-12.39.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.15-12.39.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-12.39.39:606][  0]LogStaticMesh: Building static mesh Player_Mesh_Arm_1...
+[2019.03.15-12.39.39:775][  0]LogStaticMesh: Built static mesh [0.17s] /Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1
+[2019.03.15-12.39.40:288][  0]LogTexture: Display: Building textures: BeamPulse (AutoDXT, 120X120)
+[2019.03.15-12.39.40:288][  0]LogTexture: Display: Building textures: BaseBeam (AutoDXT, 120X120)
+[2019.03.15-12.39.40:288][  0]LogMaterial: Display: Missing cached shader map for material LaserBeam, compiling. 
+[2019.03.15-12.39.41:128][  0]LogStaticMesh: Building static mesh Player_Mesh_Armless...
+[2019.03.15-12.39.41:148][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Player/Player_Mesh_Armless.Player_Mesh_Armless
+[2019.03.15-12.39.42:691][  0]SourceControl: Source control is disabled
+[2019.03.15-12.39.42:692][  0]SourceControl: Source control is disabled
+[2019.03.15-12.39.42:908][  0]SourceControl: Source control is disabled
+[2019.03.15-12.39.43:036][  0]SourceControl: Source control is disabled
+[2019.03.15-12.39.46:247][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.15-12.39.46:731][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-12.39.47:542][  0]LogShaderCompilers: Display: Shaders left to compile 125
+[2019.03.15-12.39.47:903][  0]LogShaderCompilers: Display: Shaders left to compile 115
+[2019.03.15-12.39.47:903][  0]LogEngine: Initializing Engine...
+[2019.03.15-12.39.47:981][  0]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.03.15-12.39.47:981][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-12.39.48:069][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.007 s
+[2019.03.15-12.39.48:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-12.39.48:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.03.15-12.39.48:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-12.39.49:620][  0]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.03.15-12.39.50:291][  0]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.03.15-12.39.50:291][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.15-12.39.50:485][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-12.39.50:579][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.39.50:894][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-12.39.50:919][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.15-12.39.51:046][  0]LogDerivedDataCache: Saved boot cache 0.13s 87MB C:/Users/a016430f.STUDENT.000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.15-12.39.51:062][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-12.39.51:684][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.15-12.39.51:865][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-12.39.53:903][  0]LogShaderCompilers: Display: Shaders left to compile 75
+[2019.03.15-12.39.53:903][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-12.39.54:016][  0]LogShaderCompilers: Display: Shaders left to compile 65
+[2019.03.15-12.39.56:140][  0]LocalizationService: Localization service is disabled
+[2019.03.15-12.39.56:652][  0]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.03.15-12.39.58:030][  0]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.03.15-12.39.58:031][  0]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.15-12.40.01:223][  0]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.15-12.40.01:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.08s
+[2019.03.15-12.40.01:223][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-12.40.01:226][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.15-12.40.01:264][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.15-12.40.01:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-12.40.01:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-12.40.01:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.03.15-12.40.01:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-12.40.02:714][  0]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-12.40.03:225][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-12.40.03:226][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2019.03.15-12.40.03:227][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2019.03.15-12.40.03:227][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2019.03.15-12.40.05:221][  0]SourceControl: Source control is disabled
+[2019.03.15-12.40.05:238][  0]Cmd: MAP LOAD FILE="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-12.40.05:252][  0]LightingResults: New page: Lighting Build
+[2019.03.15-12.40.05:503][  0]MapCheck: New page: Map Check
+[2019.03.15-12.40.05:503][  0]LightingResults: New page: Lighting Build
+[2019.03.15-12.40.07:370][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave special-spotlight-by-kevin-macleod...
+[2019.03.15-12.40.07:427][  0]LogTemp: Couldn't find amount to resample to.
+[2019.03.15-12.40.11:927][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave rhinoceros-by-kevin-macleod...
+[2019.03.15-12.40.11:980][  0]LogTemp: Couldn't find amount to resample to.
+[2019.03.15-12.40.15:954][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 35965440 while cooking SoundWave /Game/Audio/Music/rhinoceros-by-kevin-macleod.rhinoceros-by-kevin-macleod.
+[2019.03.15-12.40.15:961][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave phat-sketch-by-kevin-macleod...
+[2019.03.15-12.40.15:978][  0]LogTemp: Couldn't find amount to resample to.
+[2019.03.15-12.40.17:468][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave misuse-by-kevin-macleod...
+[2019.03.15-12.40.17:579][  0]LogTemp: Couldn't find amount to resample to.
+[2019.03.15-12.40.25:878][  0]LogAIModule: Creating AISystem for world Test
+[2019.03.15-12.40.26:552][  0]LogEditorServer: Finished looking for orphan Actors (0.004 secs)
+[2019.03.15-12.40.26:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-12.40.26:990][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 241.951ms to complete.
+[2019.03.15-12.40.26:991][  0]LogFileHelpers: Loading map 'Test' took 21.760
+[2019.03.15-12.40.28:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.40.28:453][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.40.28:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.40.28:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.40.28:708][  0]LogCollectionManager: Loaded 0 collections in 0.005799 seconds
+[2019.03.15-12.40.28:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Saved/Collections/' took 0.01s
+[2019.03.15-12.40.28:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Developers/a016430f/Collections/' took 0.01s
+[2019.03.15-12.40.28:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Collections/' took 0.01s
+[2019.03.15-12.40.28:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.15-12.40.28:889][  0]LogContentBrowser: Native class hierarchy populated in 0.0357 seconds. Added 2577 classes and 605 folders.
+[2019.03.15-12.40.29:087][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.40.32:473][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.40.32:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.15-12.40.33:327][  0]LogSlate: Took 0.104077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.15-12.40.33:380][  0]LogSlate: Took 0.050105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.15-12.40.33:418][  0]LogSlate: Took 0.015654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.15-12.40.34:054][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.15-12.40.35:243][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-12.40.35:527][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.15-12.40.35:643][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.40.35:643][  0]LogLoad: (Engine Initialization) Total time: 149.27 seconds
+[2019.03.15-12.40.35:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.15-12.40.35:979][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.15-12.40.36:179][  0]LogSlate: Took 0.086609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-12.40.36:284][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.50s
+[2019.03.15-12.40.36:470][  3]LogAssetRegistry: Asset discovery search completed in 106.9882 seconds
+[2019.03.15-12.40.36:483][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.15-12.40.36:483][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000231 seconds (updated 0 objects)
+[2019.03.15-12.43.32:577][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.43.32:662][525]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-12.43.32:694][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.43.32:703][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-12.43.32:878][525]PIE: New page: PIE session: Test (15 Mar 2019 12:43:32)
+[2019.03.15-12.43.32:878][525]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.15-12.43.32:931][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052427s)
+[2019.03.15-12.43.32:932][525]LogAIModule: Creating AISystem for world Test
+[2019.03.15-12.43.32:948][525]LogPlayLevel: PIE: World Init took: (0.016777s)
+[2019.03.15-12.43.32:955][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.076806s)
+[2019.03.15-12.43.32:992][525]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.43.33:015][525]LogInit: FAudioDevice initialized.
+[2019.03.15-12.43.33:052][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.43.33:165][525]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-12.43.33:170][525]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.15-12.43.33
+[2019.03.15-12.43.33:171][525]LogWorld: Bringing up level for play took: 0.003604
+[2019.03.15-12.43.33:277][525]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.03.15-12.43.33:399][525]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.972
+[2019.03.15-12.43.33:400][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.43.33:601][525]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:1).
+[2019.03.15-12.43.37:448][885]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.43.38:302][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.43.38:303][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.43.38:332][961]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-12.43.38:398][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-12.43.38:399][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.43.38:457][962]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.15-12.43.43:000][435]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall282)
+[2019.03.15-12.43.54:683][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.44.11:430][ 51]LogSlate: Took 0.010122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.15-12.44.14:567][314]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-12.44.14:588][314]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Materials/Wall.Wall
+[2019.03.15-12.44.16:616][314]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2019.03.15-12.44.19:605][314]LogSlate: Took 0.021631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.15-12.44.31:601][413]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.03.15-12.44.35:975][743]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall430)
+[2019.03.15-12.52.14:472][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.52.14:577][ 47]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-12.52.14:615][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.14:615][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-12.52.14:615][ 47]PIE: New page: PIE session: Test (15 Mar 2019 12:52:14)
+[2019.03.15-12.52.14:615][ 47]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.15-12.52.14:679][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063811s)
+[2019.03.15-12.52.14:680][ 47]LogAIModule: Creating AISystem for world Test
+[2019.03.15-12.52.14:681][ 47]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2019.03.15-12.52.14:681][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.065512s)
+[2019.03.15-12.52.14:739][ 47]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.52.14:783][ 47]LogInit: FAudioDevice initialized.
+[2019.03.15-12.52.14:817][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.52.14:879][ 47]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-12.52.14:883][ 47]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.15-12.52.14
+[2019.03.15-12.52.14:885][ 47]LogWorld: Bringing up level for play took: 0.004485
+[2019.03.15-12.52.14:906][ 47]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.478
+[2019.03.15-12.52.14:907][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.16:241][176]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.52.17:747][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.17:747][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.52.17:776][345]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-12.52.17:819][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-12.52.17:819][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.17:888][346]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.15-12.52.20:650][615]LogEditorViewport: Clicking on Actor (LMB): Wall_C (Wall166)
+[2019.03.15-12.52.24:128][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.52.24:296][951]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Materials/Wall.Wall
+[2019.03.15-12.52.32:104][483]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-12.52.32:135][483]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.32:135][483]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.15-12.52.32:137][483]LogPlayLevel: [PlayLevel] Compiling Wall before play...
+[2019.03.15-12.52.33:638][483]LogPlayLevel: PlayLevel: Blueprint regeneration took 1502 ms (1 blueprints)
+[2019.03.15-12.52.33:638][483]PIE: New page: PIE session: Test (15 Mar 2019 12:52:33)
+[2019.03.15-12.52.33:638][483]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.15-12.52.33:688][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049068s)
+[2019.03.15-12.52.33:688][483]LogAIModule: Creating AISystem for world Test
+[2019.03.15-12.52.33:689][483]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2019.03.15-12.52.33:689][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.050602s)
+[2019.03.15-12.52.33:724][483]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.52.33:745][483]LogInit: FAudioDevice initialized.
+[2019.03.15-12.52.33:761][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.52.33:816][483]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-12.52.33:862][483]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.15-12.52.33
+[2019.03.15-12.52.33:865][483]LogWorld: Bringing up level for play took: 0.047926
+[2019.03.15-12.52.33:887][483]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 1.459
+[2019.03.15-12.52.33:888][483]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.52.34:489][525]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.02:902][691]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.03:113][714]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.03:286][733]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.03:980][809]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.04:180][830]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.04:475][863]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.04:656][883]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.04:855][904]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.05:108][932]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.05:907][ 20]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.09:514][428]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.09:670][445]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.09:857][465]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.10:060][488]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.10:281][512]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.10:488][535]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.10:706][559]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.10:910][580]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.13:893][916]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.14:080][937]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.14:293][961]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.14:525][987]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.14:773][ 14]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.21:035][730]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.26:498][349]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.26:707][373]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.26:863][390]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.27:066][413]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.27:306][438]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.27:491][459]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.53.28:085][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.53.28:085][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.53.28:114][524]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-12.53.28:160][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-12.53.28:160][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-12.53.28:232][525]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.15-12.53.45:842][374]LogSavePackage: Moving '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Saved/Test7C3CBD9A4758751BE7686B9DEC082F35.tmp' to '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap'
+[2019.03.15-12.53.46:972][454]LogStaticMesh: Building static mesh Slope2-3...
+[2019.03.15-12.53.46:973][454]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/GlowWalls/Slope2-3.Slope2-3
+[2019.03.15-12.53.46:998][454]LogStaticMesh: Building static mesh Slope2-1...
+[2019.03.15-12.53.47:000][454]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/GlowWalls/Slope2-1.Slope2-1
+[2019.03.15-12.53.47:005][454]LogStaticMesh: Building static mesh Slope3...
+[2019.03.15-12.53.47:009][454]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/GlowWalls/Slope3.Slope3
+[2019.03.15-12.53.47:014][454]LogStaticMesh: Building static mesh Slope1-3...
+[2019.03.15-12.53.47:016][454]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/GlowWalls/Slope1-3.Slope1-3
+[2019.03.15-12.53.47:033][454]LogStaticMesh: Building static mesh Slope1-2...
+[2019.03.15-12.53.47:034][454]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/GlowWalls/Slope1-2.Slope1-2
+[2019.03.15-12.53.47:093][454]LogAIModule: Creating AISystem for world Map1
+[2019.03.15-12.53.47:396][454]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map1.Map1
+[2019.03.15-12.53.49:275][454]LogSlate: Window 'Save Content' being destroyed
+[2019.03.15-12.53.49:298][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wall" FILE="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Materials/Wall.uasset" SILENT=true
+[2019.03.15-12.53.49:358][454]LogSavePackage: Moving '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Saved/WallC831EF094B3E2889966F2CAD6183D145.tmp' to '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Materials/Wall.uasset'
+[2019.03.15-12.53.49:384][454]Cmd: MAP LOAD FILE="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-12.53.49:384][454]LightingResults: New page: Lighting Build
+[2019.03.15-12.53.49:385][454]LoadErrors: New page: Loading map: Map1.umap
+[2019.03.15-12.53.49:395][454]MapCheck: New page: Map Check
+[2019.03.15-12.53.49:396][454]LightingResults: New page: Lighting Build
+[2019.03.15-12.53.49:990][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-12.53.50:086][454]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-12.53.50:512][454]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 425.578ms to complete.
+[2019.03.15-12.53.50:521][454]LogFileHelpers: Loading map 'Map1' took 1.156
+[2019.03.15-12.53.55:847][987]LogEditorViewport: Clicking on Actor (LMB): Slope1-3_C (Slope1-42)
+[2019.03.15-12.54.00:523][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.54.00:597][395]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GlowWalls/Slope1-3.Slope1-3
+[2019.03.15-12.54.11:150][254]LogEditorViewport: Clicking on Actor (LMB): Slope1-3_C (Slope1-41)
+[2019.03.15-12.54.12:003][310]LogEditorViewport: Clicking on Actor (LMB): Slope1-3_C (Slope1-42)
+[2019.03.15-12.54.16:470][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.54.32:060][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.54.47:961][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.54.48:021][613]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-12.54.48:047][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-12.54.48:047][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-12.54.48:047][613]PIE: New page: PIE session: Map1 (15 Mar 2019 12:54:48)
+[2019.03.15-12.54.48:047][613]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2019.03.15-12.54.48:121][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073880s)
+[2019.03.15-12.54.48:122][613]LogAIModule: Creating AISystem for world Map1
+[2019.03.15-12.54.48:123][613]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2019.03.15-12.54.48:123][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.076001s)
+[2019.03.15-12.54.48:167][613]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.54.48:184][613]LogInit: FAudioDevice initialized.
+[2019.03.15-12.54.48:195][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.54.48:248][613]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-12.54.48:288][613]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.15-12.54.48
+[2019.03.15-12.54.48:294][613]LogWorld: Bringing up level for play took: 0.044753
+[2019.03.15-12.54.48:329][613]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.1
+[2019.03.15-12.54.48:330][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-12.55.25:637][925]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.55.26:585][ 36]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.55.26:778][ 59]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.55.29:627][393]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.55.29:739][406]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-12.55.42:928][945]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-12.55.42:929][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.55.42:959][945]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-12.55.43:013][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-12.55.43:014][945]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-12.55.43:089][946]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.15-12.55.53:955][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.05.46:848][377]Candidate modules for hot reload:
+[2019.03.15-13.05.46:848][377]  FingerGunz
+[2019.03.15-13.05.46:849][377]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,3448 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.05.46:886][377]Warning: Starting HotReload took  0.6s.
+[2019.03.15-13.07.28:842][136]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:07:28
+[2019.03.15-13.07.28:846][136]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.03.15-13.07.28:846][136]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.07.28:846][136]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.03.15-13.07.28:846][136]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.07.28:846][136]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.15-13.07.28:847][136]CompilerResultsLog: Parsing headers for FingerGunzEditor
+[2019.03.15-13.07.28:847][136]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-13.07.28:847][136]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 15.0247299 seconds
+[2019.03.15-13.07.28:847][136]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.03.15-13.07.28:847][136]CompilerResultsLog:   [1/5] player_cpp.gen.cpp
+[2019.03.15-13.07.28:847][136]CompilerResultsLog:   [2/5] LightPistol.cpp
+[2019.03.15-13.07.28:847][136]CompilerResultsLog:   [3/5] player_cpp.cpp
+[2019.03.15-13.07.28:847][136]CompilerResultsLog:   [4/5] UE4Editor-FingerGunz-3448.lib
+[2019.03.15-13.07.28:848][136]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-3448.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-3448.exp
+[2019.03.15-13.07.28:848][136]CompilerResultsLog:   [5/5] UE4Editor-FingerGunz-3448.dll
+[2019.03.15-13.07.28:848][136]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-3448.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-3448.suppressed.exp
+[2019.03.15-13.07.28:848][136]CompilerResultsLog: Error:   player_cpp.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl Aplayer_cpp::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@Aplayer_cpp@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2019.03.15-13.07.28:848][136]CompilerResultsLog: Error:   player_cpp.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl Aplayer_cpp::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@Aplayer_cpp@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2019.03.15-13.07.28:848][136]CompilerResultsLog: Error:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3448.dll : fatal error LNK1120: 1 unresolved externals
+[2019.03.15-13.07.28:848][136]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3448.dll
+[2019.03.15-13.07.28:848][136]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.15-13.07.28:848][136]CompilerResultsLog: Total build time: 101.48 seconds (Parallel executor: 0.00 seconds)
+[2019.03.15-13.07.28:853][136]LogMainFrame: MainFrame: Module compiling took 102.083 seconds
+[2019.03.15-13.07.28:853][136]Warning: HotReload failed, recompile failed
+[2019.03.15-13.07.54:094][836]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.07.54:098][836]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.08.03:075][902]Candidate modules for hot reload:
+[2019.03.15-13.08.03:076][902]  FingerGunz
+[2019.03.15-13.08.03:076][902]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,606 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.08.03:101][902]Warning: Starting HotReload took  0.0s.
+[2019.03.15-13.08.08:499][487]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:08:08
+[2019.03.15-13.08.08:499][487]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.08.08:499][487]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: Building 1 action with 8 processes...
+[2019.03.15-13.08.08:500][487]CompilerResultsLog:   [1/1] UE4Editor-FingerGunz-606.dll
+[2019.03.15-13.08.08:500][487]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-606.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-606.suppressed.exp
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: Error:   player_cpp.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl Aplayer_cpp::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@Aplayer_cpp@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: Error:   player_cpp.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl Aplayer_cpp::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@Aplayer_cpp@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: Error:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-606.dll : fatal error LNK1120: 1 unresolved externals
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-606.dll
+[2019.03.15-13.08.08:500][487]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.15-13.08.08:500][487]CompilerResultsLog: Total build time: 5.00 seconds (Parallel executor: 0.00 seconds)
+[2019.03.15-13.08.08:501][487]LogMainFrame: MainFrame: Module compiling took 5.433 seconds
+[2019.03.15-13.08.08:501][487]Warning: HotReload failed, recompile failed
+[2019.03.15-13.08.15:914][330]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.08.15:918][330]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.08.26:351][594]Candidate modules for hot reload:
+[2019.03.15-13.08.26:351][594]  FingerGunz
+[2019.03.15-13.08.26:351][594]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,8752 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.08.26:385][594]Warning: Starting HotReload took  0.1s.
+[2019.03.15-13.08.51:686][771]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:08:51
+[2019.03.15-13.08.51:687][771]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.08.51:687][771]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.08.51:687][771]CompilerResultsLog: Parsing headers for FingerGunzEditor
+[2019.03.15-13.08.51:687][771]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-13.08.51:687][771]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 14.5346946 seconds
+[2019.03.15-13.08.51:687][771]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.03.15-13.08.51:687][771]CompilerResultsLog:   [1/5] player_cpp.gen.cpp
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(86): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(88): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   [2/5] LightPistol.cpp
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(86): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.08.51:688][771]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(88): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   [3/5] player_cpp.cpp
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(86): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(88): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:   [4/5] UE4Editor-FingerGunz-8752.lib
+[2019.03.15-13.08.51:689][771]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8752.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8752.exp
+[2019.03.15-13.08.51:690][771]CompilerResultsLog:   [5/5] UE4Editor-FingerGunz-8752.dll
+[2019.03.15-13.08.51:690][771]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8752.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8752.suppressed.exp
+[2019.03.15-13.08.51:690][771]CompilerResultsLog: Total build time: 24.91 seconds (Parallel executor: 6.03 seconds)
+[2019.03.15-13.08.51:690][771]LogMainFrame: MainFrame: Module compiling took 25.350 seconds
+[2019.03.15-13.08.51:796][771]LogHotReload: Re-instancing player_cpp after hot-reload.
+[2019.03.15-13.08.51:944][771]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2019.03.15-13.08.51:949][771]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.15-13.08.52:763][771]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2578 classes and 607 folders.
+[2019.03.15-13.08.52:806][771]Display: HotReload took 26.5s.
+[2019.03.15-13.08.54:074][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.08.54:519][905]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-13.08.54:544][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.08.54:545][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-13.08.54:545][905]PIE: New page: PIE session: Map1 (15 Mar 2019 13:08:54)
+[2019.03.15-13.08.54:545][905]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2019.03.15-13.08.54:622][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077015s)
+[2019.03.15-13.08.54:623][905]LogAIModule: Creating AISystem for world Map1
+[2019.03.15-13.08.54:623][905]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2019.03.15-13.08.54:624][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.078609s)
+[2019.03.15-13.08.54:717][905]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-13.08.54:769][905]LogInit: FAudioDevice initialized.
+[2019.03.15-13.08.54:808][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.08.54:868][905]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-13.08.54:909][905]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.15-13.08.54
+[2019.03.15-13.08.54:912][905]LogWorld: Bringing up level for play took: 0.042612
+[2019.03.15-13.08.54:934][905]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.505
+[2019.03.15-13.08.54:934][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.08.55:904][997]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.08.56:709][ 90]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.08.57:358][157]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.08.57:878][215]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.08.59:569][387]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.09.00:070][438]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.09.33:932][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.09.33:932][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.09.33:964][392]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-13.09.34:018][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-13.09.34:019][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.09.34:087][393]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.15-13.18.32:612][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.18.33:190][802]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-13.18.33:215][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.18.33:216][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-13.18.33:216][802]PIE: New page: PIE session: Map1 (15 Mar 2019 13:18:33)
+[2019.03.15-13.18.33:216][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2019.03.15-13.18.33:303][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086960s)
+[2019.03.15-13.18.33:304][802]LogAIModule: Creating AISystem for world Map1
+[2019.03.15-13.18.33:305][802]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2019.03.15-13.18.33:305][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.088825s)
+[2019.03.15-13.18.33:350][802]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-13.18.33:369][802]LogInit: FAudioDevice initialized.
+[2019.03.15-13.18.33:381][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.18.33:433][802]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-13.18.33:488][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.15-13.18.33
+[2019.03.15-13.18.33:497][802]LogWorld: Bringing up level for play took: 0.062412
+[2019.03.15-13.18.33:520][802]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 1.09
+[2019.03.15-13.18.33:521][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.18.56:150][370]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.56:358][394]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.56:497][410]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.56:643][427]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.56:802][445]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.56:939][460]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:095][477]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:240][492]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:445][511]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:533][520]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:692][538]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:823][553]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.57:978][570]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:118][586]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:256][602]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:490][629]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:613][643]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:745][658]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.58:873][673]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:000][686]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:134][701]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:267][716]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:423][733]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:605][754]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:736][769]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.18.59:901][788]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:068][806]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:141][814]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:253][827]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:370][839]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:535][858]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:664][873]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:812][890]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.00:953][906]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:094][922]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:230][937]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:355][951]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:520][970]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:680][988]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:819][  2]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.01:978][ 20]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:146][ 39]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:306][ 57]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:448][ 73]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:604][ 91]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:741][107]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:848][119]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.02:980][134]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:118][149]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:228][161]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:378][178]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:512][193]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:650][209]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:797][226]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.03:913][239]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.04:033][253]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.04:166][268]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.04:288][282]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.05:172][384]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.05:329][402]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.05:468][418]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:131][494]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:237][506]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:360][520]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:526][539]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:674][556]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:801][570]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.06:969][589]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.07:135][608]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.07:321][629]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.07:455][643]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.07:629][663]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.07:874][691]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.08:058][712]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.08:382][749]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.08:591][773]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.08:752][792]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.08:963][815]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.09:132][834]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.09:315][855]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.09:509][877]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.09:685][897]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.09:876][919]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.10:019][935]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.21:672][293]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.LightPistol_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.19.22:997][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.19.22:998][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.19.23:027][449]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-13.19.23:079][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-13.19.23:080][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2019.03.15-13.19.23:159][450]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.15-13.19.26:405][599]LogAIModule: Creating AISystem for world Test
+[2019.03.15-13.19.26:662][599]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Test.Test
+[2019.03.15-13.19.26:709][599]Cmd: MAP LOAD FILE="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-13.19.26:709][599]LightingResults: New page: Lighting Build
+[2019.03.15-13.19.26:711][599]LoadErrors: New page: Loading map: Test.umap
+[2019.03.15-13.19.26:772][599]MapCheck: New page: Map Check
+[2019.03.15-13.19.26:773][599]LightingResults: New page: Lighting Build
+[2019.03.15-13.19.27:325][599]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-13.19.27:411][599]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-13.19.27:704][599]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 292.651ms to complete.
+[2019.03.15-13.19.27:708][599]LogFileHelpers: Loading map 'Test' took 1.000
+[2019.03.15-13.19.33:304][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-13.22.52:222][274]Candidate modules for hot reload:
+[2019.03.15-13.22.52:222][274]  FingerGunz
+[2019.03.15-13.22.52:222][274]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,1251 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.22.52:293][274]Warning: Starting HotReload took  0.1s.
+[2019.03.15-13.23.39:108][ 21]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:23:39
+[2019.03.15-13.23.39:108][ 21]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.23.39:108][ 21]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.03.15-13.23.39:109][ 21]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.23.39:109][ 21]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.15-13.23.39:109][ 21]CompilerResultsLog: Target is up to date
+[2019.03.15-13.23.39:109][ 21]CompilerResultsLog: Total build time: 46.22 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.03.15-13.23.39:109][ 21]LogMainFrame: MainFrame: Module compiling took 46.896 seconds
+[2019.03.15-13.23.39:652][ 21]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2578 classes and 607 folders.
+[2019.03.15-13.23.39:654][ 21]Display: HotReload took 47.5s.
+[2019.03.15-13.23.55:163][376]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-13.23.55:187][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.23.55:188][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-13.23.55:188][376]PIE: New page: PIE session: Test (15 Mar 2019 13:23:55)
+[2019.03.15-13.23.55:188][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.15-13.23.55:247][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058482s)
+[2019.03.15-13.23.55:248][376]LogAIModule: Creating AISystem for world Test
+[2019.03.15-13.23.55:248][376]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2019.03.15-13.23.55:248][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.060366s)
+[2019.03.15-13.23.55:371][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-13.23.55:414][376]LogInit: FAudioDevice initialized.
+[2019.03.15-13.23.55:427][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.23.55:484][376]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-13.23.55:514][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.15-13.23.55
+[2019.03.15-13.23.55:516][376]LogWorld: Bringing up level for play took: 0.031008
+[2019.03.15-13.23.55:537][376]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 1.107
+[2019.03.15-13.23.55:538][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.23.57:117][541]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.57:707][603]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.58:111][641]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.58:311][658]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.58:530][682]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.58:689][700]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.23.58:873][721]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.06:297][582]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.15:721][696]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.16:101][741]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.16:377][773]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.16:573][796]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.16:711][812]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.24.16:987][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.24.16:988][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.24.17:016][845]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-13.24.17:063][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-13.24.17:063][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.24.17:141][846]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.15-13.25.31:967][466]Candidate modules for hot reload:
+[2019.03.15-13.25.31:967][466]  FingerGunz
+[2019.03.15-13.25.31:968][466]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,6194 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.25.32:115][466]Warning: Starting HotReload took  0.4s.
+[2019.03.15-13.26.54:449][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.26.57:127][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.27.04:855][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.27.10:077][350]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:27:10
+[2019.03.15-13.27.10:077][350]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.27.10:077][350]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.03.15-13.27.10:077][350]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.27.10:077][350]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.15-13.27.10:078][350]CompilerResultsLog: Parsing headers for FingerGunzEditor
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-13.27.10:078][350]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 24.4327529 seconds
+[2019.03.15-13.27.10:078][350]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   [1/5] player_cpp.gen.cpp
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(87): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(89): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.27.10:078][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   [2/5] LightPistol.cpp
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(87): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(89): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   [3/5] player_cpp.cpp
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(87): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(89): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.27.10:079][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.27.10:080][350]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.27.10:080][350]CompilerResultsLog:    C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz\player_cpp.cpp(259) : error C2065: 'SpawnInfo': undeclared identifier
+[2019.03.15-13.27.10:080][350]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6194.dll
+[2019.03.15-13.27.10:080][350]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.15-13.27.10:080][350]CompilerResultsLog: Total build time: 97.23 seconds (Parallel executor: 0.00 seconds)
+[2019.03.15-13.27.10:080][350]LogMainFrame: MainFrame: Module compiling took 98.138 seconds
+[2019.03.15-13.27.10:080][350]Warning: HotReload failed, recompile failed
+[2019.03.15-13.27.11:900][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.27.17:590][120]Candidate modules for hot reload:
+[2019.03.15-13.27.17:590][120]  FingerGunz
+[2019.03.15-13.27.17:590][120]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,2869 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.27.17:620][120]Warning: Starting HotReload took  0.1s.
+[2019.03.15-13.27.18:528][197]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.27.18:532][197]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.27.56:772][642]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:27:56
+[2019.03.15-13.27.56:773][642]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.27.56:773][642]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.03.15-13.27.56:773][642]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.27.56:773][642]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.15-13.27.56:773][642]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.15-13.27.56:773][642]CompilerResultsLog:   [1/3] player_cpp.cpp
+[2019.03.15-13.27.56:773][642]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(87): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.27.56:773][642]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(89): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.27.56:774][642]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.27.56:774][642]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.27.56:774][642]CompilerResultsLog:    C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz\player_cpp.cpp(259) : error C2065: 'SpawnInfo': undeclared identifier
+[2019.03.15-13.27.56:774][642]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-2869.dll
+[2019.03.15-13.27.56:774][642]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.15-13.27.56:774][642]CompilerResultsLog: Total build time: 38.60 seconds (Parallel executor: 0.00 seconds)
+[2019.03.15-13.27.56:774][642]LogMainFrame: MainFrame: Module compiling took 39.193 seconds
+[2019.03.15-13.27.56:775][642]Warning: HotReload failed, recompile failed
+[2019.03.15-13.28.04:101][460]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.28.04:104][460]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-13.28.20:748][ 99]Candidate modules for hot reload:
+[2019.03.15-13.28.20:748][ 99]  FingerGunz
+[2019.03.15-13.28.20:748][ 99]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,5749 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.28.20:819][ 99]Warning: Starting HotReload took  0.1s.
+[2019.03.15-13.28.31:749][207]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:28:31
+[2019.03.15-13.28.31:749][207]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.28.31:749][207]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.28.31:750][207]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   [1/3] player_cpp.cpp
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(87): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(89): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:   [2/3] UE4Editor-FingerGunz-5749.lib
+[2019.03.15-13.28.31:750][207]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5749.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5749.exp
+[2019.03.15-13.28.31:751][207]CompilerResultsLog:   [3/3] UE4Editor-FingerGunz-5749.dll
+[2019.03.15-13.28.31:751][207]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5749.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-5749.suppressed.exp
+[2019.03.15-13.28.31:751][207]CompilerResultsLog: Total build time: 10.44 seconds (Parallel executor: 6.10 seconds)
+[2019.03.15-13.28.31:751][207]LogMainFrame: MainFrame: Module compiling took 11.012 seconds
+[2019.03.15-13.28.31:826][207]LogHotReload: Re-instancing player_cpp after hot-reload.
+[2019.03.15-13.28.32:038][207]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0019 seconds. Added 5 classes and 2 folders.
+[2019.03.15-13.28.32:046][207]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.15-13.28.32:791][207]LogContentBrowser: Native class hierarchy populated in 0.0316 seconds. Added 2578 classes and 607 folders.
+[2019.03.15-13.28.32:791][207]Display: HotReload took 12.1s.
+[2019.03.15-13.28.35:870][547]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.15-13.28.35:895][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.28.35:895][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-13.28.35:895][547]PIE: New page: PIE session: Test (15 Mar 2019 13:28:35)
+[2019.03.15-13.28.35:896][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.15-13.28.35:967][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071585s)
+[2019.03.15-13.28.35:969][547]LogAIModule: Creating AISystem for world Test
+[2019.03.15-13.28.35:970][547]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2019.03.15-13.28.35:970][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.074592s)
+[2019.03.15-13.28.36:055][547]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-13.28.36:075][547]LogInit: FAudioDevice initialized.
+[2019.03.15-13.28.36:092][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.28.36:144][547]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.15-13.28.36:170][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.15-13.28.36
+[2019.03.15-13.28.36:174][547]LogWorld: Bringing up level for play took: 0.028647
+[2019.03.15-13.28.36:202][547]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.22
+[2019.03.15-13.28.36:203][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.28.37:257][641]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.38:433][772]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.40:401][962]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.40:943][ 25]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.41:732][109]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.42:012][141]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.42:227][166]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.42:532][202]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.42:815][235]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.43:090][267]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.43:408][303]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.43:751][343]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.43:990][371]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.44:254][402]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.44:515][433]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.28.44:756][461]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-13.29.23:965][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.29.23:965][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-13.29.23:993][ 60]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-13.29.24:036][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-13.29.24:037][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.15-13.29.24:094][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.15-13.33.39:558][101]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-13.33.43:605][543]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-13.33.46:929][543]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.15-13.33.47:096][544]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FingerGunz
+[2019.03.15-13.33.47:096][544]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.15-13.33.47:096][544]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2019.03.15-13.33.47:096][544]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.15-13.33.47:096][544]LogTemp: BranchPath = C108-38/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C108-38/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2019.03.15-13.33.47:167][546]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\a016430f.STUDENT.000\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.15-13.37.57:293][  5]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.15-13.37.57:297][  5]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.15-13.37.58:868][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.37.59:938][191]LogSavePackage: Moving '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Saved/TestA3635BD24C9346258514538C714ED07F.tmp' to '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap'
+[2019.03.15-13.39.43:765][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-13.43.54:043][877]Candidate modules for hot reload:
+[2019.03.15-13.43.54:044][877]  FingerGunz
+[2019.03.15-13.43.54:044][877]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,8836 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.15-13.43.54:093][877]Warning: Starting HotReload took  0.1s.
+[2019.03.15-13.44.25:370][336]CompilerResultsLog: New page: Compilation - 15 Mar 2019 13:44:25
+[2019.03.15-13.44.25:370][336]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (game project files are newer)
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Parsing headers for FingerGunzEditor
+[2019.03.15-13.44.25:371][336]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Reflection code generated for FingerGunzEditor in 13.9297325 seconds
+[2019.03.15-13.44.25:371][336]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.03.15-13.44.25:371][336]CompilerResultsLog:   [1/6] FingerGunz.init.gen.cpp
+[2019.03.15-13.44.25:371][336]CompilerResultsLog:   [2/6] player_cpp.gen.cpp
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(95): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(97): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   [3/6] LightPistol.cpp
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(95): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(97): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.44.25:372][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   [4/6] player_cpp.cpp
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(95): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(97): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   [5/6] UE4Editor-FingerGunz-8836.lib
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8836.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8836.exp
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:   [6/6] UE4Editor-FingerGunz-8836.dll
+[2019.03.15-13.44.25:373][336]CompilerResultsLog:      Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8836.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-8836.suppressed.exp
+[2019.03.15-13.44.25:373][336]CompilerResultsLog: Total build time: 30.66 seconds (Parallel executor: 6.15 seconds)
+[2019.03.15-13.44.25:374][336]LogMainFrame: MainFrame: Module compiling took 31.338 seconds
+[2019.03.15-13.44.25:467][336]LogClass: Could not find existing class player_cpp in package /Script/FingerGunz for HotReload, assuming new class
+[2019.03.15-13.44.25:490][336]LogHotReload: Re-instancing player_cpp after hot-reload.
+[2019.03.15-13.44.25:644][336]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2019.03.15-13.44.25:652][336]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.15-13.44.26:214][336]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 2578 classes and 607 folders.
+[2019.03.15-13.44.26:215][336]Display: HotReload took 32.2s.
+[2019.03.15-13.47.57:558][ 90]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.15-13.47.57:645][ 90]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FingerGunz
+[2019.03.15-13.47.57:645][ 90]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.15-13.47.57:645][ 90]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2019.03.15-13.47.57:645][ 90]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.15-13.47.57:654][ 90]LogTemp: BranchPath = C108-38/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C108-38/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2019.03.15-13.47.57:698][ 92]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\a016430f.STUDENT.000\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.15-13.49.28:973][ 41]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.15-13.49.28:977][ 41]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.15-13.49.31:173][173]LogSavePackage: Moving '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Saved/TestCFFCE4434E699FD90DC31A933BA14C9E.tmp' to '../../../../../../Users/a016430f.STUDENT.000/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap'
+[2019.03.15-13.49.32:307][262]LogSlate: Window 'FingerGunz - Unreal Editor' being destroyed
+[2019.03.15-13.49.32:590][263]Cmd: QUIT_EDITOR
+[2019.03.15-13.49.33:082][263]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-13.49.33:127][263]LogExit: Preparing to exit.

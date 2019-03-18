@@ -3,26 +3,37 @@
   Creating makefile for FingerGunzEditor (no existing makefile)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for FingerGunzEditor
-    Running UnrealHeaderTool "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FingerGunzEditor in 35.1801492 seconds
-  Building 16 actions with 8 processes...
-    [1/16] PCLaunch.rc
-    [2/16] SharedPCH.Engine.cpp
-    [3/16] FingerGunz.cpp
-    [4/16] FingerGunzGameModeBase.cpp
-    [5/16] FingerGunz.init.gen.cpp
-    [6/16] FingerGunzGameModeBase.gen.cpp
-    [7/16] LightPistol.cpp
-    [8/16] BeamActor.gen.cpp
-    [9/16] HeavyPistol.cpp
-    [10/16] HeavyPistol.gen.cpp
-    [11/16] LightPistol.gen.cpp
-    [12/16] player_cpp.gen.cpp
-    [13/16] BeamActor.cpp
-    [14/16] player_cpp.cpp
-    [15/16] UE4Editor-FingerGunz.lib
-       Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [16/16] UE4Editor-FingerGunz.dll
-       Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FingerGunzEditor in 20.767622 seconds
+  Building 15 actions with 8 processes...
+    [1/15] SharedPCH.Engine.cpp
+    [2/15] FingerGunz.cpp
+    [3/15] FingerGunz.init.gen.cpp
+    [4/15] FingerGunzGameModeBase.cpp
+    [5/15] FingerGunzGameModeBase.gen.cpp
+    [6/15] BeamActor.gen.cpp
+    [7/15] HeavyPistol.cpp
+    [8/15] LightPistol.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(96): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(98): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [9/15] HeavyPistol.gen.cpp
+    [10/15] LightPistol.gen.cpp
+    [11/15] player_cpp.gen.cpp
+C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(96): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(98): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [12/15] BeamActor.cpp
+    [13/15] player_cpp.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(96): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(98): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [14/15] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [15/15] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 298.23 seconds (Parallel executor: 50.20 seconds)
+  Total build time: 239.77 seconds (Parallel executor: 68.59 seconds)

@@ -4,6 +4,8 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
 #include "Runtime/Core/Public/Math/Vector.h"
+#include "player_cpp.h"
+
 
 
 // Sets default values
@@ -49,6 +51,17 @@ void AHeavyPistol::BeginPlay()
 	{
 		End = OutHit.Location;
 		BeamParticle->SetFloatParameter("BeamDistance", FVector::Dist(Start, End));
+		End = OutHit.Location;
+		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
+		if (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass())
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
+			Aplayer_cpp* Player = Cast<Aplayer_cpp>(OutHit.GetActor());
+			if (Player != nullptr)
+			{
+				Player->TakeDamage(3);
+			}
+		}
 	}
 	BeamParticle->ActivateSystem();
 }

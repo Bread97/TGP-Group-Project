@@ -66,13 +66,16 @@ protected:
 	float PistolDamageAmount;
 	void StartZoom();
 	void EndZoom();
+	void ChangeUp();
+	void ChangeDown();
+	void ChangeLeft();
 	void ChangeRight();
 
 	//Setup Player Properties
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Int, meta = (AllowPrivateAccess = "true"))
-		int Health;
+	int Health;
 	int Armor;
-	int CurrentWeapon = 0;
+	int CurrentWeapon;
 
 public:	
 	// Called every frame
@@ -94,5 +97,4 @@ public:
 	TSubclassOf<class AItem> BeamActor_BP;
 
 	void TakeDamage(float Damage);
-
 };

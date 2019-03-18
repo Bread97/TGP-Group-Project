@@ -15,6 +15,7 @@
 
 #include "LightPistol.h"
 #include "HeavyPistol.h"
+#include "ShotGun.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -111,6 +112,9 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Aplayer_cpp::lookUpAtRate);
 
 	//D-Pad Events
+	PlayerInputComponent->BindAction("ChangeWeaponUp", IE_Pressed, this, &Aplayer_cpp::ChangeUp);
+	PlayerInputComponent->BindAction("ChangeWeaponDown", IE_Pressed, this, &Aplayer_cpp::ChangeDown);
+	PlayerInputComponent->BindAction("ChangeWeaponLeft", IE_Pressed, this, &Aplayer_cpp::ChangeLeft);
 	PlayerInputComponent->BindAction("ChangeWeaponRight", IE_Pressed, this, &Aplayer_cpp::ChangeRight);
 
 	//KEYBOARD EVENTS
@@ -259,9 +263,28 @@ void Aplayer_cpp::endVault()
 	//maybe going to add stuff here
 }
 
+void Aplayer_cpp::ChangeUp()
+{
+	CurrentWeapon = 1;
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: LPistol")));
+}
+
+void Aplayer_cpp::ChangeLeft()
+{
+	CurrentWeapon = 2;
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: HPistol")));
+}
+
 void Aplayer_cpp::ChangeRight()
 {
 	CurrentWeapon = 3;
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Shotgun")));
+}
+
+void Aplayer_cpp::ChangeDown()
+{
+	CurrentWeapon = 4;
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Rocket Launcher")));
 }
 //BROKEN
 void Aplayer_cpp::shoot()
@@ -277,6 +300,14 @@ void Aplayer_cpp::shoot()
 	case 1 :
 	{
 		GetWorld()->SpawnActor<AHeavyPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	}
+	case 3:
+	{
+		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+	}
+	case 4:
+	{
+		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 	}
 	default:
 		break;

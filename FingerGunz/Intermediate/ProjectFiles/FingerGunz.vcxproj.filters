@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FingerGunz.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{54F38431-F988-4763-B7D9-F81B0F4AE07B}</UniqueIdentifier>
+      <UniqueIdentifier>{49DA93F2-7C11-4D9F-979B-0DFA24804733}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FingerGunz.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6FCABD3F-0B96-4ED6-BBC0-AC15D36F6DA5}</UniqueIdentifier>
+      <UniqueIdentifier>{A01473F7-F213-4CD8-A1D0-EDAED9013D1B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FingerGunz">
-      <UniqueIdentifier>{3DCB51CE-8FF7-4D80-BB1F-284ABA4C7D1E}</UniqueIdentifier>
+      <UniqueIdentifier>{83F1347B-C1DF-4CEE-BFAE-A0D58294652F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FingerGunz\FingerGunz.Build.cs">
       <Filter>Source\FingerGunz</Filter>
@@ -35,23 +35,26 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source\FingerGunz\Header Files">
-      <UniqueIdentifier>{07a7359c-8914-4397-b03f-724b11cdb597}</UniqueIdentifier>
+      <UniqueIdentifier>{78b0a62b-0db1-423c-9cea-4cee89c131f4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\FingerGunz\CPP Files">
-      <UniqueIdentifier>{59821969-1210-476d-83d6-b5679ebad5ae}</UniqueIdentifier>
+    <Filter Include="Source\FingerGunz\Class FIles">
+      <UniqueIdentifier>{89ee67c5-b65b-47d7-bb0c-a9ffc3beff95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FingerGunz\Header Files\Weapons">
+      <UniqueIdentifier>{b06ae2d4-9bae-4964-b69c-e68db42b8149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FingerGunz\Class FIles\Weapons">
+      <UniqueIdentifier>{3e5bb988-a07b-4373-867b-9a74b4a2de0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FingerGunz\Header Files\Misc. Headers">
+      <UniqueIdentifier>{82813e91-8306-4fb1-87c7-e004a860f186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FingerGunz\Class FIles\Misc. Classes">
+      <UniqueIdentifier>{5e007f2e-5bb3-40c2-876e-74e8822fafa1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\FingerGunz\BeamActor.h">
-      <Filter>Source\FingerGunz\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\FingerGunz\FingerGunz.h">
-      <Filter>Source\FingerGunz\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FingerGunz\HeavyPistol.h">
-      <Filter>Source\FingerGunz\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FingerGunz\LightPistol.h">
       <Filter>Source\FingerGunz\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\FingerGunz\player_cpp.h">
@@ -60,31 +63,40 @@
     <ClInclude Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.h">
       <Filter>Source\FingerGunz\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WeaponMaster.h">
-      <Filter>Source\FingerGunz\Header Files</Filter>
+    <ClInclude Include="..\..\Source\FingerGunz\LightPistol.h">
+      <Filter>Source\FingerGunz\Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FingerGunz\Heavy_Pistol.h">
+      <Filter>Source\FingerGunz\Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FingerGunz\ShotGun.h">
+      <Filter>Source\FingerGunz\Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FingerGunz\BeamActor.h">
+      <Filter>Source\FingerGunz\Header Files\Misc. Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\FingerGunz\FingerGunz.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
+      <Filter>Source\FingerGunz\Class FIles</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FingerGunz\HeavyPistol.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FingerGunz\LightPistol.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
+      <Filter>Source\FingerGunz\Class FIles</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FingerGunz\player_cpp.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
+      <Filter>Source\FingerGunz\Class FIles</Filter>
     </ClCompile>
-    <ClCompile Include="WeaponMaster.cpp">
-      <Filter>Source\FingerGunz\CPP Files</Filter>
+    <ClCompile Include="..\..\Source\FingerGunz\LightPistol.cpp">
+      <Filter>Source\FingerGunz\Class FIles\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FingerGunz\ShotGun.cpp">
+      <Filter>Source\FingerGunz\Class FIles\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FingerGunz\Heavy_Pistol.cpp">
+      <Filter>Source\FingerGunz\Class FIles\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
+      <Filter>Source\FingerGunz\Class FIles\Misc. Classes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

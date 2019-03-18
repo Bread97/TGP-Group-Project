@@ -410,8 +410,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\FingerGunz-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="WeaponMaster.cpp" />
-    <ClInclude Include="WeaponMaster.h" />
+    <ClCompile Include="..\..\Source\FingerGunz\Heavy_Pistol.cpp" />
+    <ClCompile Include="..\..\Source\FingerGunz\ShotGun.cpp" />
+    <ClInclude Include="..\..\Source\FingerGunz\Heavy_Pistol.h" />
+    <ClInclude Include="..\..\Source\FingerGunz\ShotGun.h" />
     <None Include="..\..\FingerGunz.uproject" />
     <None Include="..\..\Source\FingerGunz.Target.cs" />
     <None Include="..\..\Source\FingerGunzEditor.Target.cs" />
@@ -426,8 +428,6 @@
     <ClInclude Include="..\..\Source\FingerGunz\FingerGunz.h" />
     <ClCompile Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.h" />
-    <ClCompile Include="..\..\Source\FingerGunz\HeavyPistol.cpp" />
-    <ClInclude Include="..\..\Source\FingerGunz\HeavyPistol.h" />
     <ClCompile Include="..\..\Source\FingerGunz\LightPistol.cpp" />
     <ClInclude Include="..\..\Source\FingerGunz\LightPistol.h" />
     <ClCompile Include="..\..\Source\FingerGunz\player_cpp.cpp" />
