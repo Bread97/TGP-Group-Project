@@ -33,6 +33,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	CharacterMovement->JumpZVelocity = 1000;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	CharacterMovement->AirControl = 0.8;
+	CurrentWeapon = 1;
 
 	GetCapsuleComponent()->SetRelativeScale3D(FVector(1.5, 1.5, 1.5));
 
@@ -91,8 +92,9 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 // Called to bind functionality to input
 void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	///////Input Events///////
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	//KEYBOARD EVENTS
+
 	//action events
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::Jump);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::StopJumping);
@@ -103,7 +105,6 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Shoot", IE_Released, this, &Aplayer_cpp::StopShooting);
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &Aplayer_cpp::EndZoom);
-
 
 	//axis events
 	PlayerInputComponent->BindAxis("MoveForward", this, &Aplayer_cpp::moveForward);
@@ -116,8 +117,6 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("ChangeWeaponDown", IE_Pressed, this, &Aplayer_cpp::ChangeDown);
 	PlayerInputComponent->BindAction("ChangeWeaponLeft", IE_Pressed, this, &Aplayer_cpp::ChangeLeft);
 	PlayerInputComponent->BindAction("ChangeWeaponRight", IE_Pressed, this, &Aplayer_cpp::ChangeRight);
-
-	//KEYBOARD EVENTS
 }
 
 //Handle damage taken from incoming attacks
@@ -268,36 +267,34 @@ void Aplayer_cpp::ChangeUp()
 	CurrentWeapon = 1;
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: LPistol")));
 }
-
 void Aplayer_cpp::ChangeLeft()
 {
 	CurrentWeapon = 2;
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: HPistol")));
 }
-
 void Aplayer_cpp::ChangeRight()
 {
 	CurrentWeapon = 3;
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Shotgun")));
 }
-
 void Aplayer_cpp::ChangeDown()
 {
 	CurrentWeapon = 4;
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Rocket Launcher")));
 }
-//BROKEN
+
+//Handle Weapon Switching
 void Aplayer_cpp::shoot()
 {
 	FActorSpawnParameters SpawnInfo;
 
 	switch (CurrentWeapon)
 	{
-	case 0 :
+	case 1 :
 	{
 		GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 	}
-	case 1 :
+	case 2 :
 	{
 		GetWorld()->SpawnActor<AHeavyPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 	}
@@ -321,8 +318,6 @@ void Aplayer_cpp::StopShooting()
 	ShootingDelay = 0;
 	//BeamParticle->SetHiddenInGame(true);
 }
-//BROKEN
-
 
 void Aplayer_cpp::StartZoom()
 {

@@ -19,8 +19,6 @@ ALightPistol::ALightPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 	BeamStart->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
 	BeamStart->SetHiddenInGame(true);
 
-
-
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
 
