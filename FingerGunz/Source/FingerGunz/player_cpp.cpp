@@ -20,7 +20,7 @@
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	BaseTurnRate = 100.f;
 	BaseLookUpRate = 100.f;
@@ -43,12 +43,6 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
-	//StaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("cube"));
-	//StaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Materials/Cube.Cube'")).Object);
-	//StaticMesh->SetupAttachment(RootComponent);
-	//StaticMesh->SetRelativeScale3D(FVector(0.6, 0.6, 2.1));
-	//StaticMesh->SetActorHiddenInGame(true);
-
 	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
 	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'")).Object);
 	PlayerStaticMesh->SetupAttachment(RootComponent);
@@ -56,15 +50,11 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	PlayerStaticMesh->RelativeLocation = FVector(0.0f, 5.0f, -20.0f);
 
 	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
-	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
 	GunStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-										//					Height
 	GunStaticMesh->RelativeLocation = FVector(120.0f, 20.0f, -40.0f);
-	
-	//PlayerParticleSystem = PCIP.CreateDefaultSubobject<UParticleSystem>(this, TEXT("beam"));
-	//PlayerParticleSystem-(ConstructorHelpers::FObjectFinder<UParticleSystem>(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"), PlayerStaticMesh,FName("player"),FVector(0, 0, 64),FRotator(0, 0, 0),EAttachLocation::KeepRelativeOffset,false));
-	//Spawn particle system
+	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
+
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
 
@@ -287,25 +277,20 @@ void Aplayer_cpp::ChangeDown()
 void Aplayer_cpp::shoot()
 {
 	FActorSpawnParameters SpawnInfo;
-
 	switch (CurrentWeapon)
 	{
 	case 1 :
-	{
 		GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
-	}
+		break;
 	case 2 :
-	{
 		GetWorld()->SpawnActor<AHeavyPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
-	}
+		break;
 	case 3:
-	{
 		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
-	}
+		break;
 	case 4:
-	{
 		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
-	}
+		break;
 	default:
 		break;
 	}

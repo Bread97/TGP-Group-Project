@@ -1,27 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Distributing 3 actions to XGE
-  --------------------Build System Warning---------------------------------------
-  License is invalid:
-      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-      This build will run in standalone mode.
-  
-  -------------------------------------------------------------------------------
-  --------------------Project: Default-------------------------------------------
-  player_cpp.cpp (0:03.26 at +0:00)
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(99): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(100): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-  C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-  C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-  UE4Editor-FingerGunz.dll (0:01.23 at +0:03)
-     Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
-  UE4Editor-FingerGunz.lib (0:00.15 at +0:04)
-     Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-  ---------------------- Done ----------------------
-  
-      Rebuild All: 1 succeeded, 0 failed, 0 skipped
-  
-  1 build system warning(s):
-     - License is invalid
-  
+  Deleting old hot reload file: "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6427.dll".
+  Deleting old hot reload file: "C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6427.pdb".
+  Building 3 actions with 8 processes...
+    [1/3] player_cpp.cpp
+c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(99): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f.student.000\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(100): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [2/3] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [3/3] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\a016430f.STUDENT.000\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 6.75 seconds (XGE executor: 4.97 seconds)
+  Total build time: 7.23 seconds (Parallel executor: 4.60 seconds)

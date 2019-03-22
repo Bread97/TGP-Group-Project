@@ -24,6 +24,7 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	UStaticMeshComponent* GunMesh;
 	UStaticMeshComponent* BeamStart;
 	UParticleSystemComponent* BeamParticle;
 
