@@ -93,6 +93,13 @@ public:
 	//UStaticMeshComponent* StaticMesh;
 	UStaticMeshComponent* PlayerStaticMesh;
 	UStaticMeshComponent* GunStaticMesh;
+
+	//Generate Skeletal mesh
+	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
+	USkeletalMeshComponent* ThirdPersonMesh;
+	USkeletalMeshComponent* FirstPersonMesh;
+
+	//Generate Beam Effects
 	UParticleSystemComponent* BeamParticle;
 	TSubclassOf<class AItem> BeamActor_BP;
 

@@ -43,18 +43,32 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
-	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
-	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'")).Object);
-	PlayerStaticMesh->SetupAttachment(RootComponent);
-	PlayerStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-	PlayerStaticMesh->RelativeLocation = FVector(0.0f, 5.0f, -20.0f);
+	//Renders the first person mesh for the player and noone else
+	FirstPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("FirstPersonMesh"));
+	FirstPersonMesh->SetOnlyOwnerSee(true);
 
+	FirstPersonMesh->SetupAttachment(FirstPersonCameraComponent);
+	FirstPersonMesh->bCastDynamicShadow = false;
+	FirstPersonMesh->CastShadow = false;
+
+	//Renders the Gun for the player only
 	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
+	GunStaticMesh->SetOnlyOwnerSee(true);
+	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
 	GunStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-	GunStaticMesh->RelativeLocation = FVector(120.0f, 20.0f, -40.0f);
-	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
+	GunStaticMesh->RelativeLocation = FVector(80.0f, 20.0f, -40.0f);
 
+
+	//Renders the Player Mesh for everyone but the player
+	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
+	PlayerStaticMesh->SetOwnerNoSee(true);
+	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/PlayerMesh.PlayerMesh'")).Object);
+	PlayerStaticMesh->SetupAttachment(RootComponent);
+	PlayerStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
+	PlayerStaticMesh->RelativeLocation = FVector(0.0f, 5.0f, -60.0f);
+
+	//Loads the Beam Particles
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
 
