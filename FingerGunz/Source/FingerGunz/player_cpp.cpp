@@ -46,7 +46,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	//Renders the first person mesh for the player and noone else
 	FirstPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("FirstPersonMesh"));
 	FirstPersonMesh->SetOnlyOwnerSee(true);
-
+	FirstPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh''")));
 	FirstPersonMesh->SetupAttachment(FirstPersonCameraComponent);
 	FirstPersonMesh->bCastDynamicShadow = false;
 	FirstPersonMesh->CastShadow = false;
