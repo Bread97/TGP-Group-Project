@@ -15,8 +15,9 @@ ALightPistol::ALightPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 	lifetime = 50;
 	PrimaryActorTick.bCanEverTick = true;
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
-	BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
+	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	BeamStart->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
+	BeamStart->RelativeLocation = FVector(75.0f, 20.0f, 160.0f);
 	BeamStart->SetHiddenInGame(true);
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
@@ -52,11 +53,14 @@ void ALightPistol::BeginPlay()
 		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
 		if (OutHit.GetActor()->GetClass() == Aplayer_cpp::StaticClass())
 		{
+			//if(player == owner)
+			//continue;
 			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
 			Aplayer_cpp* Player = Cast<Aplayer_cpp>(OutHit.GetActor());
 			if (Player != nullptr)
 			{
-				Player->TakeDamage(3);
+				
+				Player->TakeDamage(2);
 			}
 		}
 	}

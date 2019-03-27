@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FingerGunz.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B59E608B-B724-401E-AD56-FBC429CA4808}</UniqueIdentifier>
+			<UniqueIdentifier>{BE6F87F9-326A-4711-BA02-0AC5D7C1A0E8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FingerGunz.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{6F2874A6-0078-4D35-9EFA-466C025A17A9}</UniqueIdentifier>
+			<UniqueIdentifier>{D3CDD315-DA80-45DB-956B-B88AA5708D83}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FingerGunz">
-			<UniqueIdentifier>{520C132B-E0E5-4C28-AE3C-B394278C1F07}</UniqueIdentifier>
+			<UniqueIdentifier>{5F94D713-E963-437B-9CAC-EED9FDB780AE}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
 			<Filter>Source\FingerGunz</Filter>

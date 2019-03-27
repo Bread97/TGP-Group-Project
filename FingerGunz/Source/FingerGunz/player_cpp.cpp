@@ -37,31 +37,37 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 
 	GetCapsuleComponent()->SetRelativeScale3D(FVector(1.5, 1.5, 1.5));
 
+	//Create First Person Camera Component
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(0.0f, 0.0f, 80.f);
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 	FirstPersonCameraComponent->FieldOfView = 120;
 
-	//Renders the first person mesh for the player and noone else
-	FirstPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("FirstPersonMesh"));
-	FirstPersonMesh->SetOnlyOwnerSee(true);
-	FirstPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh''")));
-	FirstPersonMesh->SetupAttachment(FirstPersonCameraComponent);
-	FirstPersonMesh->bCastDynamicShadow = false;
-	FirstPersonMesh->CastShadow = false;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////****LOAD IN PLAYER MESHES****/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	//Renders the Gun for the player only
-	GunStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("gun"));
-	GunStaticMesh->SetOnlyOwnerSee(true);
-	GunStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
-	GunStaticMesh->SetupAttachment(FirstPersonCameraComponent);
-	GunStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-	GunStaticMesh->RelativeLocation = FVector(80.0f, 20.0f, -40.0f);
+	GunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("GunMesh"));
+	GunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_standard.character_arms_standard'")).Object);
+	GunMesh->SetOnlyOwnerSee(true);
+	GunMesh->SetupAttachment(FirstPersonCameraComponent);
+	GunMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
+	GunMesh->RelativeLocation = FVector(10.0f, 20.0f, -120.0f);
 
+	/*Light Gun*/
+	LightGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("LightGun"));
+	LightGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_standard.character_arms_standard'")).Object);
+	/*Light Gun End*/
 
-	//Renders the Player Mesh for everyone but the player
-	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("player"));
+	/* Heavy Gun*/
+	HeavyGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("HeavyGun"));
+	HeavyGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_Heavy.character_arms_Heavy'")).Object);
+	/* Heavy Gun End */
+
+	//Renders the Player's Body Mesh for everyone except the player
+	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("playerMesh"));
 	PlayerStaticMesh->SetOwnerNoSee(true);
 	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/PlayerMesh.PlayerMesh'")).Object);
 	PlayerStaticMesh->SetupAttachment(RootComponent);
@@ -78,18 +84,18 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	}
 	BeamParticle->bAutoActivate = true;
 	BeamParticle->SetHiddenInGame(true);
-	BeamParticle->SetupAttachment(GunStaticMesh);
+	BeamParticle->SetupAttachment(LightGunMesh);
 	BeamParticle->ActivateSystem();
-	//BeamParticle->SetBeamSourcePoint(0,FVector(9999, 9999, 9999),0);
-	//BeamParticle->SetBeamEndPoint(0, FVector(1, 1, 1));
-	//Beam.Target = FVector(0, 0, 0);
 
 	//Spawn beam actor
 	ConstructorHelpers::FObjectFinder<UBlueprint> BeamActorBP(TEXT("Blueprint'/Game/Particles/BeamActorBP.BeamActorBP'"));
-	if (BeamActorBP.Object) {
+	if (BeamActorBP.Object) 
+	{
 		BeamActor_BP = (UClass*)BeamActorBP.Object->GeneratedClass;
 	}
-	//Spawn particle system
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
 
 
@@ -269,11 +275,13 @@ void Aplayer_cpp::endVault()
 void Aplayer_cpp::ChangeUp()
 {
 	CurrentWeapon = 1;
+	GunMesh->SetSkeletalMesh(LightGunMesh->SkeletalMesh);
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: LPistol")));
 }
 void Aplayer_cpp::ChangeLeft()
 {
 	CurrentWeapon = 2;
+	GunMesh->SetSkeletalMesh(HeavyGunMesh->SkeletalMesh);
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: HPistol")));
 }
 void Aplayer_cpp::ChangeRight()
@@ -294,16 +302,16 @@ void Aplayer_cpp::shoot()
 	switch (CurrentWeapon)
 	{
 	case 1 :
-		GetWorld()->SpawnActor<ALightPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+		GetWorld()->SpawnActor<ALightPistol>(GunMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 		break;
 	case 2 :
-		GetWorld()->SpawnActor<AHeavyPistol>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+		GetWorld()->SpawnActor<AHeavyPistol>(GunMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 		break;
 	case 3:
-		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+		GetWorld()->SpawnActor<AShotgun>(GunMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 		break;
 	case 4:
-		GetWorld()->SpawnActor<AShotgun>(GunStaticMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
+		GetWorld()->SpawnActor<AShotgun>(GunMesh->GetComponentLocation(), FirstPersonCameraComponent->GetComponentRotation(), SpawnInfo);
 		break;
 	default:
 		break;

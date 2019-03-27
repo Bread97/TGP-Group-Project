@@ -92,12 +92,13 @@ public:
 	
 	//UStaticMeshComponent* StaticMesh;
 	UStaticMeshComponent* PlayerStaticMesh;
-	UStaticMeshComponent* GunStaticMesh;
 
 	//Generate Skeletal mesh
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
 	USkeletalMeshComponent* ThirdPersonMesh;
-	USkeletalMeshComponent* FirstPersonMesh;
+	USkeletalMeshComponent* GunMesh;
+	USkeletalMeshComponent* LightGunMesh;
+	USkeletalMeshComponent* HeavyGunMesh;
 
 	//Generate Beam Effects
 	UParticleSystemComponent* BeamParticle;

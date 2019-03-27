@@ -1,0 +1,739 @@
+﻿Log file open, 03/27/19 22:19:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FingerGunz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.644479
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.334s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.015s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.27-22.19.46:968][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-22.19.46:969][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.27-22.19.46:998][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.27-22.19.47:001][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.27-22.19.47:002][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.27-22.19.47:002][  0]LogInit: Computer: C108-05
+[2019.03.27-22.19.47:002][  0]LogInit: User: a016430f
+[2019.03.27-22.19.47:002][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.27-22.19.47:002][  0]LogInit: High frequency timer resolution =3.507175 MHz
+[2019.03.27-22.19.47:003][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.27-22.19.47:003][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.27-22.19.47:003][  0]LogMemory: Process Physical Memory: 102.81 MB used, 102.81 MB peak
+[2019.03.27-22.19.47:003][  0]LogMemory: Process Virtual Memory: 97.87 MB used, 97.87 MB peak
+[2019.03.27-22.19.47:003][  0]LogMemory: Physical Memory: 8079.91 MB used,  8227.96 MB free, 16307.88 MB total
+[2019.03.27-22.19.47:003][  0]LogMemory: Virtual Memory: 4647.46 MB used,  8227.96 MB free, 134217728.00 MB total
+[2019.03.27-22.19.47:171][  0]LogInit: Using OS detected language (en-US).
+[2019.03.27-22.19.47:171][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.27-22.19.47:174][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.27-22.19.47:711][  0]LogStreaming: Display: Took  0.540s to InitEngineTextLocalization.
+[2019.03.27-22.19.47:712][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.27-22.19.47:835][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.27-22.19.47:836][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.27-22.19.48:376][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-22.19.48:376][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.27-22.19.48:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2019.03.27-22.19.48:519][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.27-22.19.48:527][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.27-22.19.48:527][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.27-22.19.48:527][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.27-22.19.48:544][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.27-22.19.48:544][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.27-22.19.48:544][  0]LogWindows: EnumDisplayDevices:
+[2019.03.27-22.19.48:545][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2019.03.27-22.19.48:545][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2019.03.27-22.19.48:546][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.03.27-22.19.48:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2019.03.27-22.19.48:547][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.27-22.19.48:547][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2019.03.27-22.19.48:547][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.03.27-22.19.48:547][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.03.27-22.19.48:547][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
+[2019.03.27-22.19.48:627][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.27-22.19.48:649][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.27-22.19.48:657][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Intermediate/Shaders/WorkingDirectory/9792/).
+[2019.03.27-22.19.48:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a016430f/AppData/Local/Temp/UnrealShaderWorkingDir/81C3FA7D4D139D13B425F4BAF1F75844/'.
+[2019.03.27-22.19.49:312][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.27-22.19.49:342][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.27-22.19.49:376][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.27-22.19.49:406][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.27-22.19.49:435][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.27-22.19.49:465][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.27-22.19.49:497][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.27-22.19.49:526][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.27-22.19.49:542][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.27-22.19.49:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:711][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:711][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:711][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:711][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:712][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:712][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:712][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:712][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:713][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:714][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:714][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:714][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:717][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:717][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-22.19.49:724][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.27-22.19.49:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.27-22.19.49:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.27-22.19.49:897][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.27-22.19.49:897][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.27-22.19.49:928][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.27-22.19.49:958][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.27-22.19.49:985][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.27-22.19.50:009][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.27-22.19.50:028][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.27-22.19.50:028][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.27-22.19.50:339][  0]LogXGEController: Cleaning working directory: C:/Users/a016430f/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.27-22.19.50:339][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.27-22.19.50:340][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.27-22.19.50:340][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.27-22.19.51:719][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.27-22.19.51:862][  0]LogDerivedDataCache: Loaded boot cache 0.14s 88MB C:/Users/a016430f/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.27-22.19.51:863][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/a016430f/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.27-22.19.51:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.27-22.19.51:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.27-22.19.51:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.27-22.19.51:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.27-22.19.51:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.27-22.19.51:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a016430f/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.27-22.19.51:895][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.27-22.19.51:896][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.27-22.19.51:920][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.27-22.19.51:922][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.27-22.19.51:923][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.27-22.19.52:023][  0]LogAssetRegistry: FAssetRegistry took 0.0311 seconds to start up
+[2019.03.27-22.19.52:658][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-22.19.53:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.27-22.19.53:021][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.27-22.19.53:021][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.27-22.19.53:021][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.27-22.19.53:022][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.27-22.19.53:046][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.03.27-22.19.53:896][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.221012 seconds
+[2019.03.27-22.19.53:906][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.27-22.19.53:906][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.27-22.19.53:906][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.27-22.19.55:595][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.27-22.19.55:615][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.27-22.19.55:848][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.03.27-22.19.55:849][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.03.27-22.19.55:849][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+[2019.03.27-22.19.55:850][  0]Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:869][  0]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:870][  0]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:917][  0]Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:918][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.03.27-22.19.55:918][  0]LogUObjectBase: Warning: Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:918][  0]LogUObjectBase: Warning: Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:918][  0]LogUObjectBase: Warning: Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:918][  0]LogUObjectBase: Warning: Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.19.55:940][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.27-22.19.59:554][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.27-22.19.59:556][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.27-22.19.59:862][  0]SourceControl: Source control is disabled
+[2019.03.27-22.19.59:862][  0]SourceControl: Source control is disabled
+[2019.03.27-22.19.59:870][  0]SourceControl: Source control is disabled
+[2019.03.27-22.19.59:876][  0]SourceControl: Source control is disabled
+[2019.03.27-22.20.00:374][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.27-22.20.00:499][  0]LogOcInput: OculusInput pre-init called
+[2019.03.27-22.20.00:675][  0]LogEngine: Initializing Engine...
+[2019.03.27-22.20.00:678][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-22.20.00:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-22.20.00:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-22.20.00:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-22.20.00:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-22.20.01:020][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.27-22.20.01:055][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.27-22.20.01:076][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.27-22.20.01:126][  0]LogInit: FAudioDevice initialized.
+[2019.03.27-22.20.01:127][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.27-22.20.01:498][  0]LogDerivedDataCache: Saved boot cache 0.37s 88MB C:/Users/a016430f/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.27-22.20.01:528][  0]LogInit: Texture streaming: Enabled
+[2019.03.27-22.20.01:586][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.27-22.20.01:617][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={6EF13DBD-4BA1-120C-5FAF-5EB6AB57FDA8}
+[2019.03.27-22.20.01:642][  0]LogInit: Transaction tracking system initialized
+[2019.03.27-22.20.01:739][  0]BlueprintLog: New page: Editor Load
+[2019.03.27-22.20.02:035][  0]LocalizationService: Localization service is disabled
+[2019.03.27-22.20.02:744][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.27-22.20.02:744][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.27-22.20.02:744][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.27-22.20.02:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-22.20.02:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-22.20.02:745][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-22.20.02:745][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-22.20.03:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.02s
+[2019.03.27-22.20.03:342][  0]SourceControl: Source control is disabled
+[2019.03.27-22.20.03:343][  0]Cmd: MAP LOAD FILE="../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.27-22.20.03:344][  0]LightingResults: New page: Lighting Build
+[2019.03.27-22.20.03:350][  0]MapCheck: New page: Map Check
+[2019.03.27-22.20.03:351][  0]LightingResults: New page: Lighting Build
+[2019.03.27-22.20.03:810][  0]LogAIModule: Creating AISystem for world Test
+[2019.03.27-22.20.04:153][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.27-22.20.04:187][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.27-22.20.04:467][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 279.61ms to complete.
+[2019.03.27-22.20.04:468][  0]LogFileHelpers: Loading map 'Test' took 1.126
+[2019.03.27-22.20.04:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.20.04:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.20.04:694][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.20.04:705][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.20.04:728][  0]LogCollectionManager: Loaded 0 collections in 0.005384 seconds
+[2019.03.27-22.20.04:786][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Saved/Collections/' took 0.01s
+[2019.03.27-22.20.04:786][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Content/Developers/a016430f/Collections/' took 0.01s
+[2019.03.27-22.20.04:786][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Content/Collections/' took 0.01s
+[2019.03.27-22.20.04:786][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.27-22.20.04:801][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2578 classes and 605 folders.
+[2019.03.27-22.20.04:817][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.27-22.20.05:505][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.03.27-22.20.05:526][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.03.27-22.20.05:554][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.27-22.20.05:557][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.27-22.20.05:608][  0]LogSlate: Took 0.040149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.27-22.20.05:821][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.27-22.20.06:002][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.27-22.20.06:024][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.27-22.20.06:065][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.27-22.20.06:065][  0]LogLoad: (Engine Initialization) Total time: 23.82 seconds
+[2019.03.27-22.20.06:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.27-22.20.06:112][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.27-22.20.06:205][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.27-22.20.06:212][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/Content/' took 0.12s
+[2019.03.27-22.20.06:228][  1]LogAssetRegistry: Asset discovery search completed in 14.2306 seconds
+[2019.03.27-22.20.06:231][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.27-22.20.06:231][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000144 seconds (updated 0 objects)
+[2019.03.27-22.21.19:926][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.27-22.21.20:055][926]Candidate modules for hot reload:
+[2019.03.27-22.21.20:055][926]  FingerGunz
+[2019.03.27-22.21.20:056][926]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,30 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.27-22.21.20:061][926]Warning: Starting HotReload took  0.1s.
+[2019.03.27-22.21.47:354][903]CompilerResultsLog: New page: Compilation - 27 Mar 2019 22:21:47
+[2019.03.27-22.21.47:354][903]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.27-22.21.47:354][903]CompilerResultsLog: Creating makefile for hot reloading FingerGunzEditor (no existing makefile)
+[2019.03.27-22.21.47:354][903]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.27-22.21.47:354][903]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.27-22.21.47:355][903]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   [1/3] player_cpp.cpp
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(107): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   [2/3] UE4Editor-FingerGunz-30.lib
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:      Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-30.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-30.exp
+[2019.03.27-22.21.47:355][903]CompilerResultsLog:   [3/3] UE4Editor-FingerGunz-30.dll
+[2019.03.27-22.21.47:356][903]CompilerResultsLog:      Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-30.suppressed.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-30.suppressed.exp
+[2019.03.27-22.21.47:356][903]CompilerResultsLog: Total build time: 26.36 seconds (Parallel executor: 6.50 seconds)
+[2019.03.27-22.21.47:356][903]LogMainFrame: MainFrame: Module compiling took 27.311 seconds
+[2019.03.27-22.21.47:414][903]Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.47:415][903]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.47:417][903]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.47:424][903]Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.47:425][903]LogContentBrowser: Native class hierarchy updated for 'FingerGunz' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2019.03.27-22.21.47:426][903]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+
+[2019.03.27-22.21.47:429][903]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.27-22.21.47:585][903]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2579 classes and 607 folders.
+[2019.03.27-22.21.47:587][903]Display: HotReload took 27.6s.
+[2019.03.27-22.21.55:239][526]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.27-22.21.55:263][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.27-22.21.55:263][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.27-22.21.55:278][526]PIE: New page: PIE session: Test (27 Mar 2019 22:21:55)
+[2019.03.27-22.21.55:279][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2019.03.27-22.21.55:340][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061280s)
+[2019.03.27-22.21.55:341][526]LogAIModule: Creating AISystem for world Test
+[2019.03.27-22.21.55:341][526]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2019.03.27-22.21.55:341][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.062953s)
+[2019.03.27-22.21.55:373][526]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.27-22.21.55:396][526]LogInit: FAudioDevice initialized.
+[2019.03.27-22.21.55:409][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.21.55:492][526]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.03.27-22.21.55:530][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.03.27-22.21.55
+[2019.03.27-22.21.55:532][526]LogWorld: Bringing up level for play took: 0.038339
+[2019.03.27-22.21.55:969][526]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.03.27-22.21.55:979][526]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.238
+[2019.03.27-22.21.55:980][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.27-22.21.56:025][526]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:1).
+[2019.03.27-22.21.56:648][580]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.56:648][580]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.57:365][661]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.57:365][661]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.57:884][715]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.57:884][715]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:159][858]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:159][858]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:341][877]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:341][877]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:484][893]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:484][893]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:649][911]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:649][911]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:794][927]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:794][927]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.21.59:927][942]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.21.59:927][942]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.00:117][964]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.00:117][964]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.00:400][996]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.00:401][996]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.00:597][ 19]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.00:598][ 19]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.01:146][ 81]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.01:146][ 81]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.02:188][201]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.02:188][201]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.02:418][228]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.02:418][228]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.02:636][254]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.02:636][254]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.03:601][363]Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.03:601][363]LogActor: Warning: Shotgun /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.Shotgun_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.04:477][464]Error: CDO Constructor (Shotgun): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.04:477][464]LogActor: Warning: Shotgun /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.Shotgun_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.05:817][606]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.05:817][606]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.06:071][636]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.06:071][636]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.06:344][668]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.06:344][668]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.07:087][752]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.07:088][752]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.LightPistol_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.07:829][840]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.07:829][840]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.07:998][860]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.07:998][860]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.14:291][574]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.14:291][574]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.14:435][591]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.14:435][591]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.17:414][943]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.17:414][943]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.19:843][231]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.19:843][231]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.20:123][264]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.20:123][264]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.20:620][322]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.20:620][322]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.21:131][383]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.21:132][383]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.21:619][441]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.21:620][441]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.22:179][507]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.22:180][507]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.22:735][573]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.22:735][573]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.23:378][647]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.23:378][647]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.24:233][749]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.24:234][749]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.25:244][869]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.25:244][869]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.25:933][951]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.25:933][951]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.26:509][ 19]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.26:510][ 19]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.26:954][ 72]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.26:954][ 72]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:240][106]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:240][106]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:400][125]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:401][125]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:542][141]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:542][141]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:676][156]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:676][156]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:819][173]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:819][173]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.27:964][190]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.27:964][190]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.28:257][225]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.28:257][225]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.28:443][247]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.28:443][247]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.28:628][269]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.28:629][269]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.28:824][292]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.28:824][292]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.29:000][312]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.29:000][312]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.29:179][333]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.29:180][333]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.29:417][361]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.29:417][361]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.29:629][386]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.29:629][386]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.29:858][413]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.29:858][413]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.30:055][436]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.30:055][436]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.30:391][475]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.30:391][475]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.30:597][499]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.30:597][499]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.30:909][536]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.30:909][536]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.31:265][578]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.31:265][578]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.31:602][618]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.31:602][618]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.31:857][648]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.31:857][648]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.32:179][686]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.32:179][686]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.32:560][731]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.32:560][731]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.33:502][842]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.33:503][842]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.33:838][882]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.33:838][882]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:023][904]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:023][904]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:201][925]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:201][925]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:378][946]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:378][946]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:557][967]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:557][967]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:731][987]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:731][987]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.34:903][  7]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.34:903][  7]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.35:082][ 28]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.35:082][ 28]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.35:262][ 49]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.35:262][ 49]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.35:432][ 69]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.35:432][ 69]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.35:609][ 90]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.35:609][ 90]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.36:211][160]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.36:211][160]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.36:956][249]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.36:957][249]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.37:167][274]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.37:167][274]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.37:380][299]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.37:380][299]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.37:604][325]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.37:605][325]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.38:069][379]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.38:069][379]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.40:100][621]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.40:100][621]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.40:806][704]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.40:807][704]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.41:386][773]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.41:386][773]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.42:076][855]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.42:076][855]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.43:499][ 24]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.43:499][ 24]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.44:068][ 92]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.44:068][ 92]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.44:509][144]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.44:509][144]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.45:167][219]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.45:167][219]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.46:156][337]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.46:156][337]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.46:943][430]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.46:943][430]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.47:505][496]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.47:506][496]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.48:164][574]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.48:164][574]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.54:177][288]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.54:177][288]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.54:958][381]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.54:958][381]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.55:560][453]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.03.27-22.22.55:560][453]LogActor: Warning: HeavyPistol /Game/Maps/UEDPIE_0_Test.Test:PersistentLevel.HeavyPistol_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.27-22.22.56:068][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.27-22.22.56:068][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-22.22.56:095][513]LogSlate: Window 'FingerGunz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.27-22.22.56:139][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.27-22.22.56:140][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/Maps/Test.Test_C' with ClassGeneratedBy '/Game/Maps/Test.Test:PersistentLevel.Test'
+[2019.03.27-22.22.56:191][514]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.27-22.23.44:723][220]Candidate modules for hot reload:
+[2019.03.27-22.23.44:723][220]  FingerGunz
+[2019.03.27-22.23.44:723][220]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FingerGunz,4392 Win64 Development -TargetType=Editor -Project="../../../../../../Users/a016430f/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" -canskiplink "C:/Users/a016430f/Documents/TGP-Group-Project/FingerGunz/FingerGunz.uproject" ]
+[2019.03.27-22.23.44:730][220]Warning: Starting HotReload took  0.1s.
+[2019.03.27-22.23.57:430][531]CompilerResultsLog: New page: Compilation - 27 Mar 2019 22:23:57
+[2019.03.27-22.23.57:431][531]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.27-22.23.57:431][531]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.27-22.23.57:431][531]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.27-22.23.57:431][531]CompilerResultsLog:   [1/3] player_cpp.cpp
+[2019.03.27-22.23.57:431][531]CompilerResultsLog:   c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(107): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+[2019.03.27-22.23.57:431][531]CompilerResultsLog:   c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2019.03.27-22.23.57:431][531]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+[2019.03.27-22.23.57:431][531]CompilerResultsLog:   C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2019.03.27-22.23.57:432][531]CompilerResultsLog:   [2/3] UE4Editor-FingerGunz-4392.lib
+[2019.03.27-22.23.57:432][531]CompilerResultsLog:      Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-4392.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-4392.exp
+[2019.03.27-22.23.57:432][531]CompilerResultsLog:   [3/3] UE4Editor-FingerGunz-4392.dll
+[2019.03.27-22.23.57:432][531]CompilerResultsLog:      Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-4392.suppressed.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz-4392.suppressed.exp
+[2019.03.27-22.23.57:432][531]CompilerResultsLog: Total build time: 12.18 seconds (Parallel executor: 7.44 seconds)
+[2019.03.27-22.23.57:432][531]LogMainFrame: MainFrame: Module compiling took 12.718 seconds
