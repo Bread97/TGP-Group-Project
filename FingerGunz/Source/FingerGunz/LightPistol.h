@@ -27,5 +27,6 @@ public:
 	UStaticMeshComponent* GunMesh;
 	UStaticMeshComponent* BeamStart;
 	UParticleSystemComponent* BeamParticle;
+	bool CanShoot;
 
 };

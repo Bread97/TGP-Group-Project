@@ -66,6 +66,11 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	HeavyGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_Heavy.character_arms_Heavy'")).Object);
 	/* Heavy Gun End */
 
+	/* Shotgun */
+	ShotgunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("Shotgun"));
+	ShotgunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_shotgun.character_arms_shotgun'")).Object);
+	/* Shotgun End*/
+
 	//Renders the Player's Body Mesh for everyone except the player
 	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("playerMesh"));
 	PlayerStaticMesh->SetOwnerNoSee(true);
@@ -287,6 +292,7 @@ void Aplayer_cpp::ChangeLeft()
 void Aplayer_cpp::ChangeRight()
 {
 	CurrentWeapon = 3;
+	GunMesh->SetSkeletalMesh(ShotgunMesh->SkeletalMesh);
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Shotgun")));
 }
 void Aplayer_cpp::ChangeDown()

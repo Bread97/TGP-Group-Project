@@ -12,12 +12,13 @@
 ALightPistol::ALightPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	CanShoot = true;
 	lifetime = 50;
 	PrimaryActorTick.bCanEverTick = true;
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
 	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	BeamStart->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
-	BeamStart->RelativeLocation = FVector(75.0f, 20.0f, 160.0f);
+	BeamStart->RelativeLocation = FVector(75.0f, 20.0f, 140.0f);
 	BeamStart->SetHiddenInGame(true);
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
@@ -45,8 +46,9 @@ void ALightPistol::BeginPlay()
 	FCollisionQueryParams CollisionParams;
 	CollisionParams.AddIgnoredActor(this);
 	//does the linetrace
-	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
+	if ((GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams) && CanShoot == true))
 	{
+		CanShoot = false;
 		End = OutHit.Location;
 		BeamParticle->SetFloatParameter("BeamDistance", FVector::Dist(Start, End));
 		End = OutHit.Location;
@@ -57,9 +59,9 @@ void ALightPistol::BeginPlay()
 			//continue;
 			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("HIT PLAYER")));
 			Aplayer_cpp* Player = Cast<Aplayer_cpp>(OutHit.GetActor());
-			if (Player != nullptr)
+			AActor* owner = GetOwner();
+			if (Player != nullptr && Player != owner)
 			{
-				
 				Player->TakeDamage(2);
 			}
 		}

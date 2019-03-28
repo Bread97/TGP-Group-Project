@@ -99,6 +99,7 @@ public:
 	USkeletalMeshComponent* GunMesh;
 	USkeletalMeshComponent* LightGunMesh;
 	USkeletalMeshComponent* HeavyGunMesh;
+	USkeletalMeshComponent* ShotgunMesh;
 
 	//Generate Beam Effects
 	UParticleSystemComponent* BeamParticle;
