@@ -15,6 +15,11 @@ ALightPistol::ALightPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 	CanShoot = true;
 	lifetime = 50;
 	PrimaryActorTick.bCanEverTick = true;
+
+	HitBeam = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Hit"));
+	HitBeam->SetHiddenInGame(true);
+
+
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
 	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	BeamStart->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
@@ -40,6 +45,11 @@ void ALightPistol::BeginPlay()
 	Super::BeginPlay();
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("SPAWNED")));
 	FHitResult OutHit;
+
+	FVector Start = HitBeam->GetComponentLocation();
+	FVector ForwardsVector = HitBeam->GetForwardVector();
+	FVector End = FVector((ForwardsVector * 10000.f) + Start);
+
 	FVector Start = BeamStart->GetComponentLocation();
 	FVector ForwardsVector = BeamStart->GetForwardVector();
 	FVector End = FVector((ForwardsVector * 10000.f) + Start);

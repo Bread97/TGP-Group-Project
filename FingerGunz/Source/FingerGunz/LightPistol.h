@@ -26,6 +26,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	UStaticMeshComponent* GunMesh;
 	UStaticMeshComponent* BeamStart;
+	UStaticMeshComponent* HitBeam;
 	UParticleSystemComponent* BeamParticle;
 	bool CanShoot;
 
