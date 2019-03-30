@@ -72,12 +72,12 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	/* Shotgun End*/
 
 	//Renders the Player's Body Mesh for everyone except the player
-	PlayerStaticMesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("playerMesh"));
-	PlayerStaticMesh->SetOwnerNoSee(true);
-	PlayerStaticMesh->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/PlayerMesh.PlayerMesh'")).Object);
-	PlayerStaticMesh->SetupAttachment(RootComponent);
-	PlayerStaticMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-	PlayerStaticMesh->RelativeLocation = FVector(0.0f, 5.0f, -60.0f);
+	ThirdPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("playerMesh"));
+	ThirdPersonMesh->SetOwnerNoSee(true);
+	ThirdPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Animations/Idle.Idle'")).Object);
+	ThirdPersonMesh->SetupAttachment(RootComponent);
+	ThirdPersonMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
+	ThirdPersonMesh->RelativeLocation = FVector(0.0f, 5.0f, -60.0f);
 
 	//Loads the Beam Particles
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));

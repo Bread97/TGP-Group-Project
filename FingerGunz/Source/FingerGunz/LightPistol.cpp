@@ -46,9 +46,9 @@ void ALightPistol::BeginPlay()
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("SPAWNED")));
 	FHitResult OutHit;
 
-	FVector Start = HitBeam->GetComponentLocation();
-	FVector ForwardsVector = HitBeam->GetForwardVector();
-	FVector End = FVector((ForwardsVector * 10000.f) + Start);
+	//FVector Start = HitBeam->GetComponentLocation();
+	//FVector ForwardsVector = HitBeam->GetForwardVector();
+	//FVector End = FVector((ForwardsVector * 10000.f) + Start);
 
 	FVector Start = BeamStart->GetComponentLocation();
 	FVector ForwardsVector = BeamStart->GetForwardVector();

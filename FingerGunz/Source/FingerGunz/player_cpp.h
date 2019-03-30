@@ -91,7 +91,7 @@ public:
 		float BaseLookUpRate;
 	
 	//UStaticMeshComponent* StaticMesh;
-	UStaticMeshComponent* PlayerStaticMesh;
+
 
 	//Generate Skeletal mesh
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
