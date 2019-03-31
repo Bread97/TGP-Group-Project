@@ -12,19 +12,15 @@
 ALightPistol::ALightPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	CanShoot = true;
-	lifetime = 50;
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	lifetime = 5;
 	PrimaryActorTick.bCanEverTick = true;
-
-	HitBeam = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Hit"));
-	HitBeam->SetHiddenInGame(true);
-
-
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
-	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
+	BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	BeamStart->SetRelativeScale3D(FVector(0.5, 0.5, 0.5));
 	BeamStart->RelativeLocation = FVector(75.0f, 20.0f, 140.0f);
 	BeamStart->SetHiddenInGame(true);
+
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
 	BeamParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Beam"));
 

@@ -12,7 +12,7 @@
 AHeavyPistol::AHeavyPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	lifetime = 50;
+	lifetime = 5;
 	PrimaryActorTick.bCanEverTick = true;
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
 	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
