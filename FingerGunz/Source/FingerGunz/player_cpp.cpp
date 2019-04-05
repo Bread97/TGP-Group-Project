@@ -74,7 +74,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	//Renders the Player's Body Mesh for everyone except the player
 	ThirdPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("playerMesh"));
 	ThirdPersonMesh->SetOwnerNoSee(true);
-	ThirdPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Animations/Idle.Idle'")).Object);
+	ThirdPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Animations/Player_Skeletal_Mesh.Player_Skeletal_Mesh'")).Object);
 	ThirdPersonMesh->SetupAttachment(RootComponent);
 	ThirdPersonMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
 	ThirdPersonMesh->RelativeLocation = FVector(0.0f, 5.0f, -60.0f);
