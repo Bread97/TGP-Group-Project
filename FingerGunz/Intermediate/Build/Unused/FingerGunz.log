@@ -1,64 +1,49 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for FingerGunzEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for FingerGunzEditor
-    Running UnrealHeaderTool "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FingerGunzEditor in 11.1666103 seconds
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-173.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-173.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1946.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-1946.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-204.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-204.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3250.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-3250.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-522.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-522.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6473.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-6473.pdb".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-9387.dll".
-  Deleting old hot reload file: "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Binaries\Win64\UE4Editor-FingerGunz-9387.pdb".
-  Building 18 actions with 8 processes...
-    [1/18] PCLaunch.rc
-    [2/18] SharedPCH.Engine.cpp
-    [3/18] FingerGunzGameModeBase.gen.cpp
-    [4/18] FingerGunz.init.gen.cpp
-    [5/18] BeamActor.gen.cpp
-    [6/18] LightPistol.gen.cpp
-    [7/18] FingerGunzGameModeBase.cpp
-    [8/18] HeavyPistol.gen.cpp
-    [9/18] player_cpp.gen.cpp
-C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [10/18] FingerGunz.cpp
-    [11/18] LightPistol.cpp
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [12/18] HeavyPistol.cpp
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [13/18] ShotGun.gen.cpp
-    [14/18] BeamActor.cpp
-    [15/18] ShotGun.cpp
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [16/18] player_cpp.cpp
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
-c:\users\bradley\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [17/18] UE4Editor-FingerGunz.lib
-       Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [18/18] UE4Editor-FingerGunz.dll
-       Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FingerGunzEditor in 14.9232157 seconds
+  Building 17 actions with 8 processes...
+    [1/17] SharedPCH.Engine.cpp
+    [2/17] FingerGunz.init.gen.cpp
+    [3/17] FingerGunzGameModeBase.gen.cpp
+    [4/17] LightPistol.gen.cpp
+    [5/17] HeavyPistol.gen.cpp
+    [6/17] player_cpp.gen.cpp
+C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Source\FingerGunz/player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [7/17] BeamActor.gen.cpp
+    [8/17] FingerGunz.cpp
+    [9/17] FingerGunzGameModeBase.cpp
+    [10/17] LightPistol.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [11/17] HeavyPistol.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [12/17] ShotGun.gen.cpp
+    [13/17] BeamActor.cpp
+    [14/17] ShotGun.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [15/17] player_cpp.cpp
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(108): warning C4263: 'void Aplayer_cpp::TakeDamage(float)': member function does not override any base class virtual member function
+c:\users\a016430f\documents\tgp-group-project\fingergunz\source\fingergunz\player_cpp.h(109): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [16/17] UE4Editor-FingerGunz.lib
+       Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [17/17] UE4Editor-FingerGunz.dll
+       Creating library C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\a016430f\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 56.48 seconds (Parallel executor: 35.70 seconds)
+  Total build time: 97.53 seconds (Parallel executor: 40.78 seconds)

@@ -15,7 +15,6 @@ AHeavyPistol::AHeavyPistol(const FObjectInitializer& PCIP) : Super(PCIP)
 	lifetime = 5;
 	PrimaryActorTick.bCanEverTick = true;
 	BeamStart = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Start"));
-	//BeamStart->SetStaticMesh(ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'")).Object);
 	BeamStart->SetRelativeScale3D(FVector(1., 1., 1.));
 	BeamStart->RelativeLocation = FVector(75.0f, 20.0f, 140.0f);
 	BeamStart->SetHiddenInGame(true);
