@@ -95,7 +95,6 @@ public:
 
 	//Generate Skeletal mesh
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
-	USkeletalMeshComponent* ThirdPersonMesh;
 	USkeletalMeshComponent* GunMesh;
 	USkeletalMeshComponent* LightGunMesh;
 	USkeletalMeshComponent* HeavyGunMesh;

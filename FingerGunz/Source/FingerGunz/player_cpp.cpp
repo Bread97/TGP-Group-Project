@@ -50,7 +50,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 
 	//Renders the Gun for the player only
 	GunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("GunMesh"));
-	GunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Light_Pistol_Anims/character_arms_standard.character_arms_standard'")).Object);
+	GunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_standard.character_arms_standard'")).Object);
 	GunMesh->SetOnlyOwnerSee(true);
 	GunMesh->SetupAttachment(FirstPersonCameraComponent);
 	GunMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
@@ -58,26 +58,18 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 
 	/*Light Gun*/
 	LightGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("LightGun"));
-	LightGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Light_Pistol_Anims/character_arms_standard.character_arms_standard'")).Object);
+	LightGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_standard.character_arms_standard'")).Object);
 	/*Light Gun End*/
 
 	/* Heavy Gun*/
 	HeavyGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("HeavyGun"));
-	HeavyGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_Heavy.character_arms_Heavy'")).Object);
+	HeavyGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_Heavy.character_arms_Heavy'")).Object);
 	/* Heavy Gun End */
 
 	/* Shotgun */
 	ShotgunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("Shotgun"));
-	ShotgunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/character_arms_shotgun.character_arms_shotgun'")).Object);
+	ShotgunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_shotgun.character_arms_shotgun'")).Object);
 	/* Shotgun End*/
-
-	//Renders the Player's Body Mesh for everyone except the player
-	ThirdPersonMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("playerMesh"));
-	ThirdPersonMesh->SetOwnerNoSee(true);
-	ThirdPersonMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Animations/Player_Skeletal_Mesh.Player_Skeletal_Mesh'")).Object);
-	ThirdPersonMesh->SetupAttachment(RootComponent);
-	ThirdPersonMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
-	ThirdPersonMesh->RelativeLocation = FVector(0.0f, 5.0f, -60.0f);
 
 	//Loads the Beam Particles
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));

@@ -34,9 +34,9 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonMesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunMesh_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ThirdPersonMesh;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunMesh;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -70,14 +70,14 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_ThirdPersonMesh_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_GunMesh_MetaData[] = {
 		{ "Category", "Mesh" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "player_cpp.h" },
 		{ "ToolTip", "Generate Skeletal mesh" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_ThirdPersonMesh = { UE4CodeGen_Private::EPropertyClass::Object, "ThirdPersonMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, ThirdPersonMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_ThirdPersonMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_ThirdPersonMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_GunMesh = { UE4CodeGen_Private::EPropertyClass::Object, "GunMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, GunMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_GunMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_GunMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -111,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "FirstPersonCameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(Aplayer_cpp, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aplayer_cpp_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_ThirdPersonMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_GunMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aplayer_cpp_Statics::NewProp_Health,
@@ -140,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeplayer_cpp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aplayer_cpp, 3003006104);
+	IMPLEMENT_CLASS(Aplayer_cpp, 796946444);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aplayer_cpp(Z_Construct_UClass_Aplayer_cpp, &Aplayer_cpp::StaticClass, TEXT("/Script/FingerGunz"), TEXT("Aplayer_cpp"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aplayer_cpp);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
