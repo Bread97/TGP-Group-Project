@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FINGERGUNZ_player_cpp_generated_h
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_RPC_WRAPPERS
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_RPC_WRAPPERS_NO_PURE_DECLS
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_INCLASS_NO_PURE_DECLS \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_RPC_WRAPPERS
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAplayer_cpp(); \
 	friend struct Z_Construct_UClass_Aplayer_cpp_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(Aplayer_cpp)
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_INCLASS \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAplayer_cpp(); \
 	friend struct Z_Construct_UClass_Aplayer_cpp_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(Aplayer_cpp)
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_STANDARD_CONSTRUCTORS \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API Aplayer_cpp(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aplayer_cpp) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_ENHANCED_CONSTRUCTORS \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API Aplayer_cpp(Aplayer_cpp&&); \
@@ -57,29 +57,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Aplayer_cpp); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aplayer_cpp)
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_PRIVATE_PROPERTY_OFFSET \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(Aplayer_cpp, Health); }
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_10_PROLOG
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_GENERATED_BODY_LEGACY \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_11_PROLOG
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_PRIVATE_PROPERTY_OFFSET \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_RPC_WRAPPERS \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_INCLASS \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_STANDARD_CONSTRUCTORS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_PRIVATE_PROPERTY_OFFSET \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_RPC_WRAPPERS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_INCLASS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FingerGunz_Source_FingerGunz_player_cpp_h_19_GENERATED_BODY \
+#define FingerGunz_Source_FingerGunz_player_cpp_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_PRIVATE_PROPERTY_OFFSET \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_INCLASS_NO_PURE_DECLS \
-	FingerGunz_Source_FingerGunz_player_cpp_h_19_ENHANCED_CONSTRUCTORS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_PRIVATE_PROPERTY_OFFSET \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_INCLASS_NO_PURE_DECLS \
+	FingerGunz_Source_FingerGunz_player_cpp_h_20_ENHANCED_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

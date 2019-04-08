@@ -11,8 +11,10 @@
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
-#include "BeamActor.h"
 
+#include "Player_Hitbox.h"
+
+#include "BeamActor.h"
 #include "LightPistol.h"
 #include "HeavyPistol.h"
 #include "ShotGun.h"

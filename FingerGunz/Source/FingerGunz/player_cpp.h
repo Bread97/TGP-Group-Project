@@ -7,6 +7,7 @@
 #include "ParticleDefinitions.h"
 #include "player_cpp.generated.h"
 
+
 UCLASS()
 class FINGERGUNZ_API Aplayer_cpp : public ACharacter
 {
