@@ -55,7 +55,7 @@ void ALightPistol::BeginPlay()
 			Aplayer_cpp* Player = Cast<Aplayer_cpp>(OutHit.GetActor());
 			if (Player != nullptr)
 			{
-				Player->TakeDamage(5);
+				//Player->TakeDamage(5);
 			}
 		}
 	}

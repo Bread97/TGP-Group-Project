@@ -59,7 +59,7 @@ void AHeavyPistol::BeginPlay()
 			if (Player != nullptr)
 			{
 
-				Player->TakeDamage(5);
+				//Player->TakeDamage(5);
 			}
 		}
 	}

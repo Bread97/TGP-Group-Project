@@ -95,15 +95,15 @@ public:
 
 
 	//Generate Skeletal mesh
-	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
-	USkeletalMeshComponent* GunMesh;
-	USkeletalMeshComponent* LightGunMesh;
-	USkeletalMeshComponent* HeavyGunMesh;
-	USkeletalMeshComponent* ShotgunMesh;
+	//UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
+	//USkeletalMeshComponent* GunMesh;
+	//USkeletalMeshComponent* LightGunMesh;
+	//USkeletalMeshComponent* HeavyGunMesh;
+	//USkeletalMeshComponent* ShotgunMesh;
 
 	//Generate Beam Effects
-	UParticleSystemComponent* BeamParticle;
-	TSubclassOf<class AItem> BeamActor_BP;
+	//UParticleSystemComponent* BeamParticle;
+	//TSubclassOf<class AItem> BeamActor_BP;
 
-	void TakeDamage(float Damage);
+	//void TakeDamage(float Damage);
 };

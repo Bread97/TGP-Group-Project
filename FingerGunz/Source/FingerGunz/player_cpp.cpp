@@ -12,12 +12,10 @@
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
 
-#include "Player_Hitbox.h"
-
-#include "BeamActor.h"
-#include "LightPistol.h"
-#include "HeavyPistol.h"
-#include "ShotGun.h"
+//#include "BeamActor.h"
+//#include "LightPistol.h"
+//#include "HeavyPistol.h"
+//#include "ShotGun.h"
 
 // Sets default values
 Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -28,8 +26,8 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	BaseLookUpRate = 100.f;
 	wallJumpAmount = 500;
 	vaultJumpAmount = 1200;
-	Health = 5;
-	Armor = 0;
+	//Health = 5;
+	//Armor = 0;
 	PistolDamageAmount = 3;
 	ShootingDelay = 10;
 	CharacterMovement->JumpZVelocity = 1000;
@@ -50,6 +48,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 ////////////****LOAD IN PLAYER MESHES****/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	/*
 	//Renders the Gun for the player only
 	GunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("GunMesh"));
 	GunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_standard.character_arms_standard'")).Object);
@@ -58,20 +57,20 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	GunMesh->SetRelativeScale3D(FVector(0.30, 0.30, 0.30));
 	GunMesh->RelativeLocation = FVector(10.0f, 20.0f, -120.0f);
 
-	/*Light Gun*/
+
 	LightGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("LightGun"));
 	LightGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_standard.character_arms_standard'")).Object);
-	/*Light Gun End*/
 
-	/* Heavy Gun*/
+
+
 	HeavyGunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("HeavyGun"));
 	HeavyGunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_Heavy.character_arms_Heavy'")).Object);
-	/* Heavy Gun End */
 
-	/* Shotgun */
+
+
 	ShotgunMesh = PCIP.CreateDefaultSubobject<USkeletalMeshComponent>(this, TEXT("Shotgun"));
 	ShotgunMesh->SetSkeletalMesh(ConstructorHelpers::FObjectFinder<USkeletalMesh>(TEXT("SkeletalMesh'/Game/Player/Meshes/Weapon_Meshes/Meshes_And_Animations/character_arms_shotgun.character_arms_shotgun'")).Object);
-	/* Shotgun End*/
+
 
 	//Loads the Beam Particles
 	ConstructorHelpers::FObjectFinder<UParticleSystem> Beam(TEXT("ParticleSystem'/Game/Particles/LaserBeamParticle.LaserBeamParticle'"));
@@ -92,7 +91,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	{
 		BeamActor_BP = (UClass*)BeamActorBP.Object->GeneratedClass;
 	}
-
+	*/
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
@@ -110,8 +109,8 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryWallRun);
 	PlayerInputComponent->BindAction("Space", IE_Pressed, this, &Aplayer_cpp::tryVault);
 	PlayerInputComponent->BindAction("Space", IE_Released, this, &Aplayer_cpp::tryStopWallRun);
-	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
-	PlayerInputComponent->BindAction("Shoot", IE_Released, this, &Aplayer_cpp::StopShooting);
+	//PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &Aplayer_cpp::shoot);
+	//PlayerInputComponent->BindAction("Shoot", IE_Released, this, &Aplayer_cpp::StopShooting);
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &Aplayer_cpp::StartZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &Aplayer_cpp::EndZoom);
 
@@ -122,13 +121,15 @@ void Aplayer_cpp::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Aplayer_cpp::lookUpAtRate);
 
 	//D-Pad Events
-	PlayerInputComponent->BindAction("ChangeWeaponUp", IE_Pressed, this, &Aplayer_cpp::ChangeUp);
+	/*PlayerInputComponent->BindAction("ChangeWeaponUp", IE_Pressed, this, &Aplayer_cpp::ChangeUp);
 	PlayerInputComponent->BindAction("ChangeWeaponDown", IE_Pressed, this, &Aplayer_cpp::ChangeDown);
 	PlayerInputComponent->BindAction("ChangeWeaponLeft", IE_Pressed, this, &Aplayer_cpp::ChangeLeft);
 	PlayerInputComponent->BindAction("ChangeWeaponRight", IE_Pressed, this, &Aplayer_cpp::ChangeRight);
+	*/
 }
 
 //Handle damage taken from incoming attacks
+/*
 void Aplayer_cpp::TakeDamage(float Damage)
 {
 	if (Health > 0)
@@ -137,25 +138,26 @@ void Aplayer_cpp::TakeDamage(float Damage)
 		if (Health < 1)
 		{
 			this->SetActorLocation(FVector(0, 0, 5000));
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
 			Health = 5;
 		}
 	}
 	else
 	{
 		this->SetActorLocation(FVector(0, 0, 5000));
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("YOU DIED")));
 		Health = 5;
 	}
 	return;
 }
+*/
 
 
 // Called when the game starts or when spawned
 void Aplayer_cpp::BeginPlay()
 {
 	Super::BeginPlay();
-	BeamParticle->ActivateSystem();
+	//BeamParticle->ActivateSystem();
 }
 
 /////////////////Handle player movement//////////////////////
@@ -198,7 +200,7 @@ void Aplayer_cpp::tryWallRun()
 		else
 		{
 			doWallJump();
-			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Blue, FString::Printf(TEXT("DOING WALL JUMP")));
+			//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Blue, FString::Printf(TEXT("DOING WALL JUMP")));
 		}
 	}
 }
@@ -212,7 +214,7 @@ void Aplayer_cpp::tryStopWallRun()
 //DOES WALL RUN
 void Aplayer_cpp::doWallRun()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("DOING WALL RUN")));
+	//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("DOING WALL RUN")));
 	CharacterMovement->Velocity.Z = 200;
 	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 0.5;
 	isWallRunning = true;	
@@ -221,7 +223,7 @@ void Aplayer_cpp::doWallRun()
 //CALLED WHEN WALL RUN ENDS
 void Aplayer_cpp::endWallRun()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("ENDING WALL RUN")));
+	//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Blue, FString::Printf(TEXT("ENDING WALL RUN")));
 	float GravityScale = CharacterMovement->GravityScale; CharacterMovement->GravityScale = 2.5;
 }
 
@@ -234,7 +236,7 @@ void Aplayer_cpp::doWallJump()
 		FVector Direction = (RightVector * 500.f);
 		CharacterMovement->Velocity.Z += 500;
 		CharacterMovement->Velocity += Direction;
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING LEFT WALL JUMP")));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING LEFT WALL JUMP")));
 	}
 	else if (wallOnRight == true)
 	{
@@ -242,7 +244,7 @@ void Aplayer_cpp::doWallJump()
 		FVector Direction = (RightVector * -500.f);
 		CharacterMovement->Velocity.Z += 500;
 		CharacterMovement->Velocity += Direction;
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING RIGHT WALL JUMP")));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("DOING RIGHT WALL JUMP")));
 	}
 }
 
@@ -270,31 +272,33 @@ void Aplayer_cpp::endVault()
 {
 	//maybe going to add stuff here
 }
-
+/*
 void Aplayer_cpp::ChangeUp()
 {
 	CurrentWeapon = 1;
 	GunMesh->SetSkeletalMesh(LightGunMesh->SkeletalMesh);
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: LPistol")));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: LPistol")));
 }
 void Aplayer_cpp::ChangeLeft()
 {
 	CurrentWeapon = 2;
 	GunMesh->SetSkeletalMesh(HeavyGunMesh->SkeletalMesh);
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: HPistol")));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: HPistol")));
 }
 void Aplayer_cpp::ChangeRight()
 {
 	CurrentWeapon = 3;
 	GunMesh->SetSkeletalMesh(ShotgunMesh->SkeletalMesh);
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Shotgun")));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Shotgun")));
 }
 void Aplayer_cpp::ChangeDown()
 {
 	CurrentWeapon = 4;
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Rocket Launcher")));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, FString::Printf(TEXT("Current Weapon: Rocket Launcher")));
 }
+*/
 
+/*
 //Handle Weapon Switching
 void Aplayer_cpp::shoot()
 {
@@ -318,13 +322,16 @@ void Aplayer_cpp::shoot()
 	}
 
 }
+*/
 
+/*
 void Aplayer_cpp::StopShooting()
 {
 	IsShooting = false;
 	ShootingDelay = 0;
 	//BeamParticle->SetHiddenInGame(true);
 }
+*/
 
 void Aplayer_cpp::StartZoom()
 {
@@ -365,13 +372,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			//outputs info (debug build only)
 			if (OutHit.bBlockingHit)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("WALL RIGHT")));
+				//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("WALL RIGHT")));
 				wallOnRight = true;
 			}
 		}
 		else
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT RIGHT")));
+			//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT RIGHT")));
 			wallOnRight = false;
 		}
 	}
@@ -390,13 +397,13 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			//outputs info (debug build only)
 			if (OutHit.bBlockingHit)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("WALL LEFT")));
+				//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("WALL LEFT")));
 				wallOnLeft = true;
 			}
 		}
 		else
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT LEFT")));
+			//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Purple, FString::Printf(TEXT("WALL NOT LEFT")));
 			wallOnLeft = false;
 		}
 	}
@@ -414,7 +421,7 @@ void Aplayer_cpp::Tick(float DeltaTime)
 		{
 			if (OutHit.bBlockingHit)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("ON FLOOR")));
+				//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("ON FLOOR")));
 				isWallRunning = false;
 				isVaulting = false;
 				canVault = false;
@@ -435,28 +442,28 @@ void Aplayer_cpp::Tick(float DeltaTime)
 		{
 			if (OutHit.bBlockingHit)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN VAULT")));
+				//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN VAULT")));
 				canVault = true;
 			}
 		}
 		else
 		{
 			canVault = false;
-			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN'T VAULT")));
+			//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Green, FString::Printf(TEXT("CAN'T VAULT")));
 		}
 	}
 	{
 		//ACTIVATES WALLRUNS AND CHECKS TO SEE IF PLAYER CAN WALLRUN
 		if (wallOnRight == false && wallOnLeft == false)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CANT WALL RUN")));
+			//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CANT WALL RUN")));
 			canWallRun = false;
 			isWallRunning = false;
 			endWallRun();
 		}
 		else
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CAN WALL RUN")));
+			//GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Red, FString::Printf(TEXT("CAN WALL RUN")));
 			canWallRun = true;
 			if (canWallRun == true)
 			{
