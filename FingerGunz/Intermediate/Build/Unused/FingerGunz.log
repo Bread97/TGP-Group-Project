@@ -1,30 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FingerGunzEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for FingerGunzEditor
-    Running UnrealHeaderTool "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\FingerGunz.uproject" "C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\FingerGunzEditor\Development\FingerGunzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FingerGunzEditor in 10.6588524 seconds
-  Building 18 actions with 8 processes...
-    [1/18] SharedPCH.Engine.cpp
-    [2/18] FingerGunz.init.gen.cpp
-    [3/18] FingerGunzGameModeBase.gen.cpp
-    [4/18] BeamActor.gen.cpp
-    [5/18] HeavyPistol.gen.cpp
-    [6/18] LightPistol.gen.cpp
-    [7/18] player_cpp.gen.cpp
-    [8/18] FingerGunz.cpp
-    [9/18] Player_Hitbox.cpp
-    [10/18] ShotGun.cpp
-    [11/18] FingerGunzGameModeBase.cpp
-    [12/18] LightPistol.cpp
-    [13/18] HeavyPistol.cpp
-    [14/18] BeamActor.cpp
-    [15/18] player_cpp.cpp
-    [16/18] ShotGun.gen.cpp
-    [17/18] UE4Editor-FingerGunz.lib
-       Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
-    [18/18] UE4Editor-FingerGunz.dll
-       Creating library C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object C:\Users\Bradley\Documents\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
+  Creating makefile for FingerGunzEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 51.82 seconds (Parallel executor: 31.38 seconds)
+  Total build time: 63.52 seconds (NoActionsToExecute executor: 0.00 seconds)
