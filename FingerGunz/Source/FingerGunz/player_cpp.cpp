@@ -482,10 +482,10 @@ void Aplayer_cpp::Tick(float DeltaTime)
 			//doWallRun();
 		}
 	}
-	if (this->GetActorLocation().Z <= -1000)
-	{
-		this->SetActorLocation(FVector(0, 0, 1000));
-	}
+	//if (this->GetActorLocation().Z <= -1000)
+	//{
+	//	this->SetActorLocation(FVector(0, 0, 1000));
+	//}
 	if (Health > 5)
 	{
 		Health = 5;
