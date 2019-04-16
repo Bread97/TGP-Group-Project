@@ -1,0 +1,1109 @@
+﻿Log file open, 04/12/19 15:56:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FingerGunz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.290897
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.082s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Unreal Engine 4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.12-15.56.53:840][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-15.56.53:840][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.12-15.56.53:853][  0]LogHAL: Display: Platform has ~ 16 GB [17061756928 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.12-15.56.53:853][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.12-15.56.53:853][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.12-15.56.53:853][  0]LogInit: Computer: MSI
+[2019.04.12-15.56.53:853][  0]LogInit: User: Xyvn
+[2019.04.12-15.56.53:853][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.12-15.56.53:853][  0]LogInit: High frequency timer resolution =2.742191 MHz
+[2019.04.12-15.56.53:854][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.12-15.56.53:854][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.12-15.56.53:854][  0]LogMemory: Process Physical Memory: 99.99 MB used, 99.99 MB peak
+[2019.04.12-15.56.53:854][  0]LogMemory: Process Virtual Memory: 90.92 MB used, 90.92 MB peak
+[2019.04.12-15.56.53:854][  0]LogMemory: Physical Memory: 5795.37 MB used,  10475.99 MB free, 16271.36 MB total
+[2019.04.12-15.56.53:854][  0]LogMemory: Virtual Memory: 4640.75 MB used,  10475.99 MB free, 134217728.00 MB total
+[2019.04.12-15.56.53:872][  0]LogInit: Using OS detected language (en-US).
+[2019.04.12-15.56.53:872][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.12-15.56.53:873][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.12-15.56.54:238][  0]LogStreaming: Display: Took  0.367s to InitEngineTextLocalization.
+[2019.04.12-15.56.54:279][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.12-15.56.54:279][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.12-15.56.54:488][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.12-15.56.54:488][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.12-15.56.54:541][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.12-15.56.54:541][  0]LogD3D11RHI:       2010/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.12-15.56.54:554][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.12-15.56.54:554][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.12-15.56.54:556][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.12-15.56.54:556][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.12-15.56.54:556][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.12-15.56.54:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.12-15.56.54:585][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.12-15.56.54:585][  0]LogWindows: EnumDisplayDevices:
+[2019.04.12-15.56.54:585][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.12-15.56.54:586][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.12-15.56.54:586][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.12-15.56.54:586][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.12-15.56.54:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.12-15.56.54:586][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.12-15.56.54:586][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.12-15.56.54:586][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.12-15.56.54:628][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.12-15.56.54:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.12-15.56.54:641][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../Y2/SourceTreeRepositories/FingerGunz/Intermediate/Shaders/WorkingDirectory/41940/).
+[2019.04.12-15.56.54:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xyvn/AppData/Local/Temp/UnrealShaderWorkingDir/7A3C4222453D620A8B80798E5771E248/'.
+[2019.04.12-15.56.54:921][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.12-15.56.54:935][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.12-15.56.54:947][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.12-15.56.54:960][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.12-15.56.54:974][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.12-15.56.54:987][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.12-15.56.55:000][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.12-15.56.55:013][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.12-15.56.55:019][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.12-15.56.55:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-15.56.55:098][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.12-15.56.55:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.12-15.56.55:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.12-15.56.55:184][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.12-15.56.55:184][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.12-15.56.55:196][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.12-15.56.55:209][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.12-15.56.55:221][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.12-15.56.55:233][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.12-15.56.55:242][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.12-15.56.55:242][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.12-15.56.55:288][  0]LogXGEController: Cleaning working directory: C:/Users/Xyvn/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.12-15.56.55:288][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.12-15.56.55:288][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.12-15.56.55:288][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.12-15.56.56:010][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Y2/SourceTreeRepositories/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Y2/SourceTreeRepositories/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.12-15.56.56:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.12-15.56.56:085][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.12-15.56.56:098][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xyvn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.12-15.56.56:098][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.12-15.56.56:098][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.12-15.56.56:115][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.12-15.56.56:116][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.12-15.56.56:117][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.12-15.56.56:190][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.04.12-15.56.56:501][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-15.56.56:630][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.12-15.56.56:633][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.12-15.56.56:633][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.12-15.56.56:633][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.12-15.56.56:633][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.12-15.56.56:651][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.04.12-15.56.57:141][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092088 seconds
+[2019.04.12-15.56.57:150][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.12-15.56.57:150][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.12-15.56.57:150][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.12-15.56.57:949][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.12-15.56.57:962][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.12-15.56.58:114][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.04.12-15.56.58:114][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.04.12-15.56.58:114][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+[2019.04.12-15.56.58:114][  0]Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:143][  0]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:143][  0]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:143][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Armless'
+[2019.04.12-15.56.58:144][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Armless'
+[2019.04.12-15.56.58:144][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+[2019.04.12-15.56.58:144][  0]Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.56.58:144][  0]Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:152][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.04.12-15.56.58:152][  0]LogUObjectBase: Warning: Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:152][  0]LogUObjectBase: Warning: Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:152][  0]LogUObjectBase: Warning: Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:152][  0]LogUObjectBase: Warning: Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.56.58:153][  0]LogUObjectBase: Warning: Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.56.58:174][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-15.56.59:706][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-15.56.59:708][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-15.56.59:749][  0]SourceControl: Source control is disabled
+[2019.04.12-15.56.59:749][  0]SourceControl: Source control is disabled
+[2019.04.12-15.56.59:750][  0]SourceControl: Source control is disabled
+[2019.04.12-15.56.59:751][  0]SourceControl: Source control is disabled
+[2019.04.12-15.56.59:920][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.12-15.57.00:020][  0]LogOcInput: OculusInput pre-init called
+[2019.04.12-15.57.00:084][  0]LogEngine: Initializing Engine...
+[2019.04.12-15.57.00:084][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.12-15.57.00:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.12-15.57.00:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-15.57.00:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.12-15.57.00:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-15.57.00:294][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.12-15.57.00:302][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.12-15.57.00:321][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.12-15.57.00:454][  0]LogInit: FAudioDevice initialized.
+[2019.04.12-15.57.00:454][  0]LogNetVersion: Set ProjectVersion to 0.6.1. Version Checksum will be recalculated on next use.
+[2019.04.12-15.57.00:603][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.12-15.57.00:617][  0]LogInit: Texture streaming: Enabled
+[2019.04.12-15.57.00:631][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.12-15.57.00:644][  0]LogInit: Transaction tracking system initialized
+[2019.04.12-15.57.00:662][  0]BlueprintLog: New page: Editor Load
+[2019.04.12-15.57.00:716][  0]LocalizationService: Localization service is disabled
+[2019.04.12-15.57.00:989][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.12-15.57.00:989][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.12-15.57.00:989][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.12-15.57.00:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.12-15.57.00:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-15.57.00:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.12-15.57.00:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-15.57.01:090][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/' took 0.01s
+[2019.04.12-15.57.01:091][  0]SourceControl: Source control is disabled
+[2019.04.12-15.57.01:091][  0]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-15.57.01:091][  0]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.01:093][  0]MapCheck: New page: Map Check
+[2019.04.12-15.57.01:093][  0]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.01:204][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:205][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:250][  0]Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:250][  0]Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:282][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:282][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:421][  0]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.01:421][  0]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.01:421][  0]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/shield.shield 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.04.12-15.57.01:421][  0]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.01:421][  0]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.01:421][  0]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/shield.shield 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.04.12-15.57.01:421][  0]LogPhysics: Warning: Attempt to build physics data for /Game/Meshes/shield.shield:BodySetup_1 when we are unable to.
+[2019.04.12-15.57.01:513][  0]LogAIModule: Creating AISystem for world Test
+[2019.04.12-15.57.01:518][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.01:518][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.01:522][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.01:522][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.01:522][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.01:522][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.01:522][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-15.57.01:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-15.57.01:601][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.908ms to complete.
+[2019.04.12-15.57.01:601][  0]LogFileHelpers: Loading map 'Test' took 0.510
+[2019.04.12-15.57.01:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.12-15.57.01:703][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.12-15.57.01:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.12-15.57.01:720][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.12-15.57.01:725][  0]LogCollectionManager: Loaded 0 collections in 0.001128 seconds
+[2019.04.12-15.57.01:764][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Saved/Collections/' took 0.01s
+[2019.04.12-15.57.01:764][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/Developers/Xyvn/Collections/' took 0.01s
+[2019.04.12-15.57.01:764][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/Collections/' took 0.01s
+[2019.04.12-15.57.01:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.12-15.57.01:774][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2577 classes and 605 folders.
+[2019.04.12-15.57.01:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.12-15.57.01:818][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.12-15.57.01:826][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.12-15.57.01:835][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.12-15.57.03:416][  0]LogSlate: Window 'Message' being destroyed
+[2019.04.12-15.57.03:416][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-15.57.03:423][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.12-15.57.03:438][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-15.57.03:442][  0]LogSlate: Took 0.000484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.12-15.57.03:448][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.12-15.57.03:511][  0]LogRenderer: Reallocating scene render targets to support 1068x584 Format 10 NumSamples 1 (Frame:1).
+[2019.04.12-15.57.03:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.12-15.57.03:617][  0]LogLoad: (Engine Initialization) Total time: 11.31 seconds
+[2019.04.12-15.57.03:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.12-15.57.03:667][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.12-15.57.03:682][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.12-15.57.03:685][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/' took 0.04s
+[2019.04.12-15.57.03:700][  1]LogAssetRegistry: Asset discovery search completed in 7.5319 seconds
+[2019.04.12-15.57.03:702][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.12-15.57.03:702][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.04.12-15.57.05:230][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.57.10:118][382]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.12-15.57.10:532][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/speed_up.speed_up 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/speed_up.speed_up 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.04.12-15.57.10:533][382]LogPhysics: Warning: Attempt to build physics data for /Game/Meshes/speed_up.speed_up:BodySetup_1 when we are unable to.
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/firing_boost.firing_boost 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Error: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2019.04.12-15.57.10:533][382]LogPhysics: Warning: Failed to cook convex: /Game/Meshes/firing_boost.firing_boost 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.04.12-15.57.10:534][382]LogPhysics: Warning: Attempt to build physics data for /Game/Meshes/firing_boost.firing_boost:BodySetup_1 when we are unable to.
+[2019.04.12-15.57.10:571][382]LogAIModule: Creating AISystem for world Map1
+[2019.04.12-15.57.10:720][382]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map1.Map1
+[2019.04.12-15.57.10:751][382]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-15.57.10:751][382]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.10:751][382]LoadErrors: New page: Loading map: Map1.umap
+[2019.04.12-15.57.10:752][382]MapCheck: New page: Map Check
+[2019.04.12-15.57.10:752][382]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:777][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:778][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:805][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:806][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:807][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.57.10:808][382]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.57.11:063][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-15.57.11:113][382]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-15.57.11:174][382]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.69ms to complete.
+[2019.04.12-15.57.11:174][382]LogFileHelpers: Loading map 'Map1' took 0.425
+[2019.04.12-15.57.33:447][666]Cmd: EDIT COPY
+[2019.04.12-15.57.35:493][784]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map2.Map2
+[2019.04.12-15.57.36:690][784]LogSlate: Window 'Save Content' being destroyed
+[2019.04.12-15.57.36:823][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-15.57.36:904][784]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map233DE76AE4DA7AB3427C34E97EB23A2B0.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-15.57.36:936][784]LogFileHelpers: Saving map 'Map2' took 0.193
+[2019.04.12-15.57.36:939][784]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-15.57.36:939][784]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.36:940][784]LoadErrors: New page: Loading map: Map2.umap
+[2019.04.12-15.57.36:946][784]MapCheck: New page: Map Check
+[2019.04.12-15.57.36:946][784]LightingResults: New page: Lighting Build
+[2019.04.12-15.57.36:975][784]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-15.57.36:975][784]LogAIModule: Creating AISystem for world Map2
+[2019.04.12-15.57.37:024][784]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-15.57.37:085][784]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.403ms to complete.
+[2019.04.12-15.57.37:086][784]LogFileHelpers: Loading map 'Map2' took 0.149
+[2019.04.12-15.57.45:662][297]Cmd: EDIT PASTE
+[2019.04.12-15.57.45:770][297]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.12-15.57.45:771][297]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.12-15.57.45:771][297]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.12-15.57.45:772][297]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.12-15.57.58:738][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-15.57.58:755][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-15.57.58:866][ 70]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2CECBBFE34F330D91762012B2AF05D872.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-15.58.00:239][143]LogAIModule: Creating AISystem for world Map1
+[2019.04.12-15.58.00:389][143]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map1.Map1
+[2019.04.12-15.58.00:416][143]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-15.58.00:416][143]LightingResults: New page: Lighting Build
+[2019.04.12-15.58.00:417][143]LoadErrors: New page: Loading map: Map1.umap
+[2019.04.12-15.58.00:418][143]MapCheck: New page: Map Check
+[2019.04.12-15.58.00:418][143]LightingResults: New page: Lighting Build
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:443][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:444][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:471][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:471][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/firing_boost.firing_boost] ScaledElem[0] invalid
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:472][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/shield.shield] ScaledElem[0] invalid
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:473][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:474][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:475][143]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2019.04.12-15.58.00:475][143]LogPhysics: Warning: ForeachShape(Convex): [/Game/Meshes/speed_up.speed_up] ScaledElem[0] invalid
+[2019.04.12-15.58.00:733][143]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-15.58.00:784][143]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-15.58.00:848][143]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.278ms to complete.
+[2019.04.12-15.58.00:848][143]LogFileHelpers: Loading map 'Map1' took 0.432
+[2019.04.12-15.58.02:699][246]LogEditorViewport: Clicking on Actor (LMB): Plane3-3_C (Plane3-12)
+[2019.04.12-15.58.03:737][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.58.03:988][314]LogAIModule: Creating AISystem for world Map2
+[2019.04.12-15.58.04:003][314]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map2.Map2
+[2019.04.12-15.58.04:024][314]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-15.58.04:025][314]LightingResults: New page: Lighting Build
+[2019.04.12-15.58.04:025][314]LoadErrors: New page: Loading map: Map2.umap
+[2019.04.12-15.58.04:033][314]MapCheck: New page: Map Check
+[2019.04.12-15.58.04:033][314]LightingResults: New page: Lighting Build
+[2019.04.12-15.58.04:063][314]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-15.58.04:109][314]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-15.58.04:174][314]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.592ms to complete.
+[2019.04.12-15.58.04:174][314]LogFileHelpers: Loading map 'Map2' took 0.151
+[2019.04.12-15.58.20:524][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.58.28:700][710]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-15.58.35:257][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.58.48:815][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.58.56:300][363]Cmd: DUPLICATE
+[2019.04.12-15.58.56:300][363]Cmd: ACTOR DUPLICATE
+[2019.04.12-15.59.03:601][794]Cmd: DELETE
+[2019.04.12-15.59.03:601][794]Cmd: ACTOR DELETE
+[2019.04.12-15.59.03:630][794]LogEditorActor: Deleted Actor: Cube1-2_C
+[2019.04.12-15.59.03:669][794]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2019.04.12-15.59.04:271][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.59.08:038][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-15.59.16:534][556]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-15.59.21:313][842]LogEditorViewport: Clicking on Actor (LMB): Cube1-2_C (Cube1-2)
+[2019.04.12-15.59.24:684][ 43]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-15.59.26:453][148]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-15.59.28:747][285]Cmd: DUPLICATE
+[2019.04.12-15.59.28:747][285]Cmd: ACTOR DUPLICATE
+[2019.04.12-15.59.50:392][579]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-15.59.52:048][677]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-15.59.56:957][970]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-3)
+[2019.04.12-16.00.11:764][856]LogEditorViewport: Clicking on Actor (LMB): Cube1-2_C (Cube1-2)
+[2019.04.12-16.00.13:205][941]Cmd: DELETE
+[2019.04.12-16.00.13:205][941]Cmd: ACTOR DELETE
+[2019.04.12-16.00.13:207][941]LogEditorActor: Deleted Actor: Cube1-2_C
+[2019.04.12-16.00.13:231][941]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.04.12-16.00.13:746][972]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-16.00.14:354][  7]Cmd: DUPLICATE
+[2019.04.12-16.00.14:354][  7]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.00.23:713][565]Cmd: DUPLICATE
+[2019.04.12-16.00.23:713][565]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.00.49:632][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.00.53:303][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.01.00:201][704]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.01.14:202][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.01.18:142][775]Cmd: DUPLICATE
+[2019.04.12-16.01.18:142][775]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.01.25:620][221]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.01.29:409][447]Cmd: DUPLICATE
+[2019.04.12-16.01.29:409][447]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.01.36:586][874]Cmd: DUPLICATE
+[2019.04.12-16.01.36:587][874]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.02.23:424][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.02.36:740][266]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.02.50:397][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.02.55:245][367]LogEditorViewport: Clicking on Actor (LMB): Cube1-3_C (Cube1-4)
+[2019.04.12-16.02.56:905][465]LogEditorViewport: Clicking on Actor (LMB): Cube1-3_C (Cube1-3)
+[2019.04.12-16.03.01:046][711]Cmd: TRANSACTION UNDO
+[2019.04.12-16.03.01:046][711]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.03.02:834][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.03.12:535][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.03.23:236][ 31]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-4)
+[2019.04.12-16.03.24:545][108]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-16.03.44:448][297]LogEditorViewport: Clicking on Actor (LMB): Cube1-3_C (Cube1-6)
+[2019.04.12-16.03.49:523][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.04.05:514][551]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-4)
+[2019.04.12-16.04.06:357][600]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-3)
+[2019.04.12-16.04.17:767][281]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.04.27:158][841]LogEditorViewport: Clicking on Actor (LMB): Cube1-3_C (Cube1-5)
+[2019.04.12-16.04.30:383][ 32]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.04.36:326][385]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-4)
+[2019.04.12-16.04.38:732][527]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.04.47:649][ 59]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-5)
+[2019.04.12-16.04.52:592][352]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.04.56:941][610]LogEditorViewport: Clicking on Actor (LMB): Cube1-3_C (Cube1-4)
+[2019.04.12-16.05.09:918][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.05.09:934][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.05.10:063][378]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map22AAA3E344178D549B2987BAFDC42E45F.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.05.13:968][608]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-4)
+[2019.04.12-16.05.15:478][697]Cmd: DUPLICATE
+[2019.04.12-16.05.15:478][697]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.05.24:963][260]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-5)
+[2019.04.12-16.05.27:498][410]Cmd: DUPLICATE
+[2019.04.12-16.05.27:498][410]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.05.33:571][769]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.05.35:268][868]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-5)
+[2019.04.12-16.05.36:984][968]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-6)
+[2019.04.12-16.05.44:801][432]Cmd: DUPLICATE
+[2019.04.12-16.05.44:801][432]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.05.51:978][857]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.05.54:162][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.05.54:177][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.05.54:314][985]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2ED4DFE664AE0EF6ADBA7118E4606B1BC.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.05.56:122][ 88]Cmd: TRANSACTION UNDO
+[2019.04.12-16.05.56:122][ 88]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.05.58:548][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.06.00:994][374]LogEditorViewport: Clicking Background
+[2019.04.12-16.06.01:287][391]Cmd: TRANSACTION UNDO
+[2019.04.12-16.06.01:287][391]LogEditorTransaction: Undo Clicking Background
+[2019.04.12-16.06.07:283][749]LogEditorViewport: Clicking Background
+[2019.04.12-16.06.07:610][768]Cmd: TRANSACTION UNDO
+[2019.04.12-16.06.07:610][768]LogEditorTransaction: Undo Clicking Background
+[2019.04.12-16.06.10:234][923]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.06.10:249][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.06.10:372][923]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map26FCC91C84286715D20A37A9B01D7AC01.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.06.13:270][ 94]LogEditorViewport: Clicking Background
+[2019.04.12-16.06.22:138][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.06.24:032][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.06.33:987][304]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.06.46:270][ 35]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.06.58:560][766]Cmd: DUPLICATE
+[2019.04.12-16.06.58:560][766]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.07.05:463][176]Cmd: DUPLICATE
+[2019.04.12-16.07.05:463][176]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.07.11:482][530]Cmd: DUPLICATE
+[2019.04.12-16.07.11:482][530]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.07.18:827][963]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.07.18:841][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.07.18:998][963]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2A2C65A5E4291359DBE927AB801ABD1CD.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.07.52:509][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.07.55:719][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.07.58:900][276]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-4)
+[2019.04.12-16.07.59:197][293]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.08.12:125][ 66]Cmd: DUPLICATE
+[2019.04.12-16.08.12:125][ 66]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.08.24:990][832]Cmd: DUPLICATE
+[2019.04.12-16.08.24:990][832]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.08.38:303][624]Cmd: DUPLICATE
+[2019.04.12-16.08.38:303][624]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.08.55:269][628]Cmd: TRANSACTION UNDO
+[2019.04.12-16.08.55:269][628]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.08.57:678][770]Cmd: TRANSACTION UNDO
+[2019.04.12-16.08.57:678][770]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.08.58:745][833]Cmd: TRANSACTION REDO
+[2019.04.12-16.08.58:745][833]LogEditorTransaction: Redo Move Actors
+[2019.04.12-16.08.59:385][870]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.08.59:399][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.08.59:611][870]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map22A33DF804C5D4C20E7FFC2943496991F.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.09.09:157][437]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.12-16.09.12:458][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.09.15:415][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.09.20:116][ 75]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.09.25:725][408]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.09.30:934][717]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.09.38:915][191]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.09.51:566][945]Cmd: DUPLICATE
+[2019.04.12-16.09.51:566][945]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.10.15:486][374]Cmd: DUPLICATE
+[2019.04.12-16.10.15:486][374]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.10.24:459][907]Cmd: DUPLICATE
+[2019.04.12-16.10.24:460][907]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.10.34:763][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.10.34:777][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.10.35:000][519]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2A3C543264D5E6BCB00925C9E09510A39.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.12.29:154][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.12.39:418][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.12.54:029][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.13.10:890][814]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-16.13.11:529][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.13.11:543][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.13.11:768][850]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map20E016A2D479E98FD1CA46AAE2677C5FB.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.13.14:468][ 10]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2019.04.12-16.13.16:611][137]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-3)
+[2019.04.12-16.13.19:392][302]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-2)
+[2019.04.12-16.13.20:252][352]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-4)
+[2019.04.12-16.13.23:349][536]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-6)
+[2019.04.12-16.13.25:078][638]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-4)
+[2019.04.12-16.13.29:421][896]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-6)
+[2019.04.12-16.13.35:648][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.13.43:098][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.13.47:386][962]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2019.04.12-16.13.52:219][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.14.03:015][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.14.03:226][894]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map205F14D9F46E67D42534D0BA617CC273A.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.14.12:607][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.14.14:345][553]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-4)
+[2019.04.12-16.14.15:757][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.14.33:215][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.14.33:422][682]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2B8E1CFAE436418CD69DD549721E8D191.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.15.18:874][137]EditorErrors: New page: Actor attachment
+[2019.04.12-16.15.28:596][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.15.28:801][718]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2502FC9F8450103ECC7DC3A9B9A59B7B0.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.15.33:452][992]Cmd: DUPLICATE
+[2019.04.12-16.15.33:452][992]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.15.52:547][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.15.59:560][552]Cmd: DUPLICATE
+[2019.04.12-16.15.59:560][552]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.16.04:099][802]EditorErrors: New page: Actor attachment
+[2019.04.12-16.16.24:001][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.16.28:612][220]Cmd: TRANSACTION UNDO
+[2019.04.12-16.16.28:612][220]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.16.50:410][522]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-10)
+[2019.04.12-16.16.51:747][600]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-10)
+[2019.04.12-16.17.01:363][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.17.13:751][910]LogEditorActor: Deleted Actor: Plane5-4_C
+[2019.04.12-16.17.13:791][910]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.04.12-16.17.16:029][ 44]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-13)
+[2019.04.12-16.17.16:840][ 91]Cmd: DELETE
+[2019.04.12-16.17.16:840][ 91]Cmd: ACTOR DELETE
+[2019.04.12-16.17.16:848][ 91]LogEditorActor: Deleted Actor: Plane5-4_C
+[2019.04.12-16.17.16:871][ 91]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.04.12-16.17.18:324][178]LogEditorViewport: Clicking Background
+[2019.04.12-16.17.19:792][266]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-14)
+[2019.04.12-16.17.22:676][437]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-12)
+[2019.04.12-16.17.23:489][484]Cmd: DELETE
+[2019.04.12-16.17.23:489][484]Cmd: ACTOR DELETE
+[2019.04.12-16.17.23:497][484]LogEditorActor: Deleted Actor: Plane5-4_C
+[2019.04.12-16.17.23:518][484]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.04.12-16.17.26:981][692]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-11)
+[2019.04.12-16.17.27:808][740]Cmd: DELETE
+[2019.04.12-16.17.27:808][740]Cmd: ACTOR DELETE
+[2019.04.12-16.17.27:816][740]LogEditorActor: Deleted Actor: Plane5-4_C
+[2019.04.12-16.17.27:837][740]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.04.12-16.17.28:522][781]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-10)
+[2019.04.12-16.17.28:750][793]Cmd: DELETE
+[2019.04.12-16.17.28:750][793]Cmd: ACTOR DELETE
+[2019.04.12-16.17.28:758][793]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.12-16.17.28:781][793]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.04.12-16.17.29:467][834]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-8)
+[2019.04.12-16.17.29:729][848]Cmd: DELETE
+[2019.04.12-16.17.29:729][848]Cmd: ACTOR DELETE
+[2019.04.12-16.17.29:735][848]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.12-16.17.29:757][848]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.04.12-16.17.30:867][915]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-15)
+[2019.04.12-16.17.31:177][932]Cmd: DELETE
+[2019.04.12-16.17.31:177][932]Cmd: ACTOR DELETE
+[2019.04.12-16.17.31:183][932]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.12-16.17.31:208][932]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.04.12-16.17.33:076][ 44]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-14)
+[2019.04.12-16.17.33:520][ 69]Cmd: DELETE
+[2019.04.12-16.17.33:520][ 69]Cmd: ACTOR DELETE
+[2019.04.12-16.17.33:528][ 69]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.12-16.17.33:550][ 69]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.04.12-16.17.35:901][210]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-17)
+[2019.04.12-16.17.36:962][272]Cmd: DELETE
+[2019.04.12-16.17.36:962][272]Cmd: ACTOR DELETE
+[2019.04.12-16.17.36:968][272]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.12-16.17.36:989][272]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.04.12-16.17.37:391][296]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-9)
+[2019.04.12-16.17.37:735][315]Cmd: DELETE
+[2019.04.12-16.17.37:735][315]Cmd: ACTOR DELETE
+[2019.04.12-16.17.37:741][315]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.12-16.17.37:766][315]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.04.12-16.17.38:353][350]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-16)
+[2019.04.12-16.17.38:863][379]Cmd: DELETE
+[2019.04.12-16.17.38:863][379]Cmd: ACTOR DELETE
+[2019.04.12-16.17.38:869][379]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.12-16.17.38:891][379]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.04.12-16.17.39:911][440]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-11)
+[2019.04.12-16.17.40:354][465]Cmd: DELETE
+[2019.04.12-16.17.40:354][465]Cmd: ACTOR DELETE
+[2019.04.12-16.17.40:360][465]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.12-16.17.40:381][465]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.04.12-16.17.44:975][741]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-10)
+[2019.04.12-16.17.47:452][888]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-11)
+[2019.04.12-16.17.51:797][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.17.53:908][268]Cmd: DUPLICATE
+[2019.04.12-16.17.53:908][268]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.18.02:654][778]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.18.16:609][602]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.16:609][602]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.18.18:177][694]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.18:177][694]LogEditorTransaction: Undo Marquee Select
+[2019.04.12-16.18.18:628][719]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.18:628][719]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.18.19:783][787]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.19:783][787]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.18.20:926][854]Cmd: TRANSACTION REDO
+[2019.04.12-16.18.20:926][854]LogEditorTransaction: Redo Move Actors
+[2019.04.12-16.18.23:008][966]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.23:009][966]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.18.23:336][983]Cmd: TRANSACTION UNDO
+[2019.04.12-16.18.23:336][983]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.18.25:153][ 91]Cmd: TRANSACTION REDO
+[2019.04.12-16.18.25:153][ 91]LogEditorTransaction: Redo Move Actors
+[2019.04.12-16.18.28:347][280]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-9)
+[2019.04.12-16.18.32:500][524]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube1-3_C (Cube1-9)
+[2019.04.12-16.18.33:529][584]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube1-3_C (Cube1-8)
+[2019.04.12-16.18.37:121][795]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube2-2_C (Cube2-7)
+[2019.04.12-16.18.43:147][153]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube2-2_C (Cube2-8)
+[2019.04.12-16.18.43:864][194]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube1-3_C (Cube1-10)
+[2019.04.12-16.18.47:013][377]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube2-2_C (Cube2-6)
+[2019.04.12-16.18.48:225][448]LogEditorViewport: Clicking on Actor (CTRL LMB): Cube1-3_C (Cube1-7)
+[2019.04.12-16.19.22:402][592]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-8)
+[2019.04.12-16.19.30:201][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.19.33:296][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.19.49:461][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.19.53:347][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.20.01:273][520]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.20.01:287][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.20.01:653][520]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2CE3F3C084E9B85B83977F3AF2286DCE1.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.20.02:920][653]LogEditorViewport: Clicking Background
+[2019.04.12-16.20.26:229][324]Cmd: TRANSACTION UNDO
+[2019.04.12-16.20.26:229][324]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.20.36:901][501]LogEditorViewport: Clicking Background
+[2019.04.12-16.20.52:011][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.20.54:746][478]Cmd: DUPLICATE
+[2019.04.12-16.20.54:746][478]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.21.02:472][316]Cmd: DUPLICATE
+[2019.04.12-16.21.02:472][316]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.21.05:984][669]EditorErrors: New page: Actor attachment
+[2019.04.12-16.21.16:648][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.21.24:449][637]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-2)
+[2019.04.12-16.21.29:831][204]Cmd: TRANSACTION UNDO
+[2019.04.12-16.21.29:831][204]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.21.30:809][294]Cmd: DUPLICATE
+[2019.04.12-16.21.30:809][294]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.21.33:436][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.21.36:809][929]EditorErrors: New page: Actor attachment
+[2019.04.12-16.21.40:518][321]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.21.48:024][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.21.55:555][927]Cmd: TRANSACTION UNDO
+[2019.04.12-16.21.55:555][927]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.21.56:490][ 13]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-3)
+[2019.04.12-16.21.57:601][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.21.58:136][182]EditorErrors: New page: Actor attachment
+[2019.04.12-16.22.24:408][ 52]Cmd: TRANSACTION UNDO
+[2019.04.12-16.22.24:408][ 52]LogEditorTransaction: Undo Move World Outliner Items
+[2019.04.12-16.22.32:369][914]EditorErrors: New page: Actor attachment
+[2019.04.12-16.22.39:221][689]EditorErrors: New page: Actor attachment
+[2019.04.12-16.22.45:753][386]Cmd: TRANSACTION UNDO
+[2019.04.12-16.22.45:753][386]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.22.47:649][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.23.01:083][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.23.07:706][671]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower3)
+[2019.04.12-16.23.19:742][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.24.04:145][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.24.23:674][665]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.24.26:098][906]Cmd: TRANSACTION UNDO
+[2019.04.12-16.24.26:098][906]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.24.48:755][224]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.24.54:578][825]Cmd: TRANSACTION UNDO
+[2019.04.12-16.24.54:578][825]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.24.55:299][886]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-2)
+[2019.04.12-16.24.57:703][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.24.59:640][334]EditorErrors: New page: Actor attachment
+[2019.04.12-16.25.14:336][852]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.25.18:231][241]Cmd: TRANSACTION UNDO
+[2019.04.12-16.25.18:231][241]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.25.23:369][755]Cmd: TRANSACTION UNDO
+[2019.04.12-16.25.23:369][755]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.25.24:144][820]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.25.24:167][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.25.24:946][820]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map215C8597249DD1B139E922F976E43CAC9.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.25.36:272][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.25.39:494][270]Cmd: DUPLICATE
+[2019.04.12-16.25.39:494][270]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.25.44:499][780]Cmd: TRANSACTION UNDO
+[2019.04.12-16.25.44:499][780]LogEditorTransaction: Undo Duplicate Actors
+[2019.04.12-16.25.52:992][612]Cmd: DUPLICATE
+[2019.04.12-16.25.52:992][612]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.26.02:275][518]Cmd: TRANSACTION UNDO
+[2019.04.12-16.26.02:276][518]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.26.11:536][438]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.26.16:653][950]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.26.23:726][651]Cmd: TRANSACTION UNDO
+[2019.04.12-16.26.23:726][651]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.26.29:183][185]Cmd: TRANSACTION UNDO
+[2019.04.12-16.26.29:183][185]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.26.35:442][769]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower3)
+[2019.04.12-16.27.05:163][743]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.27.47:213][747]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-8)
+[2019.04.12-16.27.49:976][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.27.52:528][258]Cmd: TRANSACTION UNDO
+[2019.04.12-16.27.52:528][258]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.28.00:893][ 37]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-3)
+[2019.04.12-16.28.02:428][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.28.30:541][949]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-6)
+[2019.04.12-16.28.31:886][ 77]LogEditorViewport: Clicking on Actor (LMB): Plane5-4_C (Plane5-4)
+[2019.04.12-16.28.34:377][319]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-6)
+[2019.04.12-16.28.39:833][854]Cmd: DUPLICATE
+[2019.04.12-16.28.39:833][854]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.28.42:283][ 88]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.29.04:883][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.29.22:062][581]Cmd: DELETE
+[2019.04.12-16.29.22:062][581]Cmd: ACTOR DELETE
+[2019.04.12-16.29.22:078][581]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.29.22:115][581]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2019.04.12-16.29.23:469][740]Cmd: TRANSACTION UNDO
+[2019.04.12-16.29.23:469][740]LogEditorTransaction: Undo Delete Actors
+[2019.04.12-16.29.36:324][ 39]Cmd: DUPLICATE
+[2019.04.12-16.29.36:324][ 39]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.29.41:965][603]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.29.59:487][302]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-7)
+[2019.04.12-16.30.00:440][394]Cmd: DUPLICATE
+[2019.04.12-16.30.00:441][394]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.30.01:777][526]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.30.11:567][506]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.30.14:543][795]Cmd: DUPLICATE
+[2019.04.12-16.30.14:543][795]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.30.25:618][897]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-34)
+[2019.04.12-16.30.26:708][  7]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-4)
+[2019.04.12-16.30.27:491][ 80]Cmd: DUPLICATE
+[2019.04.12-16.30.27:491][ 80]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.30.33:279][643]Cmd: DUPLICATE
+[2019.04.12-16.30.33:279][643]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.30.40:317][333]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-5)
+[2019.04.12-16.30.42:401][527]Cmd: DUPLICATE
+[2019.04.12-16.30.42:401][527]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.30.48:227][ 94]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.30.52:829][529]Cmd: DUPLICATE
+[2019.04.12-16.30.52:829][529]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.31.00:636][286]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.31.05:822][781]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower1)
+[2019.04.12-16.31.06:826][876]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.31.12:828][408]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.12-16.31.12:848][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.31.13:741][408]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map26A6DF23949F4C585602D1C8591386B14.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.31.45:018][419]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.31.46:719][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.31.53:685][255]LogEditorActor: Deleted Actor: Actor
+[2019.04.12-16.31.53:723][255]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2019.04.12-16.31.58:054][694]LogEditorActor: Deleted Actor: Actor
+[2019.04.12-16.31.58:092][694]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.04.12-16.31.59:438][838]Cmd: TRANSACTION UNDO
+[2019.04.12-16.31.59:438][838]LogEditorTransaction: Undo Delete selection
+[2019.04.12-16.31.59:948][866]Cmd: TRANSACTION UNDO
+[2019.04.12-16.31.59:948][866]LogEditorTransaction: Undo Clicking on Actors
+[2019.04.12-16.32.00:968][973]Cmd: TRANSACTION UNDO
+[2019.04.12-16.32.00:968][973]LogEditorTransaction: Undo Delete selection
+[2019.04.12-16.32.06:333][449]LogEditorActor: Deleted Actor: Actor
+[2019.04.12-16.32.06:338][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:339][449]LogEditorActor: Deleted Actor: Plane2-2_C
+[2019.04.12-16.32.06:340][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:340][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:340][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:340][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:341][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:341][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:341][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:341][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:342][449]LogEditorActor: Deleted Actor: Actor
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube1-3_C
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:347][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Cube2-2_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Plane2-2_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:348][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:349][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:349][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:349][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:350][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:350][449]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.12-16.32.06:385][449]LogEditorActor: Deleted 36 Actors (0.077 secs)
+[2019.04.12-16.32.07:782][604]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.32.09:761][793]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-11)
+[2019.04.12-16.32.11:973][997]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-8)
+[2019.04.12-16.32.14:233][212]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-11)
+[2019.04.12-16.32.16:338][417]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-9)
+[2019.04.12-16.32.19:047][678]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-10)
+[2019.04.12-16.32.20:024][772]Cmd: DUPLICATE
+[2019.04.12-16.32.20:024][772]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.32.27:526][462]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.32.34:049][ 41]Cmd: DUPLICATE
+[2019.04.12-16.32.34:050][ 41]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.32.40:795][628]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.32.57:497][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.33.11:072][468]Cmd: DUPLICATE
+[2019.04.12-16.33.11:072][468]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.33.35:238][738]LogEditorViewport: Clicking on Actor (LMB): Plane2-2_C (Plane2-2)
+[2019.04.12-16.33.36:309][836]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.33.38:944][ 87]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.33.46:201][759]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower3)
+[2019.04.12-16.33.49:571][ 74]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower2)
+[2019.04.12-16.33.51:532][259]LogEditorViewport: Clicking on Actor (LMB): Actor (Tower3)
+[2019.04.12-16.33.53:197][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.34.18:029][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.34.27:794][573]Cmd: DUPLICATE
+[2019.04.12-16.34.27:794][573]Cmd: ACTOR DUPLICATE
+[2019.04.12-16.34.53:873][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.34.59:334][204]LogEditorViewport: Clicking on Actor (LMB): Cube2-2_C (Cube2-11)
+[2019.04.12-16.35.01:743][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.35.12:158][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.35.25:867][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.35.27:365][426]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map20C2E35B944D0225CF6F000B266FDF03E.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.36.05:231][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.36.21:300][163]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.36.36:862][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.36.51:556][900]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.12-16.37.01:075][736]Cmd: TRANSACTION UNDO
+[2019.04.12-16.37.01:075][736]LogEditorTransaction: Undo Set Location
+[2019.04.12-16.37.01:581][768]Cmd: TRANSACTION UNDO
+[2019.04.12-16.37.01:581][768]LogEditorTransaction: Undo Set Location
+[2019.04.12-16.37.12:431][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.37.16:883][ 18]Cmd: TRANSACTION UNDO
+[2019.04.12-16.37.16:883][ 18]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.37.21:357][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.37.35:588][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-16.37.49:251][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.12-16.37.50:753][678]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map22308F8414FF2017A5BAA74BBC0A36C18.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.12-16.38.43:349][698]Cmd: TRANSACTION UNDO
+[2019.04.12-16.38.43:349][698]LogEditorTransaction: Undo Move Actors
+[2019.04.12-16.38.43:668][709]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error E_INVALIDARG
+[2019.04.12-16.38.43:668][709]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.04.12-16.38.51:946][709]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.04.12-16.38.52:033][709]LogWindows: Error: === Critical error: ===
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: Rendering thread exception:
+[2019.04.12-16.38.52:033][709]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 251] 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: Result failed 
+[2019.04.12-16.38.52:033][709]LogWindows: Error:  at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+[2019.04.12-16.38.52:033][709]LogWindows: Error:  with error E_INVALIDARG
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff980b4a388 KERNELBASE.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff95aa66850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff921fe62fc UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff921f751db UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff915b2e896 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff915b0d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff915b1ab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff95aafb106 UE4Editor-RHI.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff915891b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff915897d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff921e01f92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff921e02456 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff95ac075f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff95ac08574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff922246b7c UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff9222417c7 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff984254034 KERNEL32.DLL!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: [Callstack] 0x00007ff984753691 ntdll.dll!UnknownFunction []
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:033][709]LogWindows: Error: 
+[2019.04.12-16.38.52:047][709]LogExit: Executing StaticShutdownAfterError
+[2019.04.12-16.38.52:240][709]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.04.12-16.38.52:241][709]Log file closed, 04/12/19 16:38:52
