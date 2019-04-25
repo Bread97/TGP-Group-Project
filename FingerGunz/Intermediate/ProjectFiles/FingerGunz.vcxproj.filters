@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FingerGunz.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{65B5A6E9-7CD3-42BA-B472-0974B96AD594}</UniqueIdentifier>
+			<UniqueIdentifier>{EBD7143E-725E-4721-9E21-D76F390463AA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FingerGunz.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{AB4C9970-C571-474C-B5B1-57F77123BDC3}</UniqueIdentifier>
+			<UniqueIdentifier>{06ECB2BB-715B-4659-8293-6762B7EA4E94}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FingerGunz">
-			<UniqueIdentifier>{16D78162-78B1-4D5A-B469-DDBC710BA2AB}</UniqueIdentifier>
+			<UniqueIdentifier>{B6AB0EE2-C55B-4B2A-9C85-46578C549EDB}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\FingerGunz\BeamActor.cpp">
 			<Filter>Source\FingerGunz</Filter>
@@ -51,12 +51,6 @@
 		<ClInclude Include="..\..\Source\FingerGunz\FingerGunzGameModeBase.h">
 			<Filter>Source\FingerGunz</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\Source\FingerGunz\GameManager.cpp">
-			<Filter>Source\FingerGunz</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FingerGunz\GameManager.h">
-			<Filter>Source\FingerGunz</Filter>
-		</ClInclude >
 		<ClCompile Include="..\..\Source\FingerGunz\HeavyPistol.cpp">
 			<Filter>Source\FingerGunz</Filter>
 		</ClCompile >
@@ -67,12 +61,6 @@
 			<Filter>Source\FingerGunz</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\FingerGunz\LightPistol.h">
-			<Filter>Source\FingerGunz</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FingerGunz\PlayerStats.cpp">
-			<Filter>Source\FingerGunz</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FingerGunz\PlayerStats.h">
 			<Filter>Source\FingerGunz</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\FingerGunz\player_cpp.cpp">
