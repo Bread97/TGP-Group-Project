@@ -36,7 +36,7 @@ protected:
 	void turnAtRate(float Rate);
 	void lookUpAtRate(float Rate);
 
-	//Setup Parkour Variables
+	//Setup Parkour Bariables
 	void tryWallRun();
 	void tryStopWallRun();
 	bool isWallRunning;
@@ -71,8 +71,6 @@ protected:
 	void ChangeDown();
 	void ChangeLeft();
 	void ChangeRight();
-
-	float targetFOV = 120;
 
 	//Setup Player Properties
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Int, meta = (AllowPrivateAccess = "true"))

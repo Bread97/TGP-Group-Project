@@ -11,7 +11,6 @@
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
 #include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
-#include "GameManager.h"
 
 //#include "BeamActor.h"
 //#include "LightPistol.h"
@@ -338,14 +337,14 @@ void Aplayer_cpp::StartZoom()
 {
 	BaseTurnRate = 25.f;
 	BaseLookUpRate = 25.f;
-	targetFOV = 50;
+	FirstPersonCameraComponent->FieldOfView = 50;
 }
 
 void Aplayer_cpp::EndZoom()
 {
 	BaseTurnRate = 100.f;
 	BaseLookUpRate = 100.f;
-	targetFOV = 120;
+	FirstPersonCameraComponent->FieldOfView = 120;
 }
 
 void Aplayer_cpp::beplayer1()
@@ -357,9 +356,6 @@ void Aplayer_cpp::beplayer1()
 void Aplayer_cpp::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	FirstPersonCameraComponent->FieldOfView = FMath::FInterpTo(FirstPersonCameraComponent->FieldOfView, targetFOV, DeltaTime, 15);
-
 	//IMPORTANTLINETRACES
 	//RIGHT LINETRACE
 	{
