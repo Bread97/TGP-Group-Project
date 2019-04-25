@@ -1,4 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Building 3 actions with 16 processes...
+    [1/3] player_cpp.cpp
+    [2/3] UE4Editor-FingerGunz.lib
+       Creating library D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.lib and object D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.exp
+    [3/3] UE4Editor-FingerGunz.dll
+       Creating library D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.lib and object D:\University\Technical Games Production\Group Project\TGP-Group-Project\FingerGunz\Intermediate\Build\Win64\UE4Editor\Development\FingerGunz\UE4Editor-FingerGunz.suppressed.exp
   Deploying FingerGunzEditor Win64 Development...
-  Total build time: 1.57 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 36.19 seconds (Parallel executor: 32.16 seconds)
