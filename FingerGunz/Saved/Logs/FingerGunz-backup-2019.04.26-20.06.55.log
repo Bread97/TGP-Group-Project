@@ -1,0 +1,1515 @@
+﻿Log file open, 04/25/19 23:07:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FingerGunz
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.444507
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.174s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Unreal Engine 4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.25-23.07.40:262][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.25-23.07.40:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.25-23.07.40:289][  0]LogHAL: Display: Platform has ~ 16 GB [17061756928 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.25-23.07.40:289][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.25-23.07.40:289][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.25-23.07.40:294][  0]LogInit: Computer: MSI
+[2019.04.25-23.07.40:294][  0]LogInit: User: Xyvn
+[2019.04.25-23.07.40:294][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.25-23.07.40:294][  0]LogInit: High frequency timer resolution =2.742191 MHz
+[2019.04.25-23.07.40:295][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.25-23.07.40:295][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.25-23.07.40:295][  0]LogMemory: Process Physical Memory: 100.67 MB used, 100.67 MB peak
+[2019.04.25-23.07.40:295][  0]LogMemory: Process Virtual Memory: 93.43 MB used, 93.43 MB peak
+[2019.04.25-23.07.40:295][  0]LogMemory: Physical Memory: 6313.74 MB used,  9957.62 MB free, 16271.36 MB total
+[2019.04.25-23.07.40:295][  0]LogMemory: Virtual Memory: 4643.18 MB used,  9957.62 MB free, 134217728.00 MB total
+[2019.04.25-23.07.40:478][  0]LogInit: Using OS detected language (en-US).
+[2019.04.25-23.07.40:478][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.25-23.07.40:479][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.25-23.07.41:053][  0]LogStreaming: Display: Took  0.575s to InitEngineTextLocalization.
+[2019.04.25-23.07.41:152][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.25-23.07.41:152][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.25-23.07.43:725][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.25-23.07.43:725][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.25-23.07.43:833][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.25-23.07.43:834][  0]LogD3D11RHI:       2010/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.25-23.07.43:851][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.25-23.07.43:851][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.25-23.07.43:853][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.25-23.07.43:853][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.25-23.07.43:853][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.25-23.07.43:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.25-23.07.43:909][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.25-23.07.43:909][  0]LogWindows: EnumDisplayDevices:
+[2019.04.25-23.07.43:909][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.25-23.07.43:909][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.25-23.07.43:910][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.25-23.07.43:910][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.25-23.07.43:910][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.25-23.07.43:910][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.25-23.07.43:910][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.25-23.07.43:910][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.25-23.07.43:964][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.25-23.07.43:977][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.25-23.07.43:978][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../Y2/SourceTreeRepositories/FingerGunz/Intermediate/Shaders/WorkingDirectory/95404/).
+[2019.04.25-23.07.43:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xyvn/AppData/Local/Temp/UnrealShaderWorkingDir/C53F295E40910FF263F8079B14C77C74/'.
+[2019.04.25-23.07.44:606][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.25-23.07.44:637][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.25-23.07.44:668][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.25-23.07.44:699][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.25-23.07.44:735][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.25-23.07.44:767][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.25-23.07.44:798][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.25-23.07.44:832][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.25-23.07.44:853][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.44:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.25-23.07.45:001][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.25-23.07.45:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.25-23.07.45:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.25-23.07.45:168][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.25-23.07.45:168][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.25-23.07.45:198][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.25-23.07.45:229][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.25-23.07.45:259][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.25-23.07.45:299][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.25-23.07.45:324][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.25-23.07.45:324][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.25-23.07.45:669][  0]LogXGEController: Cleaning working directory: C:/Users/Xyvn/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.25-23.07.45:669][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.25-23.07.45:669][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.25-23.07.45:669][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.25-23.07.48:137][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.25-23.07.48:219][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.25-23.07.48:220][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.25-23.07.48:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Y2/SourceTreeRepositories/FingerGunz/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.25-23.07.48:220][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.25-23.07.48:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Y2/SourceTreeRepositories/FingerGunz/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.25-23.07.48:220][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.25-23.07.48:248][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.25-23.07.48:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xyvn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.25-23.07.48:261][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.25-23.07.48:261][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.25-23.07.48:288][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.25-23.07.48:290][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.25-23.07.48:307][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.25-23.07.48:613][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2019.04.25-23.07.49:111][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.25-23.07.49:540][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.25-23.07.49:570][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.25-23.07.49:570][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.25-23.07.49:570][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.25-23.07.49:570][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.25-23.07.49:618][  0]LogNetVersion: FingerGunz 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1181982473)
+[2019.04.25-23.07.51:003][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.180533 seconds
+[2019.04.25-23.07.51:018][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.25-23.07.51:018][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.25-23.07.51:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.25-23.07.55:468][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.25-23.07.55:493][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.25-23.07.55:778][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.04.25-23.07.55:778][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Arm_1'
+[2019.04.25-23.07.55:778][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+[2019.04.25-23.07.55:778][  0]Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:813][  0]Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:813][  0]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:814][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Armless'
+[2019.04.25-23.07.55:814][  0]LogLinker: Warning: Can't find file '/Game/Player/Player_Mesh_Armless'
+[2019.04.25-23.07.55:814][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+[2019.04.25-23.07.55:814][  0]Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.07.55:814][  0]Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: Error: CDO Constructor (BeamActor): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: Error: CDO Constructor (HeavyPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.07.55:827][  0]LogUObjectBase: Warning: Error: CDO Constructor (player_cpp): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.07.57:116][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.25-23.07.57:340][  0]SourceControl: Source control is disabled
+[2019.04.25-23.07.57:340][  0]SourceControl: Source control is disabled
+[2019.04.25-23.07.57:359][  0]SourceControl: Source control is disabled
+[2019.04.25-23.07.57:379][  0]SourceControl: Source control is disabled
+[2019.04.25-23.07.58:151][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.25-23.07.58:323][  0]LogOcInput: OculusInput pre-init called
+[2019.04.25-23.07.58:513][  0]LogEngine: Initializing Engine...
+[2019.04.25-23.07.58:514][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.25-23.07.58:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.25-23.07.58:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.25-23.07.58:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.25-23.07.58:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.25-23.07.59:149][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.25-23.07.59:178][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.25-23.07.59:191][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.25-23.07.59:437][  0]LogInit: FAudioDevice initialized.
+[2019.04.25-23.07.59:437][  0]LogNetVersion: Set ProjectVersion to 0.6.1. Version Checksum will be recalculated on next use.
+[2019.04.25-23.07.59:688][  0]LogDerivedDataCache: Saved boot cache 0.25s 71MB C:/Users/Xyvn/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.25-23.07.59:699][  0]LogInit: Texture streaming: Enabled
+[2019.04.25-23.07.59:803][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.25-23.07.59:868][  0]LogInit: Transaction tracking system initialized
+[2019.04.25-23.08.00:005][  0]BlueprintLog: New page: Editor Load
+[2019.04.25-23.08.00:423][  0]LocalizationService: Localization service is disabled
+[2019.04.25-23.08.01:350][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.25-23.08.01:350][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.25-23.08.01:350][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.25-23.08.01:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.25-23.08.01:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.25-23.08.01:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.25-23.08.01:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.25-23.08.01:980][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/' took 0.02s
+[2019.04.25-23.08.02:007][  0]SourceControl: Source control is disabled
+[2019.04.25-23.08.02:008][  0]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.25-23.08.02:008][  0]LightingResults: New page: Lighting Build
+[2019.04.25-23.08.02:011][  0]MapCheck: New page: Map Check
+[2019.04.25-23.08.02:011][  0]LightingResults: New page: Lighting Build
+[2019.04.25-23.08.02:235][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.02:235][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.02:353][  0]Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.02:353][  0]Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.02:403][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.02:403][  0]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.02:687][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave HPistol_Fire_c...
+[2019.04.25-23.08.02:687][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.02:891][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave HPistol_Fire_b...
+[2019.04.25-23.08.02:891][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.02:922][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SPD_Up_Pickup...
+[2019.04.25-23.08.02:923][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:020][  0]LogStaticMesh: Building static mesh speed_up...
+[2019.04.25-23.08.03:050][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/Power_Up_Pickups/speed_up.speed_up
+[2019.04.25-23.08.03:069][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave HPistol_Fire_a...
+[2019.04.25-23.08.03:069][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:105][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave LPistol_Fire_c...
+[2019.04.25-23.08.03:105][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:142][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave LPistol_Fire_b...
+[2019.04.25-23.08.03:142][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:182][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave LPistol_Fire_a...
+[2019.04.25-23.08.03:182][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:213][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shotgun_Fire_c...
+[2019.04.25-23.08.03:213][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:241][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shotgun_Fire_b...
+[2019.04.25-23.08.03:241][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:267][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shotgun_Fire_a...
+[2019.04.25-23.08.03:267][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:322][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Player_Hit...
+[2019.04.25-23.08.03:322][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:421][  0]LogSkeletalMesh: Building Skeletal Mesh character_arms_shotgun...
+[2019.04.25-23.08.03:422][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Player/Meshes/Weapon_Meshes/character_arms_shotgun.character_arms_shotgun
+[2019.04.25-23.08.03:423][  0]LogSkeletalMesh: Building Skeletal Mesh character_arms_Heavy...
+[2019.04.25-23.08.03:423][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Player/Meshes/Weapon_Meshes/character_arms_Heavy.character_arms_Heavy
+[2019.04.25-23.08.03:561][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Heal...
+[2019.04.25-23.08.03:561][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:574][  0]LogStaticMesh: Building static mesh shield...
+[2019.04.25-23.08.03:576][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/Power_Up_Pickups/shield.shield
+[2019.04.25-23.08.03:577][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shield_Pickup_Effect...
+[2019.04.25-23.08.03:578][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:632][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave SPD_Up_Effect...
+[2019.04.25-23.08.03:632][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.03:656][  0]LogMaterial: Display: Missing cached shader map for material Pickup_Glow_Healing, compiling. 
+[2019.04.25-23.08.03:800][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.04.25-23.08.03:800][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.04.25-23.08.03:800][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.04.25-23.08.03:800][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.25-23.08.03:800][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.25-23.08.03:800][  0]LogStaticMesh: Building static mesh shotgun_pickup...
+[2019.04.25-23.08.03:807][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Weapon_Pickups/shotgun_pickup.shotgun_pickup
+[2019.04.25-23.08.03:812][  0]LogMaterial: Display: Missing cached shader map for material Pickup_Glow_Shotgun, compiling. 
+[2019.04.25-23.08.03:999][  0]LogStaticMesh: Building static mesh Death_Barrier...
+[2019.04.25-23.08.04:020][  0]LogStaticMesh: Built static mesh [0.02s] /Game/WorldHazards/Death_Barrier.Death_Barrier
+[2019.04.25-23.08.04:027][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shotgun_Pickup_SFX...
+[2019.04.25-23.08.04:027][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.04:093][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Shotgun_Pickup_Pump_SFX...
+[2019.04.25-23.08.04:094][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.04:166][  0]LogMaterial: Display: Missing cached shader map for material Pickup_Glow_HPistol, compiling. 
+[2019.04.25-23.08.04:232][  0]LogStaticMesh: Building static mesh heavy_pistol_pickup...
+[2019.04.25-23.08.04:245][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Weapon_Pickups/heavy_pistol_pickup.heavy_pistol_pickup
+[2019.04.25-23.08.04:247][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave HPIstol_Pickup_SFX...
+[2019.04.25-23.08.04:247][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.04:304][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 188416 while cooking SoundWave /Game/Audio/SFX/HPistol_SFX/HPIstol_Pickup_SFX.HPIstol_Pickup_SFX.
+[2019.04.25-23.08.04:324][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave HPistol_Pickup_Cocking...
+[2019.04.25-23.08.04:324][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.25-23.08.04:364][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 85148 while cooking SoundWave /Game/Audio/SFX/HPistol_SFX/HPistol_Pickup_Cocking.HPistol_Pickup_Cocking.
+[2019.04.25-23.08.04:584][  0]LogAIModule: Creating AISystem for world Test
+[2019.04.25-23.08.04:640][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.25-23.08.04:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.25-23.08.04:843][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.154ms to complete.
+[2019.04.25-23.08.04:843][  0]LogFileHelpers: Loading map 'Test' took 2.835
+[2019.04.25-23.08.04:908][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.25-23.08.05:026][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.08.05:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.08.05:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.08.05:084][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.08.05:137][  0]LogCollectionManager: Loaded 0 collections in 0.002278 seconds
+[2019.04.25-23.08.05:183][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Saved/Collections/' took 0.01s
+[2019.04.25-23.08.05:183][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/Developers/Xyvn/Collections/' took 0.01s
+[2019.04.25-23.08.05:183][  0]LogFileCache: Scanning file cache for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/Collections/' took 0.01s
+[2019.04.25-23.08.05:183][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.25-23.08.05:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0272 seconds. Added 2577 classes and 605 folders.
+[2019.04.25-23.08.05:224][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.25-23.08.05:910][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (SKEL_Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.08.05:959][  0]LogUObjectBase: Warning: Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.08.05:984][  0]LogSlate: Took 0.007657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.25-23.08.07:820][  0]LogSlate: Window 'Message' being destroyed
+[2019.04.25-23.08.07:821][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.25-23.08.07:830][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.04.25-23.08.07:873][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.25-23.08.07:887][  0]LogSlate: Took 0.008612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.25-23.08.07:910][  0]LogSlate: Took 0.009320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.25-23.08.08:174][  0]LogRenderer: Reallocating scene render targets to support 1068x584 Format 10 NumSamples 1 (Frame:1).
+[2019.04.25-23.08.08:417][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.25-23.08.08:417][  0]LogLoad: (Engine Initialization) Total time: 32.19 seconds
+[2019.04.25-23.08.08:417][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.25-23.08.08:481][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.25-23.08.08:511][  0]LogSlate: Took 0.007665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.25-23.08.08:568][  2]LogShaderCompilers: Display: Shaders left to compile 157
+[2019.04.25-23.08.08:878][  3]LogAssetRegistry: Asset discovery search completed in 20.2875 seconds
+[2019.04.25-23.08.08:882][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.25-23.08.08:882][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2019.04.25-23.08.09:699][ 47]LogShaderCompilers: Display: Shaders left to compile 147
+[2019.04.25-23.08.11:292][141]LogShaderCompilers: Display: Shaders left to compile 137
+[2019.04.25-23.08.12:028][185]LogShaderCompilers: Display: Shaders left to compile 127
+[2019.04.25-23.08.13:205][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.08.13:533][229]LogFileCache: Retrieving MD5 hashes for directory 'D:/Y2/SourceTreeRepositories/FingerGunz/Content/' took 5.08s
+[2019.04.25-23.08.14:300][266]LogShaderCompilers: Display: Shaders left to compile 117
+[2019.04.25-23.08.14:983][305]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.25-23.08.15:194][305]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.04.25-23.08.15:782][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:782][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:782][305]LoadErrors: Error: /Game/Maps/Map2 : Can't find file for asset. /Game/Meshes/FM_BP
+[2019.04.25-23.08.15:782][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:783][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:783][305]LoadErrors: Error: /Game/Maps/Map2 : Can't find file for asset. /Game/Meshes/Shield_BP
+[2019.04.25-23.08.15:783][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:783][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:783][305]LoadErrors: Error: /Game/Maps/Map2 : Can't find file for asset. /Game/Meshes/Spd_UP_BP
+[2019.04.25-23.08.15:785][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:785][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:792][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:792][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:792][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:792][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:792][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:793][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:793][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:794][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:794][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:795][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:796][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:796][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:820][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:821][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:821][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:821][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:821][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:822][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading ../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap.
+[2019.04.25-23.08.15:841][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading NULL.
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading NULL.
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading NULL.
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file '/Game/Meshes/FM_BP'
+[2019.04.25-23.08.15:842][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/FM_BP' while loading NULL.
+[2019.04.25-23.08.15:930][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:930][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading NULL.
+[2019.04.25-23.08.15:930][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:930][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading NULL.
+[2019.04.25-23.08.15:931][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:931][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading NULL.
+[2019.04.25-23.08.15:931][305]LogLinker: Warning: Can't find file '/Game/Meshes/Shield_BP'
+[2019.04.25-23.08.15:931][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Shield_BP' while loading NULL.
+[2019.04.25-23.08.15:935][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:936][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:936][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:936][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:937][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:937][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:937][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:938][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:938][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:938][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:938][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:939][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:939][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:939][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:939][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:940][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:940][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:940][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:941][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:941][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:941][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:941][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:942][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:942][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:942][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:942][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:943][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:943][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:943][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:944][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:944][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:944][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:944][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:945][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:945][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:945][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:945][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:945][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:946][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:946][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:946][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:946][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:946][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:947][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:947][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:947][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.15:947][305]LogLinker: Warning: Can't find file '/Game/Meshes/Spd_UP_BP'
+[2019.04.25-23.08.15:947][305]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Spd_UP_BP' while loading NULL.
+[2019.04.25-23.08.16:194][305]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.04.25-23.08.18:469][305]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.04.25-23.08.19:118][305]LogAIModule: Creating AISystem for world Map2
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.25-23.08.26:460][305]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.25-23.08.26:489][305]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map2.Map2
+[2019.04.25-23.08.26:645][305]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.25-23.08.26:698][305]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.25-23.08.26:702][305]LightingResults: New page: Lighting Build
+[2019.04.25-23.08.26:704][305]LoadErrors: New page: Loading map: Map2.umap
+[2019.04.25-23.08.26:705][305]MapCheck: New page: Map Check
+[2019.04.25-23.08.26:705][305]LightingResults: New page: Lighting Build
+[2019.04.25-23.08.37:338][305]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.25-23.08.37:498][305]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.25-23.08.37:598][305]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.787ms to complete.
+[2019.04.25-23.08.37:600][305]LogFileHelpers: Loading map 'Map2' took 10.903
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': FM_BP_C /Game/Maps/Map2.Map2:PersistentLevel.FM_BP2
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': FM_BP_C /Game/Maps/Map2.Map2:PersistentLevel.FM_BP_2
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Shield_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Shield_BP2
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Shield_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Shield_BP_14
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP10
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP11
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP12
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP2
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP3
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP4
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP5
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP6
+[2019.04.25-23.08.37:648][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP7
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP8
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP9
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP_2
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'firing_boost': FM_BP_C /Game/Maps/Map2.Map2:PersistentLevel.FM_BP2
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'firing_boost': FM_BP_C /Game/Maps/Map2.Map2:PersistentLevel.FM_BP_2
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'shield': Shield_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Shield_BP2
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'shield': Shield_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Shield_BP_14
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP10
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP11
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP12
+[2019.04.25-23.08.37:649][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP2
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP3
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP4
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP5
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP6
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP7
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP8
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP9
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'speed_up': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP_2
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP10
+[2019.04.25-23.08.37:650][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP11
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP12
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP2
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP3
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP4
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP5
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP6
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP7
+[2019.04.25-23.08.37:651][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP8
+[2019.04.25-23.08.37:652][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP9
+[2019.04.25-23.08.37:652][305]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Spd_Up_Timeline': Spd_UP_BP_C /Game/Maps/Map2.Map2:PersistentLevel.Spd_UP_BP_2
+[2019.04.25-23.08.47:050][444]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-5)
+[2019.04.25-23.08.47:415][448]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.08.52:610][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.09.02:443][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.09.22:699][525]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.09.27:935][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.09.38:408][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.09.44:803][ 71]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.10.03:637][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.10.03:713][813]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.25-23.10.03:736][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.25-23.10.03:749][813]PIE: New page: PIE session: Map2 (25 Apr 2019 23:10:03)
+[2019.04.25-23.10.03:749][813]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map2
+[2019.04.25-23.10.04:629][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.879367s)
+[2019.04.25-23.10.04:630][813]LogAIModule: Creating AISystem for world Map2
+[2019.04.25-23.10.04:630][813]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2019.04.25-23.10.04:630][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map2.Map2 to /Game/Maps/UEDPIE_0_Map2.Map2 (0.880867s)
+[2019.04.25-23.10.04:677][813]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.25-23.10.04:745][813]LogInit: FAudioDevice initialized.
+[2019.04.25-23.10.04:897][813]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.04.25-23.10.05:580][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map2.Map2 up for play (max tick rate 60) at 2019.04.25-23.10.05
+[2019.04.25-23.10.05:650][813]LogWorld: Bringing up level for play took: 0.750936
+[2019.04.25-23.10.05:667][813]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.04.25-23.10.05:668][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.10.05:668][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.10.05:674][813]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.04.25-23.10.05:674][813]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.04.25-23.10.05:676][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.10.05:677][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.10.05:679][813]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2019.04.25-23.10.05:679][813]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2019.04.25-23.10.05:681][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.10.05:681][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.10.05:684][813]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2019.04.25-23.10.05:684][813]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2019.04.25-23.10.05:686][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.10.05:686][813]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.10.05:693][813]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map2 2.043
+[2019.04.25-23.10.07:241][832]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.10.07:241][832]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map2.Map2:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.25-23.10.15:617][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.10.15:849][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.25-23.10.15:943][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.10.16:052][985]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.04.25-23.10.21:701][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.10.23:856][191]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.10.27:110][288]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.10.31:333][475]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-4)
+[2019.04.25-23.10.32:950][557]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP)
+[2019.04.25-23.10.39:374][846]Cmd: DUPLICATE
+[2019.04.25-23.10.39:375][846]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.10.45:329][ 63]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.10.54:450][460]Cmd: DUPLICATE
+[2019.04.25-23.10.54:450][460]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.10.56:925][532]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.11.05:607][947]Cmd: DUPLICATE
+[2019.04.25-23.11.05:607][947]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.11.09:078][ 40]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.11.20:102][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.11.23:789][554]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.11.28:452][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.11.32:415][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.11.42:554][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.11.49:096][336]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP)
+[2019.04.25-23.11.58:486][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.12.02:487][844]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP2)
+[2019.04.25-23.12.03:524][883]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.12.08:527][ 97]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP3)
+[2019.04.25-23.12.09:246][120]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.12.14:913][366]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP4)
+[2019.04.25-23.12.15:701][396]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.12.42:151][165]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP)
+[2019.04.25-23.12.43:604][195]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP2)
+[2019.04.25-23.12.45:653][238]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP3)
+[2019.04.25-23.12.49:039][301]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-13)
+[2019.04.25-23.12.53:065][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.13.02:902][565]Cmd: DUPLICATE
+[2019.04.25-23.13.02:902][565]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.13.12:704][747]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.13.19:526][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.13.19:726][931]LogStaticMesh: Building static mesh firing_boost...
+[2019.04.25-23.13.19:796][931]LogStaticMesh: Built static mesh [0.07s] /Game/Meshes/Power_Up_Pickups/firing_boost.firing_boost
+[2019.04.25-23.13.19:808][931]LogMaterial: Display: Missing cached shader map for material Pickup_Glow_Firing_Speed, compiling. 
+[2019.04.25-23.13.19:868][931]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.04.25-23.13.19:868][931]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.04.25-23.13.19:868][931]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.04.25-23.13.19:868][931]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.25-23.13.23:449][992]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.25-23.13.23:490][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.13.24:127][ 12]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.25-23.13.25:367][ 50]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.25-23.13.30:444][234]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.13.33:236][351]Cmd: DUPLICATE
+[2019.04.25-23.13.33:236][351]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.13.39:575][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.13.53:607][915]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-5)
+[2019.04.25-23.13.57:571][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.14.03:830][108]Cmd: DUPLICATE
+[2019.04.25-23.14.03:830][108]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.14.08:091][186]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.14.12:136][332]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.14.32:157][367]Cmd: DUPLICATE
+[2019.04.25-23.14.32:157][367]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.14.33:824][416]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-313)
+[2019.04.25-23.14.34:917][447]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP5)
+[2019.04.25-23.14.36:674][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.14.42:204][665]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.14.55:976][440]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-341)
+[2019.04.25-23.14.57:549][530]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP6)
+[2019.04.25-23.15.04:617][944]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-314)
+[2019.04.25-23.15.05:581][997]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-315)
+[2019.04.25-23.15.06:527][ 50]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-313)
+[2019.04.25-23.15.07:206][ 87]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-309)
+[2019.04.25-23.15.11:462][334]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-342)
+[2019.04.25-23.15.22:961][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.15.30:495][ 38]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-341)
+[2019.04.25-23.15.31:545][ 73]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-342)
+[2019.04.25-23.15.32:564][107]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP6)
+[2019.04.25-23.15.33:398][134]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.15.44:398][650]Cmd: DUPLICATE
+[2019.04.25-23.15.44:398][650]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.15.49:306][822]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.15.59:123][388]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-31)
+[2019.04.25-23.16.00:917][492]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP7)
+[2019.04.25-23.16.06:609][781]Cmd: DUPLICATE
+[2019.04.25-23.16.06:609][781]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.16.11:747][941]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.16.13:332][ 25]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-173)
+[2019.04.25-23.16.16:006][179]Cmd: TRANSACTION UNDO
+[2019.04.25-23.16.16:006][179]LogEditorTransaction: Undo Clicking on Actors
+[2019.04.25-23.16.22:739][473]Cmd: DUPLICATE
+[2019.04.25-23.16.22:739][473]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.16.26:310][599]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.16.27:805][679]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-197)
+[2019.04.25-23.16.30:093][812]Cmd: TRANSACTION UNDO
+[2019.04.25-23.16.30:093][812]LogEditorTransaction: Undo Clicking on Actors
+[2019.04.25-23.16.49:265][547]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP8)
+[2019.04.25-23.16.50:122][569]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.16.53:507][765]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP7)
+[2019.04.25-23.16.54:257][806]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.17.02:699][168]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-343)
+[2019.04.25-23.17.03:591][189]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.17.05:069][273]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP6)
+[2019.04.25-23.17.05:480][293]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.17.08:474][459]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP5)
+[2019.04.25-23.17.09:191][498]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.17.11:811][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.17.11:836][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.17.26:959][643]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map24039D4FD467E7682B76ECBBDEADA8E5C.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.17.52:488][472]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-343)
+[2019.04.25-23.17.54:215][498]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP5)
+[2019.04.25-23.17.56:770][536]Cmd: DUPLICATE
+[2019.04.25-23.17.56:770][536]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.17.58:468][564]Cmd: TRANSACTION UNDO
+[2019.04.25-23.17.58:468][564]LogEditorTransaction: Undo Duplicate Actors
+[2019.04.25-23.18.00:597][590]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-197)
+[2019.04.25-23.18.01:624][604]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.02:880][675]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP9)
+[2019.04.25-23.18.03:807][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.06:340][828]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.08:727][938]Cmd: DUPLICATE
+[2019.04.25-23.18.08:727][938]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.18.14:276][106]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.17:082][263]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-225)
+[2019.04.25-23.18.18:574][349]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP10)
+[2019.04.25-23.18.26:629][703]Cmd: DUPLICATE
+[2019.04.25-23.18.26:629][703]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.18.29:723][794]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.34:451][ 64]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-259)
+[2019.04.25-23.18.37:493][243]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP11)
+[2019.04.25-23.18.39:546][362]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-259)
+[2019.04.25-23.18.40:823][435]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP11)
+[2019.04.25-23.18.48:125][716]Cmd: DUPLICATE
+[2019.04.25-23.18.48:125][716]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.18.51:655][837]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.18.52:356][870]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-286)
+[2019.04.25-23.18.53:609][940]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP12)
+[2019.04.25-23.19.06:609][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.19.06:631][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.19.21:656][451]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map289429215476EEF713AB30287D0EBE207.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.20.55:004][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.20.55:026][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.21.12:081][794]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2055130B74EEE6B34ECC58F997F7500E8.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.21.25:657][182]LogEditorViewport: Clicking on Actor (LMB): Spd_UP_BP_C (Spd_UP_BP6)
+[2019.04.25-23.21.47:755][ 78]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-30)
+[2019.04.25-23.21.52:458][225]LogEditorViewport: Clicking on Actor (LMB): Heal_BP_C (Heal_BP)
+[2019.04.25-23.21.53:421][246]Cmd: DUPLICATE
+[2019.04.25-23.21.53:421][246]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.21.56:804][327]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.22.05:658][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.22.26:469][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.22.35:802][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.22.40:019][128]Cmd: DUPLICATE
+[2019.04.25-23.22.40:019][128]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.22.50:930][342]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.22.53:338][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.23.00:078][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.23.07:851][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.23.27:981][804]LogEditorViewport: Clicking on Actor (LMB): Heal_BP_C (Heal_BP2)
+[2019.04.25-23.23.31:116][933]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.23.35:314][178]Cmd: DUPLICATE
+[2019.04.25-23.23.35:314][178]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.23.45:616][682]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.23.56:885][252]Cmd: DUPLICATE
+[2019.04.25-23.23.56:885][252]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.24.03:467][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.24.15:503][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.24.15:525][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.24.31:059][130]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2C180097448201EAA686E2E9C3FD5A74A.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.25.54:979][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.26.02:632][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.26.02:652][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.26.17:903][669]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map2ECEFB3D44D2B28D61E8AFB8B0FA7FE48.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.26.20:191][708]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.25-23.26.20:214][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.25-23.26.20:214][708]PIE: New page: PIE session: Map2 (25 Apr 2019 23:26:20)
+[2019.04.25-23.26.20:214][708]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map2
+[2019.04.25-23.26.21:090][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.875594s)
+[2019.04.25-23.26.21:091][708]LogAIModule: Creating AISystem for world Map2
+[2019.04.25-23.26.21:091][708]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.04.25-23.26.21:092][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map2.Map2 to /Game/Maps/UEDPIE_0_Map2.Map2 (0.877009s)
+[2019.04.25-23.26.21:141][708]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.25-23.26.21:209][708]LogInit: FAudioDevice initialized.
+[2019.04.25-23.26.21:246][708]LogLoad: Game class is 'FingerGunzGamemode_C'
+[2019.04.25-23.26.21:920][708]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2019.04.25-23.26.21
+[2019.04.25-23.26.21:992][708]LogWorld: Bringing up level for play took: 0.745289
+[2019.04.25-23.26.22:005][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.26.22:006][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.26.22:010][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.26.22:011][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.26.22:015][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.26.22:015][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.26.22:019][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Armless.Player_Mesh_Armless'
+
+[2019.04.25-23.26.22:019][708]Error: CDO Constructor (Player_BluePrint_C): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.26.22:026][708]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map2 2.377
+[2019.04.25-23.26.23:378][724]Error: CDO Constructor (LightPistol): Failed to find StaticMesh'/Game/Player/Player_Mesh_Arm_1.Player_Mesh_Arm_1'
+
+[2019.04.25-23.26.23:379][724]LogActor: Warning: LightPistol /Game/Maps/UEDPIE_0_Map2.Map2:PersistentLevel.LightPistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.25-23.26.38:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.26.38:973][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.25-23.26.39:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-23.26.39:177][  1]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.04.25-23.27.12:679][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.27.12:706][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.27.27:680][914]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map22217F1E44CE37C92F1F39283DDF0E51B.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.28.48:954][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.28.58:493][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.28.58:513][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map2" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.29.13:656][603]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map24CCA11224FACD7817E75549CB19FCD70.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map2.umap'
+[2019.04.25-23.29.35:674][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.29.35:724][ 10]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3F0384ED34AB2473FD627DC8DF828E769.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.29.35:729][ 10]LogFileHelpers: Saving map 'Map3' took 0.153
+[2019.04.25-23.29.36:454][ 24]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map3.Map3
+[2019.04.25-23.29.36:495][ 24]Cmd: MAP LOAD FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.25-23.29.36:495][ 24]LightingResults: New page: Lighting Build
+[2019.04.25-23.29.36:496][ 24]LoadErrors: New page: Loading map: Map3.umap
+[2019.04.25-23.29.36:590][ 24]MapCheck: New page: Map Check
+[2019.04.25-23.29.36:590][ 24]LightingResults: New page: Lighting Build
+[2019.04.25-23.29.36:777][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.25-23.29.36:777][ 24]LogAIModule: Creating AISystem for world Map3
+[2019.04.25-23.29.36:854][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.25-23.29.36:952][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.611ms to complete.
+[2019.04.25-23.29.36:954][ 24]LogFileHelpers: Loading map 'Map3' took 0.460
+[2019.04.25-23.29.41:018][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.29.54:400][ 59]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.30.02:164][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.30.02:181][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.30.02:228][982]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3581AF04041B8C8FC75625B844FCFACB1.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.30.36:585][690]Cmd: TRANSACTION UNDO
+[2019.04.25-23.30.36:585][690]LogEditorTransaction: Undo Create Actors
+[2019.04.25-23.30.53:330][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.05:217][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.10:824][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.14:101][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.23:608][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.52:924][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.31.55:587][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.32.06:865][ 39]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.32.13:992][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.32.23:387][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.32.34:810][ 20]EditorErrors: New page: Actor attachment
+[2019.04.25-23.32.38:225][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.32.41:101][677]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.33.01:761][789]LogEditorViewport: Clicking Background
+[2019.04.25-23.33.09:310][677]LogEditorViewport: Clicking on Actor (LMB): Slope1-2_C (Slope1-2)
+[2019.04.25-23.33.10:252][775]Cmd: DELETE
+[2019.04.25-23.33.10:252][775]Cmd: ACTOR DELETE
+[2019.04.25-23.33.10:257][775]LogEditorActor: Deleted Actor: Slope1-2_C
+[2019.04.25-23.33.10:336][775]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2019.04.25-23.33.11:343][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.33.13:111][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.33.22:925][ 31]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.33.24:920][226]LogEditorViewport: Clicking Background
+[2019.04.25-23.33.27:743][557]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-4)
+[2019.04.25-23.33.43:215][204]Cmd: DUPLICATE
+[2019.04.25-23.33.43:215][204]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.33.55:885][515]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-8)
+[2019.04.25-23.33.56:989][630]Cmd: DUPLICATE
+[2019.04.25-23.33.56:989][630]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.34.30:376][ 41]Cmd: DUPLICATE
+[2019.04.25-23.34.30:376][ 41]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.34.40:837][ 29]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-9)
+[2019.04.25-23.34.55:641][530]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-4)
+[2019.04.25-23.35.03:735][300]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-5)
+[2019.04.25-23.35.07:352][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.35.16:111][542]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-4)
+[2019.04.25-23.35.17:103][641]Cmd: DUPLICATE
+[2019.04.25-23.35.17:103][641]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.35.20:148][944]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.35.28:596][792]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.36.18:928][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.36.31:886][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.36.43:318][295]Cmd: DELETE
+[2019.04.25-23.36.43:319][295]Cmd: ACTOR DELETE
+[2019.04.25-23.36.43:326][295]LogEditorActor: Deleted Actor: Plane3-3_C
+[2019.04.25-23.36.43:393][295]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2019.04.25-23.36.48:073][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.36.51:381][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.36.59:829][627]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.37.19:379][ 28]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-5)
+[2019.04.25-23.37.20:045][ 66]Cmd: DUPLICATE
+[2019.04.25-23.37.20:045][ 66]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.37.35:361][975]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-4)
+[2019.04.25-23.37.47:597][700]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-10)
+[2019.04.25-23.37.49:276][798]LogEditorViewport: Clicking on Actor (CTRL LMB): Slope1-4_C (Slope1-6)
+[2019.04.25-23.37.57:096][261]LogEditorViewport: Clicking on Actor (LMB): Plane4-4_C (Plane4-4)
+[2019.04.25-23.38.20:709][643]Cmd: DELETE
+[2019.04.25-23.38.20:709][643]Cmd: ACTOR DELETE
+[2019.04.25-23.38.20:716][643]LogEditorActor: Deleted Actor: Plane4-4_C
+[2019.04.25-23.38.20:764][643]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.04.25-23.38.22:244][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.38.24:895][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.38.32:008][268]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.39.07:858][403]Cmd: DUPLICATE
+[2019.04.25-23.39.07:858][403]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.39.10:943][581]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.39.19:452][ 84]Cmd: DELETE
+[2019.04.25-23.39.19:452][ 84]Cmd: ACTOR DELETE
+[2019.04.25-23.39.19:459][ 84]LogEditorActor: Deleted Actor: Plane5-5_C
+[2019.04.25-23.39.19:508][ 84]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2019.04.25-23.40.18:111][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.40.20:986][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.40.23:938][857]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-6)
+[2019.04.25-23.40.24:790][906]LogEditorViewport: Clicking on Actor (LMB): Slope1-2_C (Slope1-2)
+[2019.04.25-23.40.28:657][134]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.40.33:608][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.40.33:633][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.40.33:909][425]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3F3581D4A403EB3A33AD63589A264B2FB.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.41.14:008][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.41.17:655][912]Cmd: TRANSACTION UNDO
+[2019.04.25-23.41.17:655][912]LogEditorTransaction: Undo Create Actors
+[2019.04.25-23.41.21:255][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.41.27:293][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.41.30:728][645]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-8)
+[2019.04.25-23.41.31:648][698]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.41.36:389][977]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.41.45:556][520]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-9)
+[2019.04.25-23.41.49:566][755]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.41.50:284][796]Cmd: DELETE
+[2019.04.25-23.41.50:284][796]Cmd: ACTOR DELETE
+[2019.04.25-23.41.50:291][796]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.25-23.41.50:333][796]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.04.25-23.41.52:855][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.41.54:902][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.42.00:137][352]LogEditorViewport: Clicking on Actor (LMB): Plane2-3_C (Plane2-3)
+[2019.04.25-23.43.12:458][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.43.15:986][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.43.19:110][948]LogEditorViewport: Clicking on Actor (LMB): Plane8-2_C (Plane8-2)
+[2019.04.25-23.43.19:413][965]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.43.59:978][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.44.02:268][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.44.05:362][382]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-8)
+[2019.04.25-23.44.10:182][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.44.23:812][469]Cmd: DUPLICATE
+[2019.04.25-23.44.23:812][469]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.44.29:104][773]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.44.51:523][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.45.02:880][649]Cmd: TRANSACTION UNDO
+[2019.04.25-23.45.02:880][649]LogEditorTransaction: Undo Move Actors
+[2019.04.25-23.45.11:080][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.45.13:366][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.46.17:986][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.46.19:680][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.46.22:623][296]LogEditorViewport: Clicking on Actor (LMB): Plane8-8_C (Plane8-8)
+[2019.04.25-23.46.23:408][341]LogEditorViewport: Clicking on Actor (LMB): Plane4-3_C (Plane4-3)
+[2019.04.25-23.46.28:341][631]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.46.43:803][543]LogEditorViewport: Clicking on Actor (context menu): Plane4-8_C (Plane4-8)
+[2019.04.25-23.46.43:935][543]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.46.44:711][585]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-9)
+[2019.04.25-23.46.45:895][654]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-4_C (Plane4-4)
+[2019.04.25-23.46.46:462][685]LogEditorViewport: Clicking on Actor (CTRL LMB): Plane4-3_C (Plane4-3)
+[2019.04.25-23.46.50:062][894]LogEditorViewport: Clicking on Actor (LMB): Plane4-3_C (Plane4-3)
+[2019.04.25-23.46.51:399][972]Cmd: DUPLICATE
+[2019.04.25-23.46.51:399][972]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.47.18:483][585]Cmd: DELETE
+[2019.04.25-23.47.18:484][585]Cmd: ACTOR DELETE
+[2019.04.25-23.47.18:493][585]LogEditorActor: Deleted Actor: Plane4-3_C
+[2019.04.25-23.47.18:565][585]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2019.04.25-23.47.19:116][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.47.21:096][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.47.23:995][898]LogEditorViewport: Clicking on Actor (LMB): Plane3-3_C (Plane3-3)
+[2019.04.25-23.47.51:469][806]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-7)
+[2019.04.25-23.47.52:397][887]Cmd: DUPLICATE
+[2019.04.25-23.47.52:397][887]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.48.32:387][234]LogEditorViewport: Clicking on Actor (LMB): Plane5-5_C (Plane5-5)
+[2019.04.25-23.48.33:103][296]Cmd: DUPLICATE
+[2019.04.25-23.48.33:103][296]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.48.35:533][490]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.48.49:219][668]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-7)
+[2019.04.25-23.48.49:994][735]LogEditorViewport: Clicking on Actor (CTRL LMB): Slope1-4_C (Slope1-5)
+[2019.04.25-23.48.50:746][799]Cmd: DUPLICATE
+[2019.04.25-23.48.50:746][799]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.49.22:658][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.49.22:682][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.49.23:124][566]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3F2B1614F4C0817B903143E8F6A8511B3.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.50.51:352][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.50.53:016][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.50.55:240][703]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.51.00:437][ 67]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.51.14:039][  6]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.51.29:331][223]Cmd: DUPLICATE
+[2019.04.25-23.51.29:331][223]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.51.36:826][804]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.52.09:027][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.52.10:572][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.52.14:242][905]LogEditorViewport: Clicking on Actor (LMB): Plane5-5_C (Plane5-5)
+[2019.04.25-23.52.15:029][961]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.25-23.52.23:711][700]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-5)
+[2019.04.25-23.52.24:632][776]Cmd: DELETE
+[2019.04.25-23.52.24:632][776]Cmd: ACTOR DELETE
+[2019.04.25-23.52.24:641][776]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.25-23.52.24:683][776]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.04.25-23.52.25:329][831]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.25-23.52.33:736][521]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.52.35:933][707]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.25-23.52.36:678][770]Cmd: DUPLICATE
+[2019.04.25-23.52.36:678][770]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.52.44:389][412]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.52.45:302][490]Cmd: DELETE
+[2019.04.25-23.52.45:302][490]Cmd: ACTOR DELETE
+[2019.04.25-23.52.45:312][490]LogEditorActor: Deleted Actor: Plane2-4_C
+[2019.04.25-23.52.45:346][490]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.04.25-23.52.46:956][618]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-3)
+[2019.04.25-23.52.49:168][808]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.53.11:499][706]Cmd: DUPLICATE
+[2019.04.25-23.53.11:499][706]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.53.44:299][511]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-3)
+[2019.04.25-23.53.44:905][541]Cmd: DUPLICATE
+[2019.04.25-23.53.44:905][541]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.53.53:897][330]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-4)
+[2019.04.25-23.53.54:663][395]Cmd: DELETE
+[2019.04.25-23.53.54:663][395]Cmd: ACTOR DELETE
+[2019.04.25-23.53.54:673][395]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.25-23.53.54:711][395]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.04.25-23.53.59:670][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.54.01:550][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.54.04:955][104]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-9)
+[2019.04.25-23.54.05:751][172]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-10)
+[2019.04.25-23.54.06:948][277]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.54.11:792][704]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-9)
+[2019.04.25-23.54.12:780][779]LogEditorViewport: Clicking on Actor (LMB): Slope1-4_C (Slope1-10)
+[2019.04.25-23.54.14:980][972]LogEditorViewport: Clicking Background
+[2019.04.25-23.54.15:508][ 26]LogEditorViewport: Clicking on Actor (LMB): Plane2-4_C (Plane2-4)
+[2019.04.25-23.54.24:075][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.54.24:091][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.54.24:593][751]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3077F1FAF4019E8CBE12526815C0AFFA2.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.54.30:671][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.25-23.54.30:687][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.25-23.54.31:139][268]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3206304354A6115BC573CA6BAEAD81F64.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.25-23.55.35:652][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.55.37:619][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.55.55:812][262]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-3)
+[2019.04.25-23.55.56:444][315]Cmd: DUPLICATE
+[2019.04.25-23.55.56:444][315]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.55.58:730][511]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.56.05:566][ 89]Cmd: TRANSACTION UNDO
+[2019.04.25-23.56.05:566][ 89]LogEditorTransaction: Undo Move Actors
+[2019.04.25-23.56.23:273][488]Cmd: DUPLICATE
+[2019.04.25-23.56.23:273][488]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.57.16:872][687]Cmd: DUPLICATE
+[2019.04.25-23.57.16:872][687]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.57.33:554][942]Cmd: DELETE
+[2019.04.25-23.57.33:554][942]Cmd: ACTOR DELETE
+[2019.04.25-23.57.33:564][942]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.25-23.57.33:606][942]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2019.04.25-23.57.41:320][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.57.43:219][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.57.56:138][659]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.25-23.58.18:427][360]Cmd: DELETE
+[2019.04.25-23.58.18:427][360]Cmd: ACTOR DELETE
+[2019.04.25-23.58.18:439][360]LogEditorActor: Deleted Actor: Plane5-4_C
+[2019.04.25-23.58.18:479][360]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2019.04.25-23.58.30:350][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.58.32:250][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-23.58.36:900][502]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-10)
+[2019.04.25-23.59.26:862][482]Cmd: DUPLICATE
+[2019.04.25-23.59.26:862][482]Cmd: ACTOR DUPLICATE
+[2019.04.25-23.59.30:919][749]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.26-00.00.03:507][584]LogEditorViewport: Clicking on Actor (LMB): Plane2-3_C (Plane2-3)
+[2019.04.26-00.00.04:243][646]Cmd: DUPLICATE
+[2019.04.26-00.00.04:243][646]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.00.20:466][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-00.00.20:490][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.26-00.00.21:086][ 53]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map356C4DB3B4D00808D39CFFA976AE813D5.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.26-00.00.38:407][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-00.00.40:008][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-00.00.50:199][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-00.00.58:420][617]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.26-00.01.08:083][461]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-11)
+[2019.04.26-00.01.13:325][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-00.01.13:349][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.26-00.01.13:922][919]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map3D6FD09F54439A2AAC921B29970D72AD6.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.26-00.01.38:618][859]Cmd: DUPLICATE
+[2019.04.26-00.01.38:618][859]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.01.39:913][965]Cmd: TRANSACTION UNDO
+[2019.04.26-00.01.39:913][965]LogEditorTransaction: Undo Duplicate Actors
+[2019.04.26-00.01.40:822][ 30]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-10)
+[2019.04.26-00.01.41:864][120]Cmd: DUPLICATE
+[2019.04.26-00.01.41:864][120]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.01.48:239][644]Cmd: TRANSACTION UNDO
+[2019.04.26-00.01.48:239][644]LogEditorTransaction: Undo Move Actors
+[2019.04.26-00.01.48:661][670]Cmd: TRANSACTION UNDO
+[2019.04.26-00.01.48:661][670]LogEditorTransaction: Undo Move Actors
+[2019.04.26-00.01.54:503][159]Cmd: TRANSACTION UNDO
+[2019.04.26-00.01.54:503][159]LogEditorTransaction: Undo Duplicate Actors
+[2019.04.26-00.01.56:023][280]Cmd: TRANSACTION UNDO
+[2019.04.26-00.01.56:023][280]LogEditorTransaction: Undo Clicking on Actors
+[2019.04.26-00.02.03:419][881]LogEditorViewport: Clicking on Actor (LMB): Plane3-3_C (Plane3-3)
+[2019.04.26-00.02.05:278][ 40]LogEditorViewport: Clicking on Actor (LMB): Plane4-3_C (Plane4-3)
+[2019.04.26-00.02.05:926][ 95]Cmd: DUPLICATE
+[2019.04.26-00.02.05:926][ 95]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.02.13:369][636]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.26-00.02.46:940][209]LogEditorViewport: Clicking on Actor (LMB): Plane2-3_C (Plane2-3)
+[2019.04.26-00.02.48:514][340]Cmd: DUPLICATE
+[2019.04.26-00.02.48:514][340]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.03.00:314][330]Cmd: DUPLICATE
+[2019.04.26-00.03.00:314][330]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.03.04:115][654]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.26-00.03.33:098][472]Cmd: DUPLICATE
+[2019.04.26-00.03.33:098][472]Cmd: ACTOR DUPLICATE
+[2019.04.26-00.03.48:562][560]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.26-00.03.54:311][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-00.03.56:410][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-00.04.06:391][899]LogEditorViewport: Clicking on Actor (LMB): Plane5-2_C (Plane5-2)
+[2019.04.26-00.04.07:472][992]Cmd: DELETE
+[2019.04.26-00.04.07:472][992]Cmd: ACTOR DELETE
+[2019.04.26-00.04.07:486][992]LogEditorActor: Deleted Actor: Plane5-2_C
+[2019.04.26-00.04.07:538][992]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.04.26-00.04.08:440][ 83]LogEditorViewport: Clicking on Actor (LMB): Plane6-2_C (Plane6-2)
+[2019.04.26-00.04.34:456][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-00.04.34:479][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.26-00.04.35:054][175]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map32E46A959412A2FBF5579DDB82A1D71B3.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.26-00.04.46:500][ 88]LogEditorViewport: Clicking on Actor (LMB): Plane4-8_C (Plane4-8)
+[2019.04.26-00.04.51:924][512]LogEditorViewport: Clicking on Actor (LMB): Plane2-3_C (Plane2-7)
+[2019.04.26-00.18.33:251][989]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.26-00.18.33:269][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map3" FILE="../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.26-00.18.36:087][989]LogSavePackage: Moving '../../../../../Y2/SourceTreeRepositories/FingerGunz/Saved/Map382ABED8C438E4123EEA9759774694548.tmp' to '../../../../../Y2/SourceTreeRepositories/FingerGunz/Content/Maps/Map3.umap'
+[2019.04.26-00.18.37:870][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.26-00.18.38:106][132]LogSlate: Window 'FingerGunz - Unreal Editor' being destroyed
+[2019.04.26-00.18.38:429][133]Cmd: QUIT_EDITOR
+[2019.04.26-00.18.39:175][133]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.26-00.18.39:199][133]LogExit: Preparing to exit.
+[2019.04.26-00.18.39:897][133]LogExit: Editor shut down
+[2019.04.26-00.18.39:898][133]LogExit: Transaction tracking system shut down
+[2019.04.26-00.18.40:847][133]LogExit: Object subsystem successfully closed.
+[2019.04.26-00.18.41:013][133]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.26-00.18.41:020][133]LogD3D11RHI: Shutdown
+[2019.04.26-00.18.41:020][133]LogD3D11RHI: CleanupD3DDevice
+[2019.04.26-00.18.41:028][133]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.26-00.18.41:049][133]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.04.26-00.18.41:049][133]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.04.26-00.18.41:049][133]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.04.26-00.18.41:049][133]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.04.26-00.18.41:049][133]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.04.26-00.18.41:052][133]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.04.26-00.18.41:052][133]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.04.26-00.18.41:052][133]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module MeshBuilder (602)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.04.26-00.18.41:053][133]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.04.26-00.18.41:054][133]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.04.26-00.18.41:055][133]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.04.26-00.18.41:975][133]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.04.26-00.18.41:976][133]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.04.26-00.18.41:977][133]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.04.26-00.18.41:977][133]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.04.26-00.18.41:977][133]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.04.26-00.18.41:977][133]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.04.26-00.18.41:977][133]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.04.26-00.18.41:978][133]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.04.26-00.18.41:978][133]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.04.26-00.18.41:978][133]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.04.26-00.18.41:978][133]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.04.26-00.18.41:978][133]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.04.26-00.18.41:979][133]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.04.26-00.18.41:979][133]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.04.26-00.18.42:044][133]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.04.26-00.18.42:044][133]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.04.26-00.18.42:044][133]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.04.26-00.18.42:044][133]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.04.26-00.18.42:044][133]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.04.26-00.18.42:045][133]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.04.26-00.18.42:045][133]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.04.26-00.18.42:046][133]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.04.26-00.18.42:046][133]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.04.26-00.18.42:046][133]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.26-00.18.42:048][133]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.26-00.18.42:049][133]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.26-00.18.42:050][133]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.26-00.18.42:050][133]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.26-00.18.42:050][133]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.26-00.18.42:050][133]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.04.26-00.18.42:136][133]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.04.26-00.18.42:136][133]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.04.26-00.18.42:137][133]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.04.26-00.18.42:138][133]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.04.26-00.18.42:148][133]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.04.26-00.18.42:148][133]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.04.26-00.18.42:148][133]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.04.26-00.18.42:148][133]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.04.26-00.18.42:148][133]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.04.26-00.18.42:149][133]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.04.26-00.18.42:150][133]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.04.26-00.18.42:151][133]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.04.26-00.18.42:151][133]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module FingerGunz (300)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.26-00.18.42:152][133]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.26-00.18.42:153][133]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.26-00.18.42:153][133]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.26-00.18.42:153][133]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.26-00.18.42:153][133]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.26-00.18.42:153][133]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.26-00.18.42:254][133]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.26-00.18.42:355][133]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.26-00.18.42:358][133]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.26-00.18.42:358][133]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.26-00.18.42:359][133]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.26-00.18.42:359][133]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.26-00.18.42:360][133]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.26-00.18.42:364][133]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.26-00.18.42:366][133]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.26-00.18.42:372][133]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.26-00.18.42:373][133]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.26-00.18.42:374][133]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.26-00.18.42:378][133]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.26-00.18.42:379][133]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.26-00.18.42:428][133]LogDerivedDataCache: Shutdown
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.26-00.18.42:429][133]LogXGEController: Cleaning working directory: C:/Users/Xyvn/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.26-00.18.42:429][133]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.26-00.18.42:430][133]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.26-00.18.42:440][133]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.26-00.18.42:440][133]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.26-00.18.42:456][133]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.26-00.18.42:456][133]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.26-00.18.42:536][133]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.26-00.18.42:536][133]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.26-00.18.42:536][133]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.26-00.18.42:536][133]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.26-00.18.42:536][133]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.26-00.18.42:537][133]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.26-00.18.42:538][133]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.26-00.18.42:538][133]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.26-00.18.42:563][133]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.26-00.18.42:563][133]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.26-00.18.42:563][133]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6E629DE-480E-6384-B622-FEA2A59B5A6E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=70c2058d4c394d2edab8608effb2c826%7Ced7a3a59b4454b0890177a5c2b24cf86%7C74699b4c-49b7-4138-846f-8caedc6a2162&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.26-00.18.42:579][133]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.26-00.18.42:581][133]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.26-00.18.42:582][133]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.26-00.18.42:582][133]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2019.04.26-00.18.42:582][133]LogSlate: Slate User Destroyed.  User Index 2, Is Virtual User: 0
+[2019.04.26-00.18.42:582][133]LogSlate: Slate User Destroyed.  User Index 3, Is Virtual User: 0
+[2019.04.26-00.18.42:582][133]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.26-00.18.42:582][133]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.26-00.18.42:582][133]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.26-00.18.42:582][133]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.26-00.18.42:582][133]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.26-00.18.42:583][133]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.26-00.18.42:583][133]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.26-00.18.42:583][133]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.26-00.18.42:584][133]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.26-00.18.42:593][133]LogExit: Exiting.
+[2019.04.26-00.18.42:605][133]Log file closed, 04/26/19 00:18:42
