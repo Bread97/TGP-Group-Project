@@ -30,7 +30,7 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	//Armor = 0;
 	PistolDamageAmount = 3;
 	ShootingDelay = 10;
-	CharacterMovement->JumpZVelocity = 1000;
+	CharacterMovement->JumpZVelocity = 1500;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	CharacterMovement->AirControl = 0.8;
 	CurrentWeapon = 1;
