@@ -1,4 +1,2 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
-  Deploying FingerGunzEditor Win64 Development...
-  Total build time: 1.57 seconds (NoActionsToExecute executor: 0.00 seconds)
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Build\BatchFiles\Build.bat" FingerGunzEditor Win64 Development "D:\Y2\SourceTreeRepositories\FingerGunz\FingerGunz.uproject" -WaitMutex -FromMsBuild" exited with code 3.
