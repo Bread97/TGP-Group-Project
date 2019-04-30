@@ -9,7 +9,6 @@
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/GameFramework/Actor.h"
-#include "Runtime/UMG/Public/Components/ProgressBar.h"
 #include "Particles/ParticleSystemComponent.h"
 
 //#include "BeamActor.h"
@@ -24,13 +23,13 @@ Aplayer_cpp::Aplayer_cpp(const FObjectInitializer& PCIP) : Super(PCIP)
 	PrimaryActorTick.bCanEverTick = true;
 	BaseTurnRate = 100.f;
 	BaseLookUpRate = 100.f;
-	wallJumpAmount = 500;
-	vaultJumpAmount = 1200;
+	wallJumpAmount = 750;
+	vaultJumpAmount = 1500;
 	//Health = 5;
 	//Armor = 0;
 	PistolDamageAmount = 3;
 	ShootingDelay = 10;
-	CharacterMovement->JumpZVelocity = 1000;
+	CharacterMovement->JumpZVelocity = 1250;
 	CharacterMovement->MaxWalkSpeed = 1400;
 	CharacterMovement->AirControl = 0.8;
 	CurrentWeapon = 1;
@@ -486,10 +485,10 @@ void Aplayer_cpp::Tick(float DeltaTime)
 	//{
 	//	this->SetActorLocation(FVector(0, 0, 1000));
 	//}
-	if (Health > 5)
-	{
-		Health = 5;
-	}
+	//if (Health > 5)
+	//{
+	//	Health = 5;
+	//}
 	//if (IsShooting == true)
 	//{
 	//	if (ShootingDelay > 0)
